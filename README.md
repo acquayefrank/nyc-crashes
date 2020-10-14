@@ -3,12 +3,12 @@ Helping stakeholders in NYC to easily derive insights from Motor Vehicle Collisi
 
 
 ## Objective
-To provide an interactive means for key stakeholders of (New York City)NYC such as mayors office, police officers, insurance companies etc. to easily access motor vehicle collison information in an interactive manner thereby aiding them to make informed decisions.
+To provide an interactive means for key stakeholders of New York City (NYC) such as mayors office, police officers, insurance companies etc. to easily access motor vehicle collison information in an interactive manner thereby aiding them to make informed decisions.
 
 ## Key Functionalities of System
 * Easily query data about crushes with little to no technical knowlegde
 * Easily create and share informative visualizations with people
-* Access to basic informative visualizations that asnwer key questions
+* Access to basic informative visualizations that answer key questions
   * <List possible questions here>
 * Provide predictive models that answer some questions:
   * <List questions here>
@@ -41,7 +41,7 @@ To provide an interactive means for key stakeholders of (New York City)NYC such 
 * Insurance Companies
 * Road Users/Drivers
 * The police
-* NYC Mayours office
+* NYC Mayors office
 * NYC City Council
 
 ## TODO:
