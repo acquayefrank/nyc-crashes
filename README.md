@@ -58,6 +58,9 @@ to easily access motor vehicle collision information in an interactive manner th
 * NYC City Council
 
 ## TODO:
-* Define primary objective and perhaps supporting objectives
 * BPM Diagrams
 * Schema Diagrams 
+
+## Extra Reading
+
+https://towardsdatascience.com/new-to-data-visualization-start-with-new-york-city-107785f836ab?gi=54183ba7443f
