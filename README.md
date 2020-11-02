@@ -1,19 +1,28 @@
 # nyc-crashes:
-Helping stakeholders in NYC to easily derive insights from Motor Vehicle Collisions/Crashes
+Helping the mayors office and other stakeholders to derive insights from Motor Vehicle Collisions/Crashes
 
+## Objectives
 
-## Objective
-To provide an interactive means for key stakeholders of New York City (NYC) such as
+To provide an interactive means for the mayors office and other stakeholders of New York City (NYC) to easily access motor vehicle collision information in an interactive manner thereby aiding them to make informed decisions.
+
+## Stakeholders
+
+**Primary Stakeholder**
+
 * mayors office
+
+**Secondary Stakeholders**
 * police officers
 * insurance companies
 * medical facilities
 * fire departments
 * ordinary citizens
-* etc.
-to easily access motor vehicle collision information in an interactive manner thereby aiding them to make informed decisions.
+* roadusers/drivers
+* NYC city council
 
-## Key Functionalities of System
+
+## Possible Functionalities of System
+
 * Easily query data about crushes with little to no technical knowlegde
 * Easily create and share informative visualizations with people
 * Access to basic informative visualizations that answer key questions
@@ -27,7 +36,13 @@ to easily access motor vehicle collision information in an interactive manner th
   * etc.
 * Easily export data, visualizations or reports in some desired format.
 
-## Data Sources:
+## What we will build
+
+Our system should make it easily for the mayors office to easily visualize number of crashes by time period and location. In addition we plan on showing the closest police station as well as closeset hospitals to crashes.
+
+
+## Data Sources
+
 * Primary data source:
   https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
 * Supporting Datasets:
@@ -50,17 +65,22 @@ to easily access motor vehicle collision information in an interactive manner th
   * List of police stations
   https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
 
-## Key Stakeholders:
-* Insurance Companies
-* Road Users/Drivers
-* The police
-* NYC Mayors office
-* NYC City Council
+
+## Conceptual Modelling
+
+BPMN Diagram:
+![ma](images/etl.png)
+
+//NB:
+* We plan of fetching data daily, processing and saving in a cloud platform i.e Windows environment
+* Data Harmonization will be done during data enrichment phase and saved to our chosen cloud platform. 
+* Our chosen cloud platform will be azure.
 
 ## TODO:
-* BPM Diagrams
 * Schema Diagrams 
 
 ## Extra Reading
 
 https://towardsdatascience.com/new-to-data-visualization-start-with-new-york-city-107785f836ab?gi=54183ba7443f
+
+https://cawemo.com/diagrams/0b163bee-a87b-4d0e-a0e3-72af2b8c2ec3--etl-and-other-processes?v=960,378,1
