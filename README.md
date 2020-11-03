@@ -67,8 +67,7 @@ Our system should make it easily for the mayors office to visualize number of cr
 
 ## Conceptual Modelling
 
-BPMN Diagram:
-![ma](/images/etl.png)
+BPMN Diagrams can be found in images folder
 
 //NB:
 
