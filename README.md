@@ -10,19 +10,8 @@ To provide an interactive means for the mayors office and other stakeholders fro
 
 ### Stakeholders
 
-**Primary Stakeholder**
-
 * Mayors office
-
-**Secondary Stakeholders**
-
-* Police officers
-* Insurance companies
-* Medical facilities
-* Fire departments
-* Ordinary citizens
-* Roadusers / drivers
-* NYC city council
+* Ordinary citizens (secondary stakeholder)
 
 ### Main Systems of Interest
 * A Power BI Dashboard that allows **analysts** in the mayors office to visualize number of crashes by time period and location. 
@@ -34,27 +23,14 @@ Systems that will enable us build our primary system are automated cron jobs or 
 
 **Data Sources**
 
-* Primary data source:
+* Motor Vehicle Collisions:
   https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
-* Supporting/Secondary data sources:
-  * Firehouse locations
-    https://data.cityofnewyork.us/Public-Safety/FDNY-Firehouse-Listing/hc8x-tcnd
-  * Neighbourhood Population
-    https://data.cityofnewyork.us/City-Government/New-York-City-Population-By-Neighborhood-Tabulatio/swpk-hqdp
-  * Realtime Traffic Data
-    https://data.cityofnewyork.us/Transportation/Real-Time-Traffic-Speed-Data/qkm5-nuaq
-  * Historical Traffic Data
-    https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2012-2013-/p424-amsu
-  * Parking Violations
-    https://data.cityofnewyork.us/City-Government/Open-Parking-and-Camera-Violations/i4p3-pe6a
-  * Metropolitan transportation data
-    https://data.cityofnewyork.us/Transportation/MTA-Data/mmu8-8w8b
-  * Emergency calls
-    https://data.cityofnewyork.us/Public-Safety/911-End-to-End-Data/t7p9-n9dy
-  * List of hospitals as of 2011
-    https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-Facilities-2011/ymhw-9cz9
-  * List of police stations
-    https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
+* Historical Traffic Data
+  https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2012-2013-/p424-amsu
+* List of hospitals as of 2011
+  https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-Facilities-2011/ymhw-9cz9
+* List of police stations
+  https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
 
 **ETL**
 * Azure Data Factory
@@ -70,14 +46,17 @@ Systems that will enable us build our primary system are automated cron jobs or 
 **Roles and Responsibilities**
 
 * Automated Software i.e Background Processes
-* Data Owner
-  - Police Department provides the motor vehicle crash information
+* Data Owners:
+  - *Police Department (NYPD)*: Motor Vehicle Collisions
+  - *Department of Transportation (DOT)*: Historical Traffic Data
+  - *NYC Health + Hospitals*: List of hospitals
+  - *Department of City Planning (DCP)*: List of police stations
 * Data Analysts in Mayors office
-* Developers/ System Admenistrators
-* General Punblic
+* Developers/System Administrators
+* General Public
 
 
-**Possible Functionalities of System**
+**Functionalities of System**
 
 * Easily query data about crushes with little to no technical knowlegde
 * Easily create and share informative visualizations with people
