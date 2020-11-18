@@ -2,15 +2,13 @@
 
 Helping the mayors office and other stakeholders to derive insights from Motor Vehicle Collisions/Crashes
 
-## Objectives
+## Goal
 
 To provide an interactive means for the mayors office and other stakeholders from New York City (NYC) to easily access motor vehicle collision information in an interactive manner thereby aiding them to make informed decisions.
 
-## What we will build
+## System Description
 
-Our system should make it easily for the mayors office to visualize number of crashes by time period and location, get some statistical information about crashes in New York City. In addition, we plan on showing the closest police station as well as closeset hospitals to crashes.
-
-## Stakeholders
+### Stakeholders
 
 **Primary Stakeholder**
 
@@ -26,25 +24,19 @@ Our system should make it easily for the mayors office to visualize number of cr
 * Roadusers / drivers
 * NYC city council
 
-## Possible Functionalities of System
+### Main Systems of Interest
+* A Power BI Dashboard that allows **analysts** in the mayors office to visualize number of crashes by time period and location. 
+* In addition our Power BI Dashbaord should provide some statistical information about crashes in New York City.
+* Finally our Power BI Dashbaord will show the closest police station as well as closeset hospitals to crashes.
 
-* Easily query data about crushes with little to no technical knowlegde
-* Easily create and share informative visualizations with people
-* Access to basic informative visualizations:
-  * Visualize places where accidents happened for last several days
-  * Visualize nearest hospitals to the places of accidents
-* Provide statistics and predictions:
-  * Get information about what are the districts / crossroads where accidents occured most frequently for last week / month
-  * Predict districts where an accident is more likely to occur today
-  * Get information about how often does crashes take place on a specific street / crossroad
-* Easily export data, visualizations or reports in some desired format
-* Easily import current information about accidents
+### Enabling Systems
+Systems that will enable us build our primary system are automated cron jobs or schedulers that will fecth, clean and store data from the sources listed below
 
-## Data Sources
+**Data Sources**
 
 * Primary data source:
   https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
-* Supporting Datasets:
+* Supporting/Secondary data sources:
   * Firehouse locations
     https://data.cityofnewyork.us/Public-Safety/FDNY-Firehouse-Listing/hc8x-tcnd
   * Neighbourhood Population
@@ -64,23 +56,81 @@ Our system should make it easily for the mayors office to visualize number of cr
   * List of police stations
     https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
 
+**ETL**
+* Azure Data Factory
 
-## Conceptual Modelling
+**Storage**
+* Azure Data Lake Storage
 
-BPMN Diagrams can be found in images folder
+**Dashboards/Reports**
+* Azure Power BI
+* Azure Synapse Analytics
 
-//NB:
+### System Boundaries
+**Roles and Responsibilities**
 
-* We plan of fetching data daily, processing and saving in a cloud platform i.e Windows environment
-* Data Harmonization will be done during data enrichment phase and saved to our chosen cloud platform
-* Our chosen cloud platform will be azure.
+* Automated Software i.e Background Processes
+* Data Owner
+  - Police Department provides the motor vehicle crash information
+* Data Analysts in Mayors office
+* Developers/ System Admenistrators
+* General Punblic
+
+
+**Possible Functionalities of System**
+
+* Easily query data about crushes with little to no technical knowlegde
+* Easily create and share informative visualizations with people
+* Access to basic informative visualizations:
+  * Visualize places where accidents happened for last several days
+  * Visualize nearest hospitals to the places of accidents
+* Provide statistics and predictions:
+  * Get information about what are the districts / crossroads where accidents occured most frequently for last week / month
+  * Predict districts where an accident is more likely to occur today
+  * Get information about how often does crashes take place on a specific street / crossroad
+* Easily export data, visualizations or reports in some desired format
+* Easily import current information about accidents
+
+
+
 
 ## TODO:
 
-* Schema Diagrams 
+* SRS (software requirements specification) 
+
+* Process models 
+
+  * Current state (if exists) 
+
+  * Reengineering of processes/new processes 
+
+  * Definition of data artifacts 
+
+* Data models 
+
+  * Conceptual data model 
+
+  * Logical data model 
+
+* BPM implementation description 
+
+  * Business process automation principals 
+
+  * Business rules 
+
+* Testing 
+
+* Validation 
+
+* Conclusion 
+
+
 
 ## Extra Reading
 
 https://towardsdatascience.com/new-to-data-visualization-start-with-new-york-city-107785f836ab?gi=54183ba7443f
 
 https://cawemo.com/diagrams/0b163bee-a87b-4d0e-a0e3-72af2b8c2ec3--etl-and-other-processes?v=960,378,1
+
+
+https://azure.microsoft.com/en-in/solutions/big-data/#products
