@@ -19,7 +19,7 @@ To provide an interactive means for the mayors office and other stakeholders fro
 * Finally our Power BI Dashbaord will show the closest police station as well as closeset hospitals to crashes.
 
 ### Enabling Systems
-Systems that will enable us build our primary system are automated cron jobs or schedulers that will fecth, clean and store data from the sources listed below
+Systems that will enable us build our primary system are automated cron jobs or schedulers that will fetch, clean and store data from the sources listed below
 
 **Data Sources**
 
@@ -65,7 +65,7 @@ Systems that will enable us build our primary system are automated cron jobs or 
   * Visualize nearest hospitals to the places of accidents
 * Provide statistics and predictions:
   * Get information about what are the districts / crossroads where accidents occured most frequently for last week / month
-  * Predict districts where an accident is more likely to occur today
+  * Predict districts where an accident is more likely to occur for the next week
   * Get information about how often does crashes take place on a specific street / crossroad
 * Easily export data, visualizations or reports in some desired format
 * Easily import current information about accidents
