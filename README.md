@@ -29,8 +29,8 @@ Systems that will enable us build our primary system are automated cron jobs or 
   https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2012-2013-/p424-amsu
 * List of hospitals as of 2011
   https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-Facilities-2011/ymhw-9cz9
-* List of police stations
-  https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz
+* List of police service areas
+  https://data.cityofnewyork.us/Housing-Development/NYCHA-PSA-Police-Service-Areas-/72wx-vdjr
 
 **ETL**
 * Azure Data Factory
