@@ -70,12 +70,10 @@ Systems that will enable us build our primary system are automated cron jobs or 
 * Easily export data, visualizations or reports in some desired format
 * Easily import current information about accidents
 
-
+[**SRS**](documents/srs_nyc-crashes) 
 
 
 ## TODO:
-
-* SRS (software requirements specification) 
 
 * Process models 
 
