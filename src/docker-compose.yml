@@ -1,0 +1,44 @@
+version: '3.6'
+
+services:
+    postgresql_db:
+        container_name: postgresql_${PROJECT_USER}
+        image: postgres:12.1
+        ports:
+            - ${DB_EXTERNAL_PORT}:${DB_INTERNAL_PORT}
+    python:
+        container_name: python_${PROJECT_USER}
+        build:
+            context: ./misc/dockerfiles/python
+            dockerfile: Dockerfile
+        env_file:
+            - .env
+        volumes:
+            - ./data:/App/data
+            - ./src:/App/src
+            - ./misc:/App/misc
+            - ./artifacts:/App/artifacts
+            - ./notebooks:/App/notebooks
+        depends_on:
+            - postgresql_db
+        ports:
+            - 8888:8888
+        command: jupyter lab --allow-root --ip=0.0.0.0 
+    metabase_app:
+        image: metabase/metabase
+        restart: always
+        ports:
+            - 3000:3000
+        volumes:
+            - ./metabase-data:/App/metabase-data
+        environment:
+            MB_DB_TYPE: postgres
+            MB_DB_DBNAME: metabase
+            MB_DB_PORT: 5432
+            MB_DB_USER: postgres
+            MB_DB_PASS: postgres
+            MB_DB_HOST: postgresql_db
+        depends_on:
+            - postgresql_db
+        links:
+            - postgresql_db
