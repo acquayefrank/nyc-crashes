@@ -15,7 +15,7 @@ services:
             - .env
         volumes:
             - ./data:/App/data
-            - ./src:/App/src
+            - ./code:/App/code
             - ./misc:/App/misc
             - ./artifacts:/App/artifacts
             - ./notebooks:/App/notebooks
@@ -23,7 +23,7 @@ services:
             - postgresql_db
         ports:
             - 8888:8888
-        command: jupyter lab --allow-root --ip=0.0.0.0 
+        # command: jupyter lab --allow-root --ip=0.0.0.0 
     metabase_app:
         image: metabase/metabase
         restart: always
