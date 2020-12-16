@@ -8,7 +8,7 @@ from catboost import CatBoostRegressor
 from typing import List
 import logging
 
-from src.code.constants import (
+from constants import (
     UTILS_PATH, STREETS_FOR_PREDICTIONS_FILE,
     CURRENT_FILENAMES_FILE, SELECT_DATETIME_STREETS_QUERY,
     METABASE_DATA_PATH, CRASHES_AFTER_ETL, STREET_NAME, DATETIME,

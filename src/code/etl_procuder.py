@@ -6,7 +6,7 @@ import re
 from datetime import datetime
 import logging
 
-from src.code.constants import (
+from constants import (
     HOSPITALS_QUERY_TEMPLATE, CRASHES_QUERY_TEMPLATE,
     CRASHES, HOSPITALS, UTILS_PATH, AFTER_ETL,
     CURRENT_FILENAMES_FILE, METABASE_DATA_PATH,

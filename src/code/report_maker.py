@@ -8,10 +8,10 @@ from docx.shared import Inches
 from matplotlib import pyplot as plt
 import numpy as np
 from io import BytesIO
-from src.code.predict_maker import build_predictions
+from predict_maker import build_predictions
 import logging
 
-from src.code.constants import (
+from constants import (
     CURRENT_FILENAMES_FILE, METABASE_DATA_PATH, UTILS_PATH,
     CRASHES_AFTER_ETL, SELECT_ALL_QUERY, DATETIME, DAY_FORMAT,
     REPORT_FOR_CITIZENS_FILE, REPORT_FOR_MAYOR_FILE, RESULT_FOLDER

@@ -7,7 +7,7 @@ import pandas as pd
 import json
 import logging
 
-from src.code.constants import (
+from constants import (
     CRASHES, HOSPITALS, DEPARTMENTS,
     VEHICLE_CRASHES_LINK, HOSPITALS_LINK,
     CURRENT_FILENAMES_FILE, DEPARTMENTS_FILE,

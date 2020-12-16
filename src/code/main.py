@@ -1,17 +1,17 @@
 import logging
 
-from src.code.data_downloader import (
+from data_downloader import (
     download_data,
     export_csv_to_sqlite
 )
 
-from src.code.etl_procuder import (
+from etl_procuder import (
     run_etl_crashes,
     run_etl_hospitals
 )
 
-from src.code.report_maker import make_report
-from src.code.visualization_maker import make_visualization
+from report_maker import make_report
+from visualization_maker import make_visualization
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)

@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import folium
 import logging
 
-from src.code.constants import (
+from constants import (
     UTILS_PATH, CURRENT_FILENAMES_FILE, RESULT_FOLDER,
     CRASHES_AFTER_ETL, METABASE_DATA_PATH,
     SELECT_ALL_QUERY, HOSPITALS_AFTER_ETL, DEPARTMENTS,
