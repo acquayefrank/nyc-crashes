@@ -1,0 +1,7 @@
+{
+    "crashes": "crashes-20201217-001659.csv",
+    "hospitals": "hospitals-20201217-001710.csv",
+    "departments": "police_departments_data.csv",
+    "crashes_after_etl": "crashes-20201217-001659_after_etl.csv",
+    "hospitals_after_etl": "hospitals-20201217-001710_after_etl.csv"
+}
