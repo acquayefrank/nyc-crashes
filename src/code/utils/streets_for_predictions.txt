@@ -1,0 +1,1884 @@
+BROADWAY                        
+ATLANTIC AVENUE                 
+BELT PARKWAY                    
+3 AVENUE                        
+NORTHERN BOULEVARD              
+FLATBUSH AVENUE                 
+LONG ISLAND EXPRESSWAY          
+BROOKLYN QUEENS EXPRESSWAY      
+LINDEN BOULEVARD                
+QUEENS BOULEVARD                
+2 AVENUE                        
+GRAND CENTRAL PKWY              
+BRUCKNER BOULEVARD              
+FDR DRIVE                       
+5 AVENUE                        
+JAMAICA AVENUE                  
+MAJOR DEEGAN EXPRESSWAY         
+7 AVENUE                        
+8 AVENUE                        
+HYLAN BOULEVARD                 
+CROSS BRONX EXPY                
+1 AVENUE                        
+CROSS ISLAND PARKWAY            
+PARK AVENUE                     
+WOODHAVEN BOULEVARD             
+ROCKAWAY BOULEVARD              
+NOSTRAND AVENUE                 
+EASTERN PARKWAY                 
+HILLSIDE AVENUE                 
+10 AVENUE                       
+BEDFORD AVENUE                  
+VAN WYCK EXPWY                  
+OCEAN PARKWAY                   
+METROPOLITAN AVENUE             
+JEROME AVENUE                   
+LIBERTY AVENUE                  
+UTICA AVENUE                    
+EAST TREMONT AVENUE             
+NORTH CONDUIT AVENUE            
+FULTON STREET                   
+CANAL STREET                    
+AMSTERDAM AVENUE                
+KINGS HIGHWAY                   
+LEXINGTON AVENUE                
+4 AVENUE                        
+9 AVENUE                        
+PENNSYLVANIA AVENUE             
+WESTCHESTER AVENUE              
+BUSHWICK AVENUE                 
+MYRTLE AVENUE                   
+WEST STREET                     
+11 AVENUE                       
+CONEY ISLAND AVENUE             
+HORACE HARDING EXPRESSWAY       
+UNION TURNPIKE                  
+BRUCKNER EXPRESSWAY             
+BOSTON ROAD                     
+WEBSTER AVENUE                  
+WHITE PLAINS ROAD               
+GRAND CONCOURSE                 
+MAIN STREET                     
+SOUTH CONDUIT AVENUE            
+FRANCIS LEWIS BOULEVARD         
+RICHMOND AVENUE                 
+MADISON AVENUE                  
+ASTORIA BOULEVARD               
+AVENUE OF THE AMERICAS          
+65 STREET                       
+OCEAN AVENUE                    
+EAST GUN HILL ROAD              
+HENRY HUDSON PARKWAY            
+MERRICK BOULEVARD               
+86 STREET                       
+CHURCH AVENUE                   
+WEST 42 STREET                  
+COLLEGE POINT BOULEVARD         
+BRONX RIVER PARKWAY             
+6 AVENUE                        
+FLUSHING AVENUE                 
+ROOSEVELT AVENUE                
+FOREST AVENUE                   
+EAST FORDHAM ROAD               
+RALPH AVENUE                    
+CROSS BAY BOULEVARD             
+VICTORY BOULEVARD               
+21 STREET                       
+SPRINGFIELD BOULEVARD           
+DELANCEY STREET                 
+FLATLANDS AVENUE                
+EAST HOUSTON STREET             
+RICHMOND ROAD                   
+STATEN ISLAND EXPRESSWAY        
+JACKIE ROBINSON PKWY            
+ROCKAWAY PARKWAY                
+EAST 233 STREET                 
+EAST 138 STREET                 
+12 AVENUE                       
+PARSONS BOULEVARD               
+SOUTHERN BOULEVARD              
+BEACH CHANNEL DRIVE             
+BAY PARKWAY                     
+EAST 57 STREET                  
+BOWERY                          
+HAMILTON AVENUE                 
+ROGERS AVENUE                   
+FLATBUSH AVENUE EXTENSION       
+TRIBOROUGH BRIDGE               
+PITKIN AVENUE                   
+AVENUE U                        
+EAST 149 STREET                 
+37 AVENUE                       
+WEST FORDHAM ROAD               
+UNION STREET                    
+FARMERS BOULEVARD               
+VANWYCK EXPRESSWAY              
+GRAND STREET                    
+SUTTER AVENUE                   
+EAST 59 STREET                  
+WHITESTONE EXPRESSWAY           
+EAST 34 STREET                  
+AMBOY ROAD                      
+VERRAZANO BRIDGE UPPER          
+31 STREET                       
+COLUMBUS AVENUE                 
+WEST 57 STREET                  
+20 AVENUE                       
+WEST 34 STREET                  
+REMSEN AVENUE                   
+WEST 125 STREET                 
+EAST 96 STREET                  
+14 AVENUE                       
+EAST 14 STREET                  
+HUTCHINSON RIVER PARKWAY        
+AVENUE J                        
+LAFAYETTE AVENUE                
+FOSTER AVENUE                   
+35 AVENUE                       
+108 STREET                      
+YORK AVENUE                     
+GRAND AVENUE                    
+HARLEM RIVER DRIVE              
+EAST 125 STREET                 
+RIVERSIDE DRIVE                 
+TILLARY STREET                  
+EAST 42 STREET                  
+WASHINGTON AVENUE               
+18 AVENUE                       
+ROCKAWAY AVENUE                 
+BRONX WHITESTONE BRIDGE         
+KISSENA BOULEVARD               
+GRAND CENTRAL PARKWAY           
+150 STREET                      
+STEINWAY STREET                 
+60 STREET                       
+69 STREET                       
+FRANKLIN AVENUE                 
+34 AVENUE                       
+ARTHUR KILL ROAD                
+NEPTUNE AVENUE                  
+AVENUE P                        
+LEFFERTS BOULEVARD              
+VANDAM STREET                   
+WEST 145 STREET                 
+MORRIS AVENUE                   
+CROPSEY AVENUE                  
+BROOKVILLE BOULEVARD            
+UNIVERSITY AVENUE               
+NEW YORK AVENUE                 
+EAST 23 STREET                  
+CLOVE ROAD                      
+CENTRAL PARK WEST               
+SUTPHIN BOULEVARD               
+BORDEN AVENUE                   
+CRESCENT STREET                 
+BREWER BOULEVARD                
+CLEARVIEW EXPRESSWAY            
+SEDGWICK AVENUE                 
+EAST 37 STREET                  
+VARICK STREET                   
+80 STREET                       
+UTOPIA PARKWAY                  
+GOWANUS EXPY (BQE)              
+164 STREET                      
+FORT HAMILTON PARKWAY           
+GREENPOINT AVENUE               
+GLENWOOD ROAD                   
+WEST 40 STREET                  
+MEEKER AVENUE                   
+SAINT NICHOLAS AVENUE           
+JUNCTION BOULEVARD              
+BELL BOULEVARD                  
+BROOKLYN AVENUE                 
+101 AVENUE                      
+EAST 135 STREET                 
+58 STREET                       
+39 STREET                       
+EAST 161 STREET                 
+48 STREET                       
+MC DONALD AVENUE                
+EASTCHESTER ROAD                
+JACKSON AVENUE                  
+EAST NEW YORK AVENUE            
+BAYCHESTER AVENUE               
+41 AVENUE                       
+ALBANY AVENUE                   
+CYPRESS AVENUE                  
+23 AVENUE                       
+BAY STREET                      
+43 AVENUE                       
+RICHMOND TERRACE                
+DITMARS BOULEVARD               
+31 AVENUE                       
+SCHENECTADY AVENUE              
+BROOKLYN BRIDGE                 
+94 STREET                       
+AVENUE N                        
+SHORE PARKWAY                   
+EAST 163 STREET                 
+AVENUE D                        
+82 STREET                       
+WEST 14 STREET                  
+WEST 41 STREET                  
+CROSS BRONX EXPRESSWAY          
+AVENUE M                        
+FARRAGUT ROAD                   
+EAST 63 STREET                  
+EAST 58 STREET                  
+WEST SIDE HIGHWAY               
+32 AVENUE                       
+GATES AVENUE                    
+30 AVENUE                       
+EAST 53 STREET                  
+EAST 35 STREET                  
+EMPIRE BOULEVARD                
+CENTRAL AVENUE                  
+WEST 44 STREET                  
+CASTLE HILL AVENUE              
+AVENUE L                        
+EAST 36 STREET                  
+EAST 60 STREET                  
+WEST END AVENUE                 
+MANHATTAN AVENUE                
+WEST 36 STREET                  
+COURT STREET                    
+DITMAS AVENUE                   
+VANDERBILT AVENUE               
+WEST 23 STREET                  
+CLARENDON ROAD                  
+HOWARD AVENUE                   
+107 AVENUE                      
+AVENUE K                        
+111 STREET                      
+HUDSON STREET                   
+LENOX AVENUE                    
+WEST 37 STREET                  
+MARCY AVENUE                    
+WEST 39 STREET                  
+13 AVENUE                       
+WEST 47 STREET                  
+WEST 31 STREET                  
+92 STREET                       
+CLASSON AVENUE                  
+EAST 62 STREET                  
+PACIFIC STREET                  
+PROSPECT AVENUE                 
+AVENUE I                        
+BAISLEY BOULEVARD               
+61 STREET                       
+BAY RIDGE PARKWAY               
+TROY AVENUE                     
+LITTLE NECK PARKWAY             
+EAST 167 STREET                 
+EAST 39 STREET                  
+LAURELTON PARKWAY               
+JAY STREET                      
+BEVERLEY ROAD                   
+WEST 155 STREET                 
+188 STREET                      
+DE KALB AVENUE                  
+43 STREET                       
+109 AVENUE                      
+HEMPSTEAD AVENUE                
+WILSON AVENUE                   
+EAST 61 STREET                  
+WEST 181 STREET                 
+THROGS NECK BRIDGE              
+AUSTIN STREET                   
+EAST 49 STREET                  
+CATON AVENUE                    
+33 STREET                       
+WEST HOUSTON STREET             
+WALTON AVENUE                   
+EAST 38 STREET                  
+21 AVENUE                       
+39 AVENUE                       
+89 AVENUE                       
+UNION AVENUE                    
+CHRYSTIE STREET                 
+EAST 116 STREET                 
+15 AVENUE                       
+WEST 45 STREET                  
+ROCKAWAY BEACH BOULEVARD        
+WILLIAMSBRIDGE ROAD             
+BROOKLYN QUEENS EXPRESSWAY RAMP 
+EAST 174 STREET                 
+EAST 51 STREET                  
+SAINT JOHNS PLACE               
+TOMPKINS AVENUE                 
+STILLWELL AVENUE                
+103 AVENUE                      
+LAFAYETTE STREET                
+EAST 12 STREET                  
+73 AVENUE                       
+37 STREET                       
+168 STREET                      
+47 STREET                       
+EAST 79 STREET                  
+49 STREET                       
+MORRIS PARK AVENUE              
+AVENUE T                        
+115 AVENUE                      
+WEST 135 STREET                 
+130 STREET                      
+KENT AVENUE                     
+CLINTON STREET                  
+64 STREET                       
+LENOX ROAD                      
+WEST 48 STREET                  
+KNICKERBOCKER AVENUE            
+WEST 35 STREET                  
+PARK AVENUE SOUTH               
+YELLOWSTONE BOULEVARD           
+BERGEN STREET                   
+85 STREET                       
+77 STREET                       
+WEST 30 STREET                  
+WEST 46 STREET                  
+BLEECKER STREET                 
+BARTOW AVENUE                   
+WEST 38 STREET                  
+ALLERTON AVENUE                 
+WEST 207 STREET                 
+BROOME STREET                   
+CLARKSON AVENUE                 
+DEAN STREET                     
+EAST 180 STREET                 
+79 STREET                       
+NEW ENGLAND THRUWAY             
+WYTHE AVENUE                    
+EAST 98 STREET                  
+84 STREET                       
+WEST 43 STREET                  
+WINTHROP STREET                 
+111 AVENUE                      
+45 AVENUE                       
+RIVERDALE AVENUE                
+50 STREET                       
+WEST 49 STREET                  
+EAST 21 STREET                  
+SMITH STREET                    
+COOPER AVENUE                   
+CORTELYOU ROAD                  
+EAST 80 STREET                  
+PELHAM PARKWAY SOUTH            
+59 STREET                       
+38 STREET                       
+WEST 33 STREET                  
+SARATOGA AVENUE                 
+ROSEDALE AVENUE                 
+WEST 56 STREET                  
+78 STREET                       
+EAST 86 STREET                  
+EAST 52 STREET                  
+VERNON BOULEVARD                
+EAST 55 STREET                  
+EAST 56 STREET                  
+SNYDER AVENUE                   
+116 AVENUE                      
+AVENUE C                        
+AVENUE S                        
+FRESH POND ROAD                 
+BAINBRIDGE AVENUE               
+VERRAZANO BRIDGE LOWER          
+95 AVENUE                       
+BLAKE AVENUE                    
+133 AVENUE                      
+ELIOT AVENUE                    
+EAST 18 STREET                  
+MAJOR DEEGAN EXPRESSWAY RAMP    
+102 STREET                      
+47 AVENUE                       
+88 STREET                       
+45 STREET                       
+38 AVENUE                       
+16 AVENUE                       
+AVENUE Z                        
+46 STREET                       
+EAST 45 STREET                  
+PRINCE STREET                   
+CASTLETON AVENUE                
+ROCHESTER AVENUE                
+QUEENS PLAZA SOUTH              
+EAST 54 STREET                  
+WEST SHORE EXPRESSWAY           
+TARGEE STREET                   
+QUEENS MIDTOWN TUNNEL           
+CENTRE STREET                   
+AVENUE O                        
+ARCHER AVENUE                   
+EAST 165 STREET                 
+VALENTINE AVENUE                
+17 AVENUE                       
+SANFORD AVENUE                  
+ARDEN AVENUE                    
+160 STREET                      
+41 STREET                       
+STANLEY AVENUE                  
+51 STREET                       
+LIVONIA AVENUE                  
+LIVINGSTON STREET               
+NEW UTRECHT AVENUE              
+MORGAN AVENUE                   
+HICKS STREET                    
+48 AVENUE                       
+DEKALB AVENUE                   
+HALSEY STREET                   
+NEW LOTS AVENUE                 
+EAST 72 STREET                  
+MADISON STREET                  
+SEAVIEW AVENUE                  
+QUENTIN ROAD                    
+149 STREET                      
+91 AVENUE                       
+PARK PLACE                      
+FOREST HILL ROAD                
+81 STREET                       
+74 STREET                       
+WATER STREET                    
+CHURCH STREET                   
+RANDALL AVENUE                  
+KINGSTON AVENUE                 
+PEARL STREET                    
+ADAMS STREET                    
+WEST 58 STREET                  
+EAST 48 STREET                  
+76 STREET                       
+EAST 13 STREET                  
+BELMONT AVENUE                  
+WEST 54 STREET                  
+MARCUS GARVEY BOULEVARD         
+WEST 50 STREET                  
+WEST 230 STREET                 
+99 STREET                       
+DYCKMAN STREET                  
+NARROWS ROAD NORTH              
+GRAHAM AVENUE                   
+BRONX RIVER AVENUE              
+SKILLMAN AVENUE                 
+GOWANUS RAMP                    
+EXTERIOR STREET                 
+44 STREET                       
+114 STREET                      
+HENRY STREET                    
+EAST 92 STREET                  
+HEGEMAN AVENUE                  
+EAST 17 STREET                  
+DYER AVENUE                     
+WEST 96 STREET                  
+WEST 29 STREET                  
+WYCKOFF AVENUE                  
+7 AVENUE SOUTH                  
+SOUTH AVENUE                    
+WEST 55 STREET                  
+56 STREET                       
+WEST KINGSBRIDGE ROAD           
+90 STREET                       
+ESSEX STREET                    
+NASSAU EXPRESSWAY               
+JEWEL AVENUE                    
+147 STREET                      
+71 AVENUE                       
+35 STREET                       
+SPRING STREET                   
+36 STREET                       
+BATH AVENUE                     
+HUNTS POINT AVENUE              
+162 STREET                      
+THROOP AVENUE                   
+72 STREET                       
+53 STREET                       
+EAST 46 STREET                  
+ZEREGA AVENUE                   
+PARKSIDE AVENUE                 
+62 STREET                       
+CONDUIT BOULEVARD               
+EAST 170 STREET                 
+EMMONS AVENUE                   
+EAST 94 STREET                  
+19 AVENUE                       
+BOYLAND STREET                  
+WEST BROADWAY                   
+EAST 95 STREET                  
+WEST 52 STREET                  
+HUMBOLDT STREET                 
+STORY AVENUE                    
+63 STREET                       
+97 STREET                       
+135 AVENUE                      
+EAST 40 STREET                  
+EAST 65 STREET                  
+46 AVENUE                       
+PELHAM PARKWAY                  
+11 STREET                       
+EAST 16 STREET                  
+MANOR ROAD                      
+WEST 165 STREET                 
+55 STREET                       
+WILLIAMSBURG BRIDGE OUTER ROADWA
+104 STREET                      
+EAST 169 STREET                 
+EAST 85 STREET                  
+EAST 29 STREET                  
+66 STREET                       
+42 STREET                       
+AVENUE V                        
+57 STREET                       
+SEAGIRT BOULEVARD               
+AVENUE H                        
+BROOKLYN BATTERY TUNNEL         
+25 AVENUE                       
+36 AVENUE                       
+WEST 51 STREET                  
+EVERGREEN AVENUE                
+BUFFALO AVENUE                  
+73 STREET                       
+Belt Pkwy                       
+EAST 66 STREET                  
+29 STREET                       
+57 AVENUE                       
+83 STREET                       
+AVENUE X                        
+WEST 53 STREET                  
+GREENE AVENUE                   
+EAST 19 STREET                  
+ALLEN STREET                    
+WILLIS AVENUE                   
+70 STREET                       
+MC GUINNESS BOULEVARD           
+REID AVENUE                     
+EAST 4 STREET                   
+AVENUE R                        
+NEW DORP LANE                   
+THOMSON AVENUE                  
+GLENMORE AVENUE                 
+112 STREET                      
+54 STREET                       
+WEST 178 STREET                 
+WEST 28 STREET                  
+SOUTH STREET                    
+QUEENS PLAZA NORTH              
+WEST 26 STREET                  
+COLUMBIA STREET                 
+212 STREET                      
+EAST 177 STREET                 
+EAST 7 STREET                   
+SHORE ROAD                      
+WEST 79 STREET                  
+WEST 110 STREET                 
+52 STREET                       
+EAST 30 STREET                  
+BROOK AVENUE                    
+EAST 173 STREET                 
+BOOTH MEMORIAL AVENUE           
+WASHINGTON STREET               
+EAST 31 STREET                  
+JOE DIMAGGIO HIGHWAY            
+EAST 32 STREET                  
+FORT WASHINGTON AVENUE          
+BAILEY AVENUE                   
+147 AVENUE                      
+AVENUE Y                        
+BRONX PARK EAST                 
+126 STREET                      
+MURRAY STREET                   
+120 AVENUE                      
+EAST 97 STREET                  
+GERARD AVENUE                   
+EAST 28 STREET                  
+EAST 3 STREET                   
+EAST 156 STREET                 
+LINCOLN AVENUE                  
+SHERMAN AVENUE                  
+EAST 102 STREET                 
+EAST 222 STREET                 
+GREENWICH STREET                
+EAST 26 STREET                  
+90 AVENUE                       
+SURF AVENUE                     
+RUTLAND ROAD                    
+EAST 47 STREET                  
+PUTNAM AVENUE                   
+WEST 116 STREET                 
+CORONA AVENUE                   
+GOLD STREET                     
+RIVER AVENUE                    
+STERLING PLACE                  
+EAST 9 STREET                   
+225 STREET                      
+LEWIS AVENUE                    
+CADMAN PLAZA WEST               
+MAURICE AVENUE                  
+EAST 106 STREET                 
+SAINT ANNS AVENUE               
+SUNRISE HIGHWAY                 
+EAST 10 STREET                  
+BRONXWOOD AVENUE                
+EAST 71 STREET                  
+EAST 50 STREET                  
+MOTT AVENUE                     
+EAST 76 STREET                  
+28 AVENUE                       
+50 AVENUE                       
+EAST 22 STREET                  
+23 STREET                       
+EAST 41 STREET                  
+PELHAM PARKWAY NORTH            
+BARNES AVENUE                   
+IRVING AVENUE                   
+DUMONT AVENUE                   
+LORIMER STREET                  
+EAST 33 STREET                  
+FOCH BOULEVARD                  
+ROCKLAND AVENUE                 
+24 AVENUE                       
+EAST 128 STREET                 
+MURDOCK AVENUE                  
+WATSON AVENUE                   
+WOODSIDE AVENUE                 
+68 STREET                       
+WILLOUGHBY AVENUE               
+67 STREET                       
+CROSS BRONX EXPY RAMP           
+ROCKAWAY FREEWAY                
+LACONIA AVENUE                  
+STONE AVENUE                    
+CROTONA AVENUE                  
+BRIGHTON BEACH AVENUE           
+EAST 43 STREET                  
+EAST 84 STREET                  
+146 STREET                      
+RICHMOND HILL ROAD              
+EAST 172 STREET                 
+71 STREET                       
+138 STREET                      
+KNAPP STREET                    
+DRIGGS AVENUE                   
+EAST 188 STREET                 
+SHERIDAN AVENUE                 
+PROSPECT PLACE                  
+97 AVENUE                       
+75 STREET                       
+AVENUE W                        
+EAST 93 STREET                  
+FOUNTAIN AVENUE                 
+EAST 83 STREET                  
+WEST 15 STREET                  
+KENMARE STREET                  
+WEST 16 STREET                  
+WILLIAMSBURG STREET WEST        
+98 STREET                       
+34 STREET                       
+WARREN STREET                   
+BRONX BOULEVARD                 
+BAY RIDGE AVENUE                
+65 PLACE                        
+PRESIDENT STREET                
+PARK LANE SOUTH                 
+CENTRAL PARK SOUTH              
+127 STREET                      
+JOHNSON AVENUE                  
+EAST 8 STREET                   
+WEST 24 STREET                  
+WEST TREMONT AVENUE             
+VERRAZANO BRIDGE                
+GRAND ARMY PLAZA                
+TODT HILL ROAD                  
+EAST 124 STREET                 
+DOUGLASTON PARKWAY              
+EAST 175 STREET                 
+EAST 5 STREET                   
+SENECA AVENUE                   
+WEST 17 STREET                  
+AVENUE B                        
+26 AVENUE                       
+LEE AVENUE                      
+WEST 97 STREET                  
+EAST 2 STREET                   
+CAPODANNO BOULEVARD             
+134 STREET                      
+EAST 183 STREET                 
+EAST 15 STREET                  
+MOTT STREET                     
+CHAMBERS STREET                 
+63 DRIVE                        
+51 AVENUE                       
+DAHILL ROAD                     
+EAST 126 STREET                 
+MOSHOLU PARKWAY                 
+157 STREET                      
+VAN SICLEN AVENUE               
+TIFFANY STREET                  
+Grand Central Pkwy              
+HUGUENOT AVENUE                 
+30 STREET                       
+SAINT MARKS AVENUE              
+EAST 77 STREET                  
+PROSPECT PARK WEST              
+TILDEN AVENUE                   
+148 STREET                      
+33 AVENUE                       
+120 STREET                      
+HOYT AVENUE NORTH               
+EAST 82 STREET                  
+AVENUE A                        
+EAST 64 STREET                  
+LINDEN PLACE                    
+121 STREET                      
+89 STREET                       
+HUNTERS POINT AVENUE            
+40 STREET                       
+EAST 78 STREET                  
+58 AVENUE                       
+CRESTON AVENUE                  
+EAST 20 STREET                  
+EAST BURNSIDE AVENUE            
+223 STREET                      
+95 STREET                       
+WEST 86 STREET                  
+WEST 179 STREET                 
+155 STREET                      
+WEST 126 STREET                 
+56 AVENUE                       
+EAST 89 STREET                  
+EAST 187 STREET                 
+WEST 170 STREET                 
+169 STREET                      
+EAST 27 STREET                  
+EAST 70 STREET                  
+EAST 241 STREET                 
+9 STREET                        
+EAST 168 STREET                 
+EAST 176 STREET                 
+59 AVENUE                       
+HOLLIS AVENUE                   
+EAST 68 STREET                  
+ELIZABETH STREET                
+NELSON AVENUE                   
+WEST 25 STREET                  
+ROEBLING STREET                 
+87 STREET                       
+CLAREMONT PARKWAY               
+WILLETS POINT BOULEVARD         
+AUDUBON AVENUE                  
+137 AVENUE                      
+WEST BURNSIDE AVENUE            
+WEST 141 STREET                 
+110 STREET                      
+EAST 108 STREET                 
+HERKIMER STREET                 
+123 STREET                      
+93 AVENUE                       
+EAST KINGSBRIDGE ROAD           
+BENSON AVENUE                   
+NEWKIRK AVENUE                  
+EAST 73 STREET                  
+149 AVENUE                      
+WEST 72 STREET                  
+EAST 87 STREET                  
+64 AVENUE                       
+104 AVENUE                      
+BOERUM PLACE                    
+WEST 21 STREET                  
+GATEWAY DRIVE                   
+27 STREET                       
+118 AVENUE                      
+CLAY AVENUE                     
+JEFFERSON AVENUE                
+96 STREET                       
+OGDEN AVENUE                    
+EAST 184 STREET                 
+EAST 91 STREET                  
+COZINE AVENUE                   
+217 STREET                      
+HOOK CREEK BOULEVARD            
+130 AVENUE                      
+153 STREET                      
+EAST 88 STREET                  
+118 STREET                      
+COLUMBUS CIRCLE                 
+WEST 12 STREET                  
+WEST 27 STREET                  
+69 AVENUE                       
+Long Island Expy                
+DAVIDSON AVENUE                 
+CARROLL STREET                  
+KINGSLAND AVENUE                
+110 AVENUE                      
+WEST 66 STREET                  
+NARROWS ROAD SOUTH              
+BRADLEY AVENUE                  
+WEST 133 STREET                 
+HANCOCK STREET                  
+WEST 32 STREET                  
+19 STREET                       
+CROSSBAY BOULEVARD              
+165 STREET                      
+STATE STREET                    
+CONNER STREET                   
+MONTGOMERY STREET               
+BRONXDALE AVENUE                
+PROSPECT EXPRESSWAY EAST        
+EAST 105 STREET                 
+FRANKLIN STREET                 
+SCHERMERHORN STREET             
+HENRY HUDSON PARKWAY RAMP       
+EUCLID AVENUE                   
+NAGLE AVENUE                    
+HOYT AVENUE SOUTH               
+PATCHEN AVENUE                  
+PAULDING AVENUE                 
+HAVEMEYER STREET                
+93 STREET                       
+WEST 13 STREET                  
+91 STREET                       
+DECATUR STREET                  
+LINCOLN PLACE                   
+EAST 74 STREET                  
+WEST 59 STREET                  
+EAST 67 STREET                  
+EAST 120 STREET                 
+135 STREET                      
+EAST 69 STREET                  
+EAST BROADWAY                   
+CYPRESS HILLS STREET            
+EAST 144 STREET                 
+WEST 142 STREET                 
+GUY R BREWER BOULEVARD          
+WILLIAMSBURG BRIDGE INNER ROADWA
+172 STREET                      
+167 STREET                      
+161 STREET                      
+EAST 11 STREET                  
+WEST 9 STREET                   
+MARION AVENUE                   
+EAST 115 STREET                 
+HOYT STREET                     
+MULBERRY STREET                 
+EAST 112 STREET                 
+WORTMAN AVENUE                  
+EAST 117 STREET                 
+SHELL ROAD                      
+103 STREET                      
+170 STREET                      
+COOP CITY BOULEVARD             
+132 STREET                      
+EAST 166 STREET                 
+LAUREL HILL BOULEVARD           
+BERRY STREET                    
+EAST GUNHILL ROAD               
+WATTS STREET                    
+EAST 179 STREET                 
+LONGWOOD AVENUE                 
+75 AVENUE                       
+125 STREET                      
+BOWNE STREET                    
+EAST 99 STREET                  
+BURKE AVENUE                    
+143 STREET                      
+EAST 44 STREET                  
+DRUMGOOLE ROAD WEST             
+WILLIS AVE BRIDGE               
+CLINTON AVENUE                  
+SLOSSON AVENUE                  
+MELROSE AVENUE                  
+BLOOMINGDALE ROAD               
+116 STREET                      
+94 AVENUE                       
+MERMAID AVENUE                  
+28 STREET                       
+WEST 20 STREET                  
+MANHATTAN BR UPPER              
+WALKER STREET                   
+WEST 22 STREET                  
+131 STREET                      
+WEST 6 STREET                   
+NORTH GANNON AVENUE             
+EAST 81 STREET                  
+HARRISON AVENUE                 
+78 AVENUE                       
+WEST 168 STREET                 
+222 STREET                      
+EAST 132 STREET                 
+WEST 129 STREET                 
+COLLEGE AVENUE                  
+FT HAMILTON PARKWAY             
+WEST 139 STREET                 
+BROAD STREET                    
+VAN BRUNT STREET                
+140 AVENUE                      
+EAST 140 STREET                 
+STUYVESANT AVENUE               
+100 STREET                      
+CEDAR AVENUE                    
+42 AVENUE                       
+MASPETH AVENUE                  
+154 STREET                      
+WEST 144 STREET                 
+BELT PARKWAY RAMP               
+WEST 138 STREET                 
+BOND STREET                     
+PROSPECT STREET                 
+ARLINGTON AVENUE                
+PARK CIRCLE                     
+NEREID AVENUE                   
+12 STREET                       
+SANDS STREET                    
+WEST 158 STREET                 
+HARLEM RIVER DRIVE RAMP         
+62 DRIVE                        
+WEST 100 STREET                 
+EAST 181 STREET                 
+20 STREET                       
+32 STREET                       
+EAST 104 STREET                 
+LOGAN STREET                    
+88 AVENUE                       
+WEST 19 STREET                  
+119 AVENUE                      
+115 STREET                      
+SHORE BOULEVARD                 
+69 ROAD                         
+202 STREET                      
+LEONARD STREET                  
+WOODWARD AVENUE                 
+MACOMBS DAM BRIDGE              
+124 STREET                      
+65 AVENUE                       
+WEST 127 STREET                 
+117 STREET                      
+WEST 132 STREET                 
+FRONT STREET                    
+211 STREET                      
+10 STREET                       
+163 STREET                      
+MCGUINNESS BOULEVARD            
+101 STREET                      
+WEST 140 STREET                 
+MILLER AVENUE                   
+WEST 8 STREET                   
+WEST 177 STREET                 
+NASSAU AVENUE                   
+173 STREET                      
+WEST 180 STREET                 
+WEST 18 STREET                  
+243 STREET                      
+67 AVENUE                       
+MCDONALD AVENUE                 
+LUDLOW STREET                   
+WEST 95 STREET                  
+EAST 129 STREET                 
+WEST 65 STREET                  
+17 STREET                       
+WEST 10 STREET                  
+WEST 231 STREET                 
+ARMSTRONG AVENUE                
+QUEENSBORO BRIDGE LOWER ROADWAY 
+MARATHON PARKWAY                
+CITY ISLAND AVENUE              
+QUEENSBORO BRIDGE LOWER         
+QUEENSBORO BRIDGE UPPER ROADWAY 
+MACE AVENUE                     
+EAST 75 STREET                  
+MORRISON AVENUE                 
+FDR DRIVE RAMP                  
+WEST 143 STREET                 
+DIVISION AVENUE                 
+113 STREET                      
+EDGECOMBE AVENUE                
+WEST 183 STREET                 
+HIGHLAND BOULEVARD              
+219 STREET                      
+BATTERY PLACE                   
+EAST MOSHOLU PARKWAY NORTH      
+WORTH STREET                    
+BRYANT AVENUE                   
+85 AVENUE                       
+EAST 6 STREET                   
+WEST 81 STREET                  
+141 STREET                      
+EAST 101 STREET                 
+EAST 141 STREET                 
+WEST 150 STREET                 
+175 STREET                      
+CARPENTER AVENUE                
+55 AVENUE                       
+SHEEPSHEAD BAY ROAD             
+ARNOW AVENUE                    
+EAST 103 STREET                 
+WEST 11 STREET                  
+DECATUR AVENUE                  
+NORMAN AVENUE                   
+218 STREET                      
+129 STREET                      
+GEORGIA AVENUE                  
+BRADDOCK AVENUE                 
+ANTHONY AVENUE                  
+QUEENSBORO BRIDGE UPPER         
+221 STREET                      
+HESTER STREET                   
+RIDGEWOOD AVENUE                
+FOREST PARK DRIVE               
+TILLOTSON AVENUE                
+POST AVENUE                     
+EAST 182 STREET                 
+EAST 25 STREET                  
+CROSS BRONX EXPWY SERVICE ROAD  
+EAST 110 STREET                 
+EAST 118 STREET                 
+14 STREET                       
+158 STREET                      
+EAST 151 STREET                 
+WEST 3 STREET                   
+GERRITSEN AVENUE                
+WATERS PLACE                    
+HOLLAND AVENUE                  
+EAST 134 STREET                 
+BEDFORD PARK BOULEVARD          
+ALBEMARLE ROAD                  
+Cross Bronx Expy                
+224 STREET                      
+83 AVENUE                       
+139 STREET                      
+MAPLE AVENUE                    
+166 STREET                      
+GROVE STREET                    
+WEST 111 STREET                 
+MERCER STREET                   
+BRONX RIVER PARKWAY RAMP        
+EAST 119 STREET                 
+22 STREET                       
+GRANT AVENUE                    
+144 AVENUE                      
+VOORHIES AVENUE                 
+SCHENCK AVENUE                  
+49 AVENUE                       
+CROWN STREET                    
+RYER AVENUE                     
+WEST 147 STREET                 
+DRUMGOOLE ROAD EAST             
+ALABAMA AVENUE                  
+EAST 111 STREET                 
+EAST 178 STREET                 
+18 STREET                       
+159 STREET                      
+VAN WYCK EXPRESSWAY SR WEST     
+WEST 151 STREET                 
+LINDEN STREET                   
+LILY POND AVENUE                
+EAST 109 STREET                 
+VETERANS ROAD WEST              
+EAST 198 STREET                 
+EAST 90 STREET                  
+EAST 24 STREET                  
+UNDERHILL AVENUE                
+182 STREET                      
+SAINT MARKS PLACE               
+VANDUZER STREET                 
+EAST 153 STREET                 
+68 AVENUE                       
+15 STREET                       
+ONDERDONK AVENUE                
+EAST 139 STREET                 
+WEST 146 STREET                 
+RIDGE BOULEVARD                 
+WEST 136 STREET                 
+ADEE AVENUE                     
+WEST 120 STREET                 
+99 AVENUE                       
+WEST 176 STREET                 
+WEST 238 STREET                 
+JEWETT AVENUE                   
+PAGE AVENUE                     
+60 AVENUE                       
+WILLIAMS AVENUE                 
+LEFFERTS AVENUE                 
+WOODROW ROAD                    
+ASHFORD STREET                  
+70 AVENUE                       
+BEACH 20 STREET                 
+GLEASON AVENUE                  
+WEST 123 STREET                 
+NAVY STREET                     
+NEVINS STREET                   
+BEVERLY ROAD                    
+204 STREET                      
+WEST 4 STREET                   
+WEST 137 STREET                 
+199 STREET                      
+SHERIDAN EXPRESSWAY             
+WEST 169 STREET                 
+107 STREET                      
+ELDER AVENUE                    
+ASTOR AVENUE                    
+ANDREWS AVENUE                  
+SOUTH 5 STREET                  
+40 AVENUE                       
+205 STREET                      
+EAST 100 STREET                 
+196 STREET                      
+VERMONT STREET                  
+133 STREET                      
+JEFFERSON STREET                
+40 ROAD                         
+ASHLAND PLACE                   
+VANDERVOORT AVENUE              
+TRAVIS AVENUE                   
+CORNAGA AVENUE                  
+STANHOPE STREET                 
+WEST 112 STREET                 
+QUINCY STREET                   
+WEST 124 STREET                 
+180 STREET                      
+WEST 225 STREET                 
+PARK ROW                        
+BORINQUEN PLACE                 
+WHITNEY AVENUE                  
+EAST MOSHOLU PARKWAY SOUTH      
+PORT RICHMOND AVENUE            
+WEST 5 STREET                   
+MIDLAND AVENUE                  
+201 STREET                      
+ELTON STREET                    
+Bqe                             
+197 STREET                      
+MORNINGSTAR ROAD                
+THIRD AVENUE                    
+64 ROAD                         
+SEWARD AVENUE                   
+TYSENS LANE                     
+MESEROLE STREET                 
+72 AVENUE                       
+BEDELL STREET                   
+SOUTH 4 STREET                  
+WALLABOUT STREET                
+LOUISIANA AVENUE                
+86 AVENUE                       
+HIMROD STREET                   
+HART STREET                     
+WEST 131 STREET                 
+BATHGATE AVENUE                 
+WEST 113 STREET                 
+REVIEW AVENUE                   
+WILLIAM STREET                  
+HINSDALE STREET                 
+EAST 164 STREET                 
+44 DRIVE                        
+BALTIC STREET                   
+EAST 150 STREET                 
+177 STREET                      
+WEST 83 STREET                  
+HOLLIS COURT BOULEVARD          
+27 AVENUE                       
+WEST 204 STREET                 
+24 STREET                       
+SNEDIKER AVENUE                 
+WEST 134 STREET                 
+WEST 115 STREET                 
+WEST 149 STREET                 
+63 ROAD                         
+FILLMORE AVENUE                 
+MONROE STREET                   
+CONVENT AVENUE                  
+MIDLAND PARKWAY                 
+HENDERSON AVENUE                
+WEST 60 STREET                  
+HENDRIX STREET                  
+76 AVENUE                       
+VAN DAM STREET                  
+WADSWORTH AVENUE                
+Major Deegan Expy               
+WEST 87 STREET                  
+183 STREET                      
+EAST 158 STREET                 
+234 STREET                      
+STEUBEN STREET                  
+ELDERTS LANE                    
+PITMAN AVENUE                   
+53 AVENUE                       
+EDSON AVENUE                    
+EAST 123 STREET                 
+RHINELANDER AVENUE              
+CARLTON AVENUE                  
+MENAHAN STREET                  
+RIVINGTON STREET                
+WEST 93 STREET                  
+WILLOUGHBY STREET               
+EAST 204 STREET                 
+ELDRIDGE STREET                 
+156 STREET                      
+77 AVENUE                       
+EAST 189 STREET                 
+THIRD AVE BRIDGE                
+ARTHUR AVENUE                   
+WEST 71 STREET                  
+PROSPECT EXPRESSWAY RAMP        
+OLMSTEAD AVENUE                 
+WEST 174 STREET                 
+ALDERTON STREET                 
+171 STREET                      
+EAST 127 STREET                 
+RODNEY STREET                   
+EAST 122 STREET                 
+WEST 77 STREET                  
+GRAVESEND NECK ROAD             
+CROSBY AVENUE                   
+SOUND VIEW AVENUE               
+GRANT HIGHWAY                   
+PUGSLEY AVENUE                  
+METRO AVENUE                    
+194 STREET                      
+PROSPECT PARK SOUTHWEST         
+COURTLANDT AVENUE               
+LYDIG AVENUE                    
+WEST 73 STREET                  
+SOUNDVIEW AVENUE                
+EAST 211 STREET                 
+220 STREET                      
+METCALF AVENUE                  
+SOUTH GANNON AVENUE             
+MAIDEN LANE                     
+150 AVENUE                      
+ALEXANDER AVENUE                
+MACOMBS ROAD                    
+GARRISON AVENUE                 
+JUNIUS STREET                   
+WEST 70 STREET                  
+213 STREET                      
+145 AVENUE                      
+COOPER STREET                   
+ERSKINE STREET                  
+WEST 118 STREET                 
+INTERVALE AVENUE                
+BRUSH AVENUE                    
+EAST 196 STREET                 
+FULTON AVENUE                   
+NASSAU STREET                   
+PALMETTO STREET                 
+WEST 90 STREET                  
+LOTT AVENUE                     
+WEST 74 STREET                  
+WEST 172 STREET                 
+157 AVENUE                      
+WARING AVENUE                   
+BRIDGE STREET                   
+WEST 88 STREET                  
+UNIONPORT ROAD                  
+SOUTH ROAD                      
+FEATHERBED LANE                 
+105 STREET                      
+WEST 148 STREET                 
+128 STREET                      
+VERMONT PLACE                   
+ANDERSON AVENUE                 
+109 STREET                      
+CLERMONT AVENUE                 
+JOHN STREET                     
+NEWPORT STREET                  
+192 STREET                      
+MCCLEAN AVENUE                  
+WEST 75 STREET                  
+5 STREET                        
+THOMPSON STREET                 
+WEST 190 STREET                 
+TELLER AVENUE                   
+MORNINGSIDE AVENUE              
+56 ROAD                         
+142 STREET                      
+EAST 236 STREET                 
+BARCLAY AVENUE                  
+87 AVENUE                       
+260 STREET                      
+BEACH AVENUE                    
+CALYER STREET                   
+CITY ISLAND ROAD                
+HARMAN STREET                   
+CROCHERON AVENUE                
+WEST 153 STREET                 
+FREEMAN STREET                  
+CLINTONVILLE STREET             
+GRANDVIEW AVENUE                
+WEST 152 STREET                 
+WEST 119 STREET                 
+TROUTMAN STREET                 
+INWOOD STREET                   
+WEST 130 STREET                 
+ANNADALE ROAD                   
+29 AVENUE                       
+OVINGTON AVENUE                 
+TOWNSEND AVENUE                 
+Franklin D Roosevelt Dr         
+CORNELIA STREET                 
+WEST 122 STREET                 
+WEST 163 STREET                 
+208 STREET                      
+EAST 229 STREET                 
+CROMWELL AVENUE                 
+BAY 8 STREET                    
+RESERVOIR AVENUE                
+JOHNSON STREET                  
+190 STREET                      
+BAYARD STREET                   
+LEGGETT AVENUE                  
+UNDERCLIFF AVENUE               
+JORALEMON STREET                
+249 STREET                      
+NOBLE AVENUE                    
+WEST 64 STREET                  
+MACDONOUGH STREET               
+198 STREET                      
+CRUGER AVENUE                   
+82 AVENUE                       
+WHITE STREET                    
+OLINVILLE AVENUE                
+LONGFELLOW AVENUE               
+PERRY AVENUE                    
+62 AVENUE                       
+BEAVER STREET                   
+16 STREET                       
+LIBERTY STREET                  
+30 PLACE                        
+VANDERVORT AVENUE               
+EDGEWATER ROAD                  
+193 STREET                      
+LELAND AVENUE                   
+156 AVENUE                      
+241 STREET                      
+WEST 104 STREET                 
+106 STREET                      
+181 STREET                      
+WARWICK STREET                  
+STATEN ISLAND EXPY              
+WEST 82 STREET                  
+GOULDEN AVENUE                  
+BEACH STREET                    
+WOODYCREST AVENUE               
+TINTON AVENUE                   
+WEST 117 STREET                 
+WEST 114 STREET                 
+WHITLOCK AVENUE                 
+Cross Island Pkwy               
+MONTROSE AVENUE                 
+81 AVENUE                       
+BARCLAY STREET                  
+63 AVENUE                       
+GUYON AVENUE                    
+WEST 76 STREET                  
+140 STREET                      
+HIGHLAND AVENUE                 
+ELY AVENUE                      
+HAVEMEYER AVENUE                
+MONTAGUE STREET                 
+THROGS NECK EXPY                
+CHESTER STREET                  
+VANNEST AVENUE                  
+EAST 137 STREET                 
+CROSBY STREET                   
+GIVAN AVENUE                    
+ASTORIA BOULEVARD NORTH         
+113 AVENUE                      
+54 AVENUE                       
+HOE AVENUE                      
+44 AVENUE                       
+KOREAN WAR VETS PARKWAY         
+WEST 187 STREET                 
+WEST 175 STREET                 
+UNION SQUARE EAST               
+WEST 167 STREET                 
+WEST 109 STREET                 
+144 STREET                      
+HOMELAWN STREET                 
+FAIRVIEW AVENUE                 
+112 AVENUE                      
+EAST 228 STREET                 
+210 STREET                      
+Van Wyck Expy                   
+CHERRY AVENUE                   
+WEST 184 STREET                 
+70 ROAD                         
+Brooklyn Queens Expy            
+WEST 91 STREET                  
+MACON STREET                    
+HUGHES AVENUE                   
+MIDDLETOWN ROAD                 
+215 STREET                      
+SHEFFIELD AVENUE                
+BARD AVENUE                     
+PINE STREET                     
+ORCHARD STREET                  
+HULL AVENUE                     
+131 AVENUE                      
+EAST BEDFORD PARK BOULEVARD     
+TIEBOUT AVENUE                  
+3 STREET                        
+122 STREET                      
+WEST 62 STREET                  
+SAINT JAMES PLACE               
+WALWORTH STREET                 
+SEAMAN AVENUE                   
+WEST 94 STREET                  
+SAUNDERS STREET                 
+Bruckner Expy                   
+ALEXANDER HAMILTON BRIDGE       
+EAST 194 STREET                 
+CHAUNCEY STREET                 
+WEST 61 STREET                  
+41 ROAD                         
+NORTH RAILROAD AVENUE           
+137 STREET                      
+LAIGHT STREET                   
+ATKINS AVENUE                   
+66 AVENUE                       
+233 STREET                      
+QUEENSBORO BRIDGE               
+WEST 89 STREET                  
+WEST 67 STREET                  
+WEST 84 STREET                  
+EAST 213 STREET                 
+MILL AVENUE                     
+CLOVERDALE BOULEVARD            
+WEST GUN HILL ROAD              
+DORCHESTER ROAD                 
+SHAKESPEARE AVENUE              
+263 STREET                      
+EAST MOUNT EDEN AVENUE          
+WEBB AVENUE                     
+6 STREET                        
+FAILE STREET                    
+184 STREET                      
+WOODBINE STREET                 
+FARRINGTON STREET               
+TAYLOR AVENUE                   
+BOOTH STREET                    
+67 ROAD                         
+195 STREET                      
+STANTON STREET                  
+LINWOOD STREET                  
+HAMILTON PLACE                  
+WEST 108 STREET                 
+203 STREET                      
+COOPER SQUARE                   
+58 ROAD                         
+WEST 85 STREET                  
+CLARKE AVENUE                   
+LACOMBE AVENUE                  
+WEST 63 STREET                  
+134 AVENUE                      
+EAST 162 STREET                 
+SOUTH 3 STREET                  
+MESEROLE AVENUE                 
+G.C.P. / LAGUARDIA (CDR)        
+WEST 128 STREET                 
+BARRETTO STREET                 
+BRIELLE AVENUE                  
+OAK POINT AVENUE                
+FORSYTH STREET                  
+NEILL AVENUE                    
+AUTUMN AVENUE                   
+SULLIVAN STREET                 
+COLONIAL ROAD                   
+EAST 171 STREET                 
+POWELL STREET                   
+WEST 121 STREET                 
+JEROME STREET                   
+SHORE FRONT PARKWAY             
+WALL STREET                     
+CASTLEHILL AVENUE               
+STOCKHOLM STREET                
+WILLOWBROOK ROAD                
+108 AVENUE                      
+MILFORD DRIVE                   
+84 AVENUE                       
+FOX STREET                      
+WEST 164 STREET                 
+EAST 121 STREET                 
+MOORE STREET                    
+RUST STREET                     
+BAXTER AVENUE                   
+STEWART AVENUE                  
+HEMLOCK STREET                  
+LIE OUTER ROADWAY (CDR)         
+WEST 162 STREET                 
+57 ROAD                         
+DIVISION STREET                 
+WEST 92 STREET                  
+MONROE AVENUE                   
+FOSTER ROAD                     
+SHEPHERD AVENUE                 
+EAST 224 STREET                 
+EAST 147 STREET                 
+WEST 105 STREET                 
+209 STREET                      
+168 PLACE                       
+GREENE STREET                   
+BEACH 9 STREET                  
+BRIGGS AVENUE                   
+CHRISTOPHER STREET              
+MONTGOMERY AVENUE               
+WEST 161 STREET                 
+SOUTH 1 STREET                  
+HUGH GRANT CIRCLE               
+BUSSING AVENUE                  
+OCEAN TERRACE                   
+SOUTH RAILROAD AVENUE           
+65 ROAD                         
+WEST 68 STREET                  
+ASTORIA BOULEVARD SOUTH         
+BROOKLYN QNS EXPRESSWAY         
+CLAWSON STREET                  
+WEST 107 STREET                 
+DUNKIRK STREET                  
+PIKE STREET                     
+VYSE AVENUE                     
+FTELEY AVENUE                   
+HOME LAWN STREET                
+SACKETT STREET                  
+BRUCKNER EXPRESSWAY RAMP        
+BARBEY STREET                   
+CROSS BRONX EXTENTION           
+BERGEN AVENUE                   
+COMMONWEALTH BOULEVARD          
+SCHOLES STREET                  
+OCEANVIEW AVENUE                
+BEACH 19 STREET                 
+MIDWOOD STREET                  
+DYRE AVENUE                     
+CHATHAM SQUARE                  
+72 ROAD                         
+LORING AVENUE                   
+EAST 237 STREET                 
+14 ROAD                         
+105 AVENUE                      
+73 PLACE                        
+FORBELL STREET                  
+COLDEN STREET                   
+HALLECK STREET                  
+WEST 157 STREET                 
+200 STREET                      
+BOGART STREET                   
+WEST 160 STREET                 
+INWOOD AVENUE                   
+OCEANIA STREET                  
+CLEVELAND PLACE                 
+MACOMBS PLACE                   
+JERSEY STREET                   
+CROES AVENUE                    
+KEAP STREET                     
+EDGEMERE AVENUE                 
+KINGSBRIDGE AVENUE              
+BAXTER STREET                   
+FINDLAY AVENUE                  
+WEST 80 STREET                  
+WINCHESTER BOULEVARD            
+EAST 242 STREET                 
+WEST 106 STREET                 
+GREENWICH AVENUE                
+HUTCHINSON RIVER PARKWAY RAMP   
+EDENWALD AVENUE                 
+GIFFORDS LANE                   
+SPENCER STREET                  
+ROCHAMBEAU AVENUE               
+ULMER STREET                    
+VARICK AVENUE                   
+CATALPA AVENUE                  
+Bronx River Pkwy                
+207 STREET                      
+60 LANE                         
+25 STREET                       
+FURMAN STREET                   
+INDEPENDENCE AVENUE             
+WEIRFIELD STREET                
+69 PLACE                        
+8 STREET                        
+LABURNUM AVENUE                 
+Staten Island Expy              
+WYONA STREET                    
+WEST 166 STREET                 
+STRATFORD AVENUE                
+BEMENT AVENUE                   
+WEST 182 STREET                 
+EAST 234 STREET                 
+STRANG AVENUE                   
+ROSSVILLE AVENUE                
+247 STREET                      
+ST NICHOLAS AVENUE              
+OLD FULTON STREET               
+ORCHARD BEACH ROAD              
+WEST 236 STREET                 
+FINGERBOARD ROAD                
+HIGHLAND PLACE                  
+EDISON AVENUE                   
+GUIDER AVENUE                   
+NEW JERSEY AVENUE               
+EAST 142 STREET                 
+SAND LANE                       
+191 STREET                      
+WALLACE AVENUE                  
+VIRGINIA AVENUE                 
+257 STREET                      
+Henry Hudson Pkwy               
+WEST 69 STREET                  
+231 STREET                      
+178 STREET                      
+ELLIS AVENUE                    
+MAPLE STREET                    
+232 STREET                      
+REMINGTON STREET                
+BOYNTON AVENUE                  
+STARR STREET                    
+136 STREET                      
+HANSON PLACE                    
+GRACE AVENUE                    
+MELBOURNE AVENUE                
+189 STREET                      
+SEGUINE AVENUE                  
+CARY AVENUE                     
+HEATH AVENUE                    
+176 STREET                      
+BRISTOL STREET                  
+SOUTH PORTLAND AVENUE           
+31 ROAD                         
+32 PLACE                        
+WHITEPLAINS ROAD                
+NEWTOWN AVENUE                  
+71 ROAD                         
+WEST 159 STREET                 
+MILES AVENUE                    
+OTIS AVENUE                     
+EAST 152 STREET                 
+WILLIAMSBURG STREET EAST        
+229 STREET                      
+WATERBURY AVENUE                
+HUNTERSPOINT AVENUE             
+CHERRY STREET                   
+KEW GARDENS ROAD                
+13 STREET                       
+PROVOST STREET                  
+LAKEWOOD AVENUE                 
+122 AVENUE                      
+WATERBURY STREET                
+PENELOPE AVENUE                 
+WETHEROLE STREET                
+PULASKI STREET                  
+ASCAN AVENUE                    
+WEST FARMS ROAD                 
+WEST 171 STREET                 
+HIGHLAWN AVENUE                 
+LITTLE CLOVE ROAD               
+1 STREET                        
+EAST 225 STREET                 
+EAST 107 STREET                 
+MARTENSE STREET                 
+WOOLLEY AVENUE                  
+92 AVENUE                       
+THIERIOT AVENUE                 
+CHARLES STREET                  
+EAST 1 STREET                   
+WEST DRIVE                      
+AQUEDUCT AVENUE                 
+248 STREET                      
+79 AVENUE                       
+EAST 148 STREET                 
+EAST 240 STREET                 
+GOETHALS ROAD NORTH             
+26 STREET                       
+BRIGHTON 3 STREET               
+GRND CNTRL PARKWAY SR WEST      
+HAZEN STREET                    
+RUGBY ROAD                      
+BOERUM STREET                   
+BEDFORD STREET                  
+VANDALIA AVENUE                 
+ORIENTAL BOULEVARD              
+SOUTH 2 STREET                  
+GRANT CIRCLE                    
+LORRAINE STREET                 
+BUEL AVENUE                     
+NATIONAL STREET                 
+NEWBOLD AVENUE                  
+WEST MOSHOLU PARKWAY SOUTH      
+159 AVENUE                      
+BAINBRIDGE STREET               
+WEST 232 STREET                 
+READE STREET                    
+56 DRIVE                        
+CROSS BRONX EXPRESSWAY SVC RD S 
+SAYRES AVENUE                   
+EAST 143 STREET                 
+EAST 157 STREET                 
+PITT STREET                     
+CONCOURSE VILLAGE WEST          
+ETNA STREET                     
+LIVERPOOL STREET                
+WEST 173 STREET                 
+NOME AVENUE                     
+EDGERTON BOULEVARD              
+7 STREET                        
+MANHATTAN BR LOWER              
+226 STREET                      
+COMMERCE AVENUE                 
+80 ROAD                         
+66 ROAD                         
+BRADY AVENUE                    
+ARGYLE ROAD                     
+227 STREET                      
+LEAVITT STREET                  
+LAMBERTS LANE                   
+HARDING EXPRESSWAY              
+HAWTHORNE STREET                
+179 STREET                      
+WEST AVENUE                     
+YORK STREET                     
+DREW STREET                     
+22 AVENUE                       
+NEWPORT AVENUE                  
+EAST 130 STREET                 
+GUNTHER AVENUE                  
+ELDERT STREET                   
+BOSCOMBE AVENUE                 
+COYLE STREET                    
+145 ROAD                        
+CHRISTOPHER LANE                
+WESTERVELT AVENUE               
+GREELEY AVENUE                  
+REMSEN STREET                   
+242 STREET                      
+FORT GREENE PLACE               
+MAYFLOWER AVENUE                
+BRADHURST AVENUE                
+BRONX PARK AVENUE               
+NORTH 6 STREET                  
+BEEKMAN STREET                  
+DRY HARBOR ROAD                 
+WHEELER AVENUE                  
+Jackie Robinson Pkwy            
+WATCHOGUE ROAD                  
+ROSE AVENUE                     
+CLEVELAND STREET                
+149 PLACE                       
+FORT GEORGE HILL                
+HAVEN AVENUE                    
+EAST 231 STREET                 
+MORNINGSIDE DRIVE               
+DEVOE AVENUE                    
+TRINITY PLACE                   
+CAMPUS ROAD                     
+WEST 7 STREET                   
+52 AVENUE                       
+NEW HAVEN AVENUE                
+EAST 219 STREET                 
+EAST 232 STREET                 
+MACDOUGAL STREET                
+NORTH 7 STREET                  
+TIBBETT AVENUE                  
+EAST 230 STREET                 
+VESEY STREET                    
+RICHARDSON STREET               
+68 ROAD                         
+MATTHEWS AVENUE                 
+NETHERLAND AVENUE               
+ECKFORD STREET                  
+WAVERLY AVENUE                  
+158 AVENUE                      
+141 AVENUE                      
+G.C.P / L.I.E. (CDR)            
+WEST 235 STREET                 
+WOODRUFF AVENUE                 
+NORFOLK STREET                  
+MIDDAGH STREET                  
+WEST 192 STREET                 
+256 STREET                      
+BRADFORD STREET                 
+HORATIO STREET                  
+IRVING PLACE                    
+KINGSBRIDGE TERRACE             
+PROSPECT EXPRESSWAY             
+TAPSCOTT STREET                 
+160 AVENUE                      
+LAWRENCE STREET                 
+WHITESTONE EXPRESSWAY E SVC RD  
+SOUTH CONDUIT BOULEVARD         
+WAVERLY PLACE                   
+NEW ENGLAND THRUWAY RAMP        
+BENNETT AVENUE                  
+LIE LOWER LEVEL (CDR)           
+HOLLY AVENUE                    
+EAST 216 STREET                 
+WEST 2 STREET                   
+MARKET STREET                   
+WEST 259 STREET                 
+CROSS BRONX SERVICE ROAD SOUTH  
+CEBRA AVENUE                    
+SKILLMAN STREET                 
+60 PLACE                        
+85 ROAD                         
+OAK AVENUE                      
+WEST 102 STREET                 
+HENDRICKSON STREET              
+KENNEDY STREET                  
+215 PLACE                       
+WEST 99 STREET                  
+RIDGE STREET                    
+WAINWRIGHT AVENUE               
+BEACH 116 STREET                
+ALBANY STREET                   
+EAST 160 STREET                 
+HUNTINGTON STREET               
+BRUNER AVENUE                   
+100 AVENUE                      
+145 STREET                      
+139 AVENUE                      
+BROWN PLACE                     
+EAST 210 STREET                 
+EAST END AVENUE                 
+WILDER AVENUE                   
+EDWARD L GRANT HIGHWAY          
+CAULDWELL AVENUE                
+DE WITT AVENUE                  
+COVERT STREET                   
+WEST 101 STREET                 
+KOSCIUSZKO STREET               
+JUSTICE AVENUE                  
+PAERDEGAT AVENUE NORTH          
+WILLIS AVENUE BRIDGE APPROACH   
+CLARKSON STREET                 
+244 STREET                      
+BUTLER STREET                   
+UNIVERSITY PLACE                
+WEST 103 STREET                 
+EAST 235 STREET                 
+SPOFFORD AVENUE                 
+143 AVENUE                      
+EAST 146 STREET                 
+NEEDHAM AVENUE                  
+WEST 234 STREET                 
+DUFFIELD STREET                 
+216 STREET                      
+61 AVENUE                       
+FRESH PD ROAD                   
+WICKHAM AVENUE                  
+ELMHURST AVENUE                 
+CONCOURSE VILLAGE EAST          
+PHILIP AVENUE                   
+LINCOLN ROAD                    
+CEDAR STREET                    
+PARK DRIVE EAST                 
+253 STREET                      
+MEXICO STREET                   
+136 AVENUE                      
+EAST 208 STREET                 
+AMBOY STREET                    
+VAN CORTLANDT PARK SOUTH        
+MCGRAW AVENUE                   
+VERMILYEA AVENUE                
+RUTLEDGE STREET                 
+KELLY STREET                    
+251 STREET                      
+WEST 98 STREET                  
+HUNTER AVENUE                   
+WEST 239 STREET                 
+80 AVENUE                       
+255 STREET                      
+NASHVILLE BOULEVARD             
+155 AVENUE                      
+62 ROAD                         

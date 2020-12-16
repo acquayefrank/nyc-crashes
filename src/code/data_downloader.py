@@ -5,13 +5,13 @@ import os
 import sqlite3 as sql
 import pandas as pd
 import json
+import logging
 
 from src.code.constants import (
-    CRASHES, HOSPITALS,
-    VEHICLE_CRASHES_LINK,
-    HOSPITALS_LINK,
-    CURRENT_FILENAMES_FILE,
-    DATA_PATH, METABASE_DATA_PATH
+    CRASHES, HOSPITALS, DEPARTMENTS,
+    VEHICLE_CRASHES_LINK, HOSPITALS_LINK,
+    CURRENT_FILENAMES_FILE, DEPARTMENTS_FILE,
+    UTILS_PATH, DATA_PATH, METABASE_DATA_PATH
 )
 
 FILE_NAME_TO_LINK = {
@@ -31,6 +31,8 @@ def download_data() -> None:
 
         for name, link in FILE_NAME_TO_LINK.items():
 
+            logging.info(f"{name.title()} data is being downloaded.")
+
             file = s.get(link)
             file_decoded = file.content.decode("utf-8")
             file_csv = csv.reader(file_decoded.splitlines(), delimiter=",")
@@ -44,9 +46,9 @@ def download_data() -> None:
                 wr = csv.writer(result_file, dialect="excel")
                 wr.writerows(file_csv)
 
-            print(f"{name.title()} successfully downloaded.")
+            logging.info(f"{name.title()} successfully downloaded.")
 
-        with open(os.path.join(DATA_PATH, CURRENT_FILENAMES_FILE), 'w') as json_file:
+        with open(os.path.join(UTILS_PATH, CURRENT_FILENAMES_FILE), 'w') as json_file:
             json.dump(filenames, json_file, ensure_ascii=False, indent=4)
 
 
@@ -57,19 +59,22 @@ def export_csv_to_sqlite() -> None:
     :return:
     """
 
-    with open(os.path.join(DATA_PATH, CURRENT_FILENAMES_FILE), 'r') as f:
+    with open(os.path.join(UTILS_PATH, CURRENT_FILENAMES_FILE), 'r') as f:
         filenames = json.load(f)
 
     crashes_file = filenames[CRASHES]
     hospitals_file = filenames[HOSPITALS]
+    departments_file = filenames[DEPARTMENTS] = DEPARTMENTS_FILE
 
-    for file in [crashes_file, hospitals_file]:
+    with open(os.path.join(UTILS_PATH, CURRENT_FILENAMES_FILE), 'w') as json_file:
+        json.dump(filenames, json_file, ensure_ascii=False, indent=4)
+
+    for file in [crashes_file, hospitals_file, departments_file]:
+
+        logging.info(f"SQLite database for {file} is being created.")
 
         conn = sql.connect(f'{METABASE_DATA_PATH}{file}.db')
-        df = pd.read_csv(os.path.join(DATA_PATH, file))
+        df = pd.read_csv(os.path.join(DATA_PATH, file), low_memory=False)
         df.to_sql(file, conn, if_exists='replace', index=False)
 
-        print(f"SQLite database for {file} sucessfully created.")
-
-download_data()
-export_csv_to_sqlite()
+        logging.info(f"SQLite database for {file} sucessfully created.")
