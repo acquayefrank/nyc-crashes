@@ -25,8 +25,6 @@ Systems that will enable us build our primary system are automated cron jobs or 
 
 * Motor Vehicle Collisions:
   https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
-* Historical Traffic Data
-  https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2012-2013-/p424-amsu
 * List of hospitals as of 2011
   https://data.cityofnewyork.us/Health/NYC-Health-Hospitals-Facilities-2011/ymhw-9cz9
 * List of police departments
@@ -48,7 +46,6 @@ Systems that will enable us build our primary system are automated cron jobs or 
 * Automated Software i.e Background Processes
 * Data Owners:
   - *Police Department (NYPD)*: Motor Vehicle Collisions
-  - *Department of Transportation (DOT)*: Historical Traffic Data
   - *NYC Health + Hospitals*: List of hospitals
   - *Department of City Planning (DCP)*: List of police stations
 * Data Analysts in Mayors office
@@ -58,17 +55,17 @@ Systems that will enable us build our primary system are automated cron jobs or 
 
 **Functionalities of System**
 
-* Easily query data about crushes with little to no technical knowlegde
+* Easily query data about crashes with little to no technical knowlegde
 * Easily create and share informative visualizations with people
 * Access to basic informative visualizations:
   * Visualize places where accidents happened for last several days
   * Visualize nearest hospitals to the places of accidents
+  * Visualize nearest police departments to the places of accidents
 * Provide statistics and predictions:
-  * Get information about what are the districts / crossroads where accidents occured most frequently for last week / month
-  * Predict districts where an accident is more likely to occur for the next week
+  * Get information about what are the districts / crossroads where accidents occured most frequently for the day before / last week / last month
+  * Predict districts where an accident is more likely to occur the next day
   * Get information about how often does crashes take place on a specific street / crossroad
 * Easily export data, visualizations or reports in some desired format
-* Easily import current information about accidents
 
 [**SRS**](./documents/srs_nyc-crashes.doc) 
 

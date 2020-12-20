@@ -90,7 +90,10 @@ def make_report() -> None:
 
         document.add_picture(memfile, width=Inches(6))
 
-    document.save(os.path.join(RESULT_FOLDER, REPORT_FOR_CITIZENS_FILE))
+    today = datetime.today().strftime(DAY_FORMAT)
+    report_for_citizens = f"{REPORT_FOR_CITIZENS_FILE}-{today}.docx"
+
+    document.save(os.path.join(RESULT_FOLDER, report_for_citizens))
     logging.info("Report for citizens successfully created.")
 
     streets_predicted = build_predictions()
@@ -99,5 +102,7 @@ def make_report() -> None:
     for street in streets_predicted:
         document.add_paragraph(street, style="List Number")
 
-    document.save(os.path.join(RESULT_FOLDER, REPORT_FOR_MAYOR_FILE))
+    report_for_mayor = f"{REPORT_FOR_MAYOR_FILE}-{today}.docx"
+
+    document.save(os.path.join(RESULT_FOLDER, report_for_mayor))
     logging.info("Report for mayor successfully created.")

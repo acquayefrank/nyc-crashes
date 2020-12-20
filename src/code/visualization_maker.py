@@ -90,6 +90,9 @@ def make_visualization() -> None:
             icon=folium.Icon(color='blue', icon='user', prefix='fa')
         ).add_to(ny_map)
 
-    ny_map.save(os.path.join(RESULT_FOLDER, CRASH_MAP_FILE))
+    today = datetime.today().strftime(DAY_FORMAT)
+    report_for_citizens = f"{CRASH_MAP_FILE}-{today}.html"
 
+    ny_map.save(os.path.join(RESULT_FOLDER, report_for_citizens))
     logging.info("Visualization successfully created.")
+    logging.info("All processes completed successfully.")

@@ -86,4 +86,4 @@ def run_etl_hospitals() -> None:
 
     df.to_sql(filename_after_etl, conn, if_exists='replace', index=False)
 
-    logging.info(f"SQLite database for {filename_after_etl} sucessfully created.")
+    logging.info(f"SQLite database for {filename_after_etl} successfully created.")

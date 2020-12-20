@@ -1,7 +1,7 @@
 {
-    "crashes": "crashes-20201216-232634.csv",
-    "hospitals": "hospitals-20201216-232721.csv",
+    "crashes": "crashes-20201220-215930.csv",
+    "hospitals": "hospitals-20201220-215939.csv",
     "departments": "police_departments_data.csv",
-    "crashes_after_etl": "crashes-20201216-232634_after_etl.csv",
-    "hospitals_after_etl": "hospitals-20201216-232721_after_etl.csv"
+    "crashes_after_etl": "crashes-20201220-215930_after_etl.csv",
+    "hospitals_after_etl": "hospitals-20201220-215939_after_etl.csv"
 }

@@ -77,4 +77,4 @@ def export_csv_to_sqlite() -> None:
         df = pd.read_csv(os.path.join(DATA_PATH, file), low_memory=False)
         df.to_sql(file, conn, if_exists='replace', index=False)
 
-        logging.info(f"SQLite database for {file} sucessfully created.")
+        logging.info(f"SQLite database for {file} successfully created.")

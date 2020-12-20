@@ -68,7 +68,7 @@ def build_predictions() -> List[str]:
     top_10_strets_inds = np.argsort(y_pred)[::-1][:10]
     top_10_streets = [streets_for_predictions[ind] for ind in top_10_strets_inds]
 
-    logging.info("Predictions sucessfully made.")
+    logging.info("Predictions successfully made.")
 
     return top_10_streets
 
