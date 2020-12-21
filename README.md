@@ -70,12 +70,10 @@ Systems that will enable us build our primary system are automated cron jobs or 
 [**Software Requirements Specification**](./documents/srs_nyc-crashes.doc) 
 
 
-
 ## Extra Reading
 
 https://towardsdatascience.com/new-to-data-visualization-start-with-new-york-city-107785f836ab?gi=54183ba7443f
 
 https://cawemo.com/diagrams/0b163bee-a87b-4d0e-a0e3-72af2b8c2ec3--etl-and-other-processes?v=960,378,1
-
 
 https://azure.microsoft.com/en-in/solutions/big-data/#products
