@@ -67,36 +67,7 @@ Systems that will enable us build our primary system are automated cron jobs or 
   * Get information about how often does crashes take place on a specific street / crossroad
 * Easily export data, visualizations or reports in some desired format
 
-[**SRS**](./documents/srs_nyc-crashes.doc) 
-
-
-## TODO:
-
-* Process models 
-
-  * Current state (if exists) 
-
-  * Reengineering of processes/new processes 
-
-  * Definition of data artifacts 
-
-* Data models 
-
-  * Conceptual data model 
-
-  * Logical data model 
-
-* BPM implementation description 
-
-  * Business process automation principals 
-
-  * Business rules 
-
-* Testing 
-
-* Validation 
-
-* Conclusion 
+[**Software Requirements Specification**](./documents/srs_nyc-crashes.doc) 
 
 
 

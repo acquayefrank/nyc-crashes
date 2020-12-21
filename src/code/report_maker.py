@@ -38,7 +38,7 @@ def make_report() -> None:
     df = pd.read_sql_query(query, conn)
     df[DATETIME] = df[DATETIME].apply(lambda x: x.split("T")[0])
 
-    yesterday = datetime.today() - timedelta(days=5) # shift for 5 days
+    yesterday = datetime.today() - timedelta(days=7) # shift for 7 days
     last_week = set([(yesterday - timedelta(days=x)).strftime(DAY_FORMAT) for x in range(7)])
     last_month = set([(yesterday - timedelta(days=x)).strftime(DAY_FORMAT) for x in range(30)])
     yesterday = yesterday.strftime(DAY_FORMAT)

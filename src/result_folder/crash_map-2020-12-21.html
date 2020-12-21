@@ -1,0 +1,3938 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9abbee8f0f26432ea9de058fad9a1dfd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9abbee8f0f26432ea9de058fad9a1dfd" ></div>
+        
+</body>
+<script>    
+    
+            var map_9abbee8f0f26432ea9de058fad9a1dfd = L.map(
+                "map_9abbee8f0f26432ea9de058fad9a1dfd",
+                {
+                    center: [40.7306, -73.9352],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c65c8d544394d3c98bc2a1c816678a5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var marker_21d7180e617f43f8b5d58eb1d2d62a4a = L.marker(
+                [40.798205044469, -73.932667945174],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e62cb6dd72934b8b9e311c888112b4e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_21d7180e617f43f8b5d58eb1d2d62a4a.setIcon(icon_e62cb6dd72934b8b9e311c888112b4e3);
+        
+    
+        var popup_d6d972973c244bdb972f14476a49cd79 = L.popup({"maxWidth": 300});
+
+        
+            var html_7a4927eeed094ba5996e3880a7d11b83 = $(`<div id="html_7a4927eeed094ba5996e3880a7d11b83" style="width: 100.0%; height: 100.0%;">Hospital: La Clinica Del Barrio</div>`)[0];
+            popup_d6d972973c244bdb972f14476a49cd79.setContent(html_7a4927eeed094ba5996e3880a7d11b83);
+        
+
+        marker_21d7180e617f43f8b5d58eb1d2d62a4a.bindPopup(popup_d6d972973c244bdb972f14476a49cd79)
+        ;
+
+        
+    
+    
+            var marker_4f733ffffdf64c52887545147f75467e = L.marker(
+                [40.738710402563, -73.878351155182],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_471519d696a9404bbcdb5e14c81579e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4f733ffffdf64c52887545147f75467e.setIcon(icon_471519d696a9404bbcdb5e14c81579e3);
+        
+    
+        var popup_650b7b07bd7148a6a89cd904d2ce0f11 = L.popup({"maxWidth": 300});
+
+        
+            var html_fd21058c5f394eaead0f99d2add359ac = $(`<div id="html_fd21058c5f394eaead0f99d2add359ac" style="width: 100.0%; height: 100.0%;">Hospital: Elmhurst Hospital Center</div>`)[0];
+            popup_650b7b07bd7148a6a89cd904d2ce0f11.setContent(html_fd21058c5f394eaead0f99d2add359ac);
+        
+
+        marker_4f733ffffdf64c52887545147f75467e.bindPopup(popup_650b7b07bd7148a6a89cd904d2ce0f11)
+        ;
+
+        
+    
+    
+            var marker_88b98596fc9748598c55a8ce6ab38334 = L.marker(
+                [40.578488319967, -73.989497148121],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_0fe8e863555b45739781cb7aa7a900df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_88b98596fc9748598c55a8ce6ab38334.setIcon(icon_0fe8e863555b45739781cb7aa7a900df);
+        
+    
+        var popup_02bc7b9a0b5d4a82890736208eefce0c = L.popup({"maxWidth": 300});
+
+        
+            var html_fe17e411a8b140ee992049f34f4729d6 = $(`<div id="html_fe17e411a8b140ee992049f34f4729d6" style="width: 100.0%; height: 100.0%;">Hospital: Ida G. Israel Community Health Center</div>`)[0];
+            popup_02bc7b9a0b5d4a82890736208eefce0c.setContent(html_fe17e411a8b140ee992049f34f4729d6);
+        
+
+        marker_88b98596fc9748598c55a8ce6ab38334.bindPopup(popup_02bc7b9a0b5d4a82890736208eefce0c)
+        ;
+
+        
+    
+    
+            var marker_f6bc469985b84790923fd9598cb5ae84 = L.marker(
+                [40.676945262114, -73.775306901692],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2c1407d58498403c9aebb992688c0dc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f6bc469985b84790923fd9598cb5ae84.setIcon(icon_2c1407d58498403c9aebb992688c0dc1);
+        
+    
+        var popup_a44745bd5cdc4f01978b0636ef003327 = L.popup({"maxWidth": 300});
+
+        
+            var html_31d8fab21f6e44d69338257f89985426 = $(`<div id="html_31d8fab21f6e44d69338257f89985426" style="width: 100.0%; height: 100.0%;">Hospital: South Queens Community Health Center</div>`)[0];
+            popup_a44745bd5cdc4f01978b0636ef003327.setContent(html_31d8fab21f6e44d69338257f89985426);
+        
+
+        marker_f6bc469985b84790923fd9598cb5ae84.bindPopup(popup_a44745bd5cdc4f01978b0636ef003327)
+        ;
+
+        
+    
+    
+            var marker_95966062262a4a9cbdd43ea333275d6f = L.marker(
+                [40.821301194646, -73.917709787212],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2c827497abee4079b975f5308f644860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_95966062262a4a9cbdd43ea333275d6f.setIcon(icon_2c827497abee4079b975f5308f644860);
+        
+    
+        var popup_f18e9468f0004ed4a1df5098dc08ed45 = L.popup({"maxWidth": 300});
+
+        
+            var html_41e371b997d841ffa71946b99adec48c = $(`<div id="html_41e371b997d841ffa71946b99adec48c" style="width: 100.0%; height: 100.0%;">Hospital: Melrose Houses Child Health Clinic</div>`)[0];
+            popup_f18e9468f0004ed4a1df5098dc08ed45.setContent(html_41e371b997d841ffa71946b99adec48c);
+        
+
+        marker_95966062262a4a9cbdd43ea333275d6f.bindPopup(popup_f18e9468f0004ed4a1df5098dc08ed45)
+        ;
+
+        
+    
+    
+            var marker_d5c8482c9e804f28b3a676d41d4c0d29 = L.marker(
+                [40.832279848967, -73.909534601874],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6578f2dd0c154763838e36e09a49e63c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d5c8482c9e804f28b3a676d41d4c0d29.setIcon(icon_6578f2dd0c154763838e36e09a49e63c);
+        
+    
+        var popup_d83fa4913db045838e90f135062f9910 = L.popup({"maxWidth": 300});
+
+        
+            var html_2011d1c7f47642f69481bd4be63fcc64 = $(`<div id="html_2011d1c7f47642f69481bd4be63fcc64" style="width: 100.0%; height: 100.0%;">Hospital: Daniel Webster Houses Child Health Clinic</div>`)[0];
+            popup_d83fa4913db045838e90f135062f9910.setContent(html_2011d1c7f47642f69481bd4be63fcc64);
+        
+
+        marker_d5c8482c9e804f28b3a676d41d4c0d29.bindPopup(popup_d83fa4913db045838e90f135062f9910)
+        ;
+
+        
+    
+    
+            var marker_994aae62efdc49b0974f03955c0d1517 = L.marker(
+                [40.810121864043, -73.916811846348],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d9bebaf382c8499982ca943d030e3729 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_994aae62efdc49b0974f03955c0d1517.setIcon(icon_d9bebaf382c8499982ca943d030e3729);
+        
+    
+        var popup_309d523c41434776b4bcf37beee3d010 = L.popup({"maxWidth": 300});
+
+        
+            var html_75c4fb19cb8b452f95709ad03405228f = $(`<div id="html_75c4fb19cb8b452f95709ad03405228f" style="width: 100.0%; height: 100.0%;">Hospital: Segundo Ruiz Belvis Diagnostic & Treatment Center</div>`)[0];
+            popup_309d523c41434776b4bcf37beee3d010.setContent(html_75c4fb19cb8b452f95709ad03405228f);
+        
+
+        marker_994aae62efdc49b0974f03955c0d1517.bindPopup(popup_309d523c41434776b4bcf37beee3d010)
+        ;
+
+        
+    
+    
+            var marker_22b54aac191746f6bf05cc6b40e2347f = L.marker(
+                [40.71311535449, -73.792820999789],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e679793475814c6588f58a4a62c9f534 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_22b54aac191746f6bf05cc6b40e2347f.setIcon(icon_e679793475814c6588f58a4a62c9f534);
+        
+    
+        var popup_97c89ed3ac63487a91d7e613c67b7eaf = L.popup({"maxWidth": 300});
+
+        
+            var html_41a3bc58cf0f4a5894fddc000a2ba8d5 = $(`<div id="html_41a3bc58cf0f4a5894fddc000a2ba8d5" style="width: 100.0%; height: 100.0%;">Hospital: Parsons Communicare Clinic</div>`)[0];
+            popup_97c89ed3ac63487a91d7e613c67b7eaf.setContent(html_41a3bc58cf0f4a5894fddc000a2ba8d5);
+        
+
+        marker_22b54aac191746f6bf05cc6b40e2347f.bindPopup(popup_97c89ed3ac63487a91d7e613c67b7eaf)
+        ;
+
+        
+    
+    
+            var marker_725cb385aff64cd18a6f0fa4df6be854 = L.marker(
+                [40.71311535449, -73.792820999789],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d87c3ffcfb394c7bba32dbe00e30d298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_725cb385aff64cd18a6f0fa4df6be854.setIcon(icon_d87c3ffcfb394c7bba32dbe00e30d298);
+        
+    
+        var popup_82b212a943ca474cac97e0777885ea5f = L.popup({"maxWidth": 300});
+
+        
+            var html_9d9c5f6b18be42cea94c93169daee3d5 = $(`<div id="html_9d9c5f6b18be42cea94c93169daee3d5" style="width: 100.0%; height: 100.0%;">Hospital: Queens Hospital Center</div>`)[0];
+            popup_82b212a943ca474cac97e0777885ea5f.setContent(html_9d9c5f6b18be42cea94c93169daee3d5);
+        
+
+        marker_725cb385aff64cd18a6f0fa4df6be854.bindPopup(popup_82b212a943ca474cac97e0777885ea5f)
+        ;
+
+        
+    
+    
+            var marker_db8d2dab74c8493bb59c69e83de9ebac = L.marker(
+                [40.695143584665, -73.976235572166],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_f1e85641cc614dd4aeb084a77028cf8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_db8d2dab74c8493bb59c69e83de9ebac.setIcon(icon_f1e85641cc614dd4aeb084a77028cf8a);
+        
+    
+        var popup_c558d0d363a24631b5ec3c80eaf8e527 = L.popup({"maxWidth": 300});
+
+        
+            var html_6a6e553e78124a51b6a91bd9beae88ff = $(`<div id="html_6a6e553e78124a51b6a91bd9beae88ff" style="width: 100.0%; height: 100.0%;">Hospital: Cumberland Diagnostic & Treatment Center</div>`)[0];
+            popup_c558d0d363a24631b5ec3c80eaf8e527.setContent(html_6a6e553e78124a51b6a91bd9beae88ff);
+        
+
+        marker_db8d2dab74c8493bb59c69e83de9ebac.bindPopup(popup_c558d0d363a24631b5ec3c80eaf8e527)
+        ;
+
+        
+    
+    
+            var marker_7312ecf0d1b34de5b3b13c0cb01522bd = L.marker(
+                [40.751630739367, -73.883612545283],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_4837024cd9594c6baf5d626a02d84032 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7312ecf0d1b34de5b3b13c0cb01522bd.setIcon(icon_4837024cd9594c6baf5d626a02d84032);
+        
+    
+        var popup_9a4847bce8364b7fa79ecaf015f9bc36 = L.popup({"maxWidth": 300});
+
+        
+            var html_b5204470d2a748eaa0af74e08d2d47c5 = $(`<div id="html_b5204470d2a748eaa0af74e08d2d47c5" style="width: 100.0%; height: 100.0%;">Hospital: Junction Boulevard Child Health Clinic</div>`)[0];
+            popup_9a4847bce8364b7fa79ecaf015f9bc36.setContent(html_b5204470d2a748eaa0af74e08d2d47c5);
+        
+
+        marker_7312ecf0d1b34de5b3b13c0cb01522bd.bindPopup(popup_9a4847bce8364b7fa79ecaf015f9bc36)
+        ;
+
+        
+    
+    
+            var marker_4331b9064309486a92bceb9f1e2ebddb = L.marker(
+                [40.70052661478, -73.941643858765],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_bb68fe0bd9c043ac959de9629736a04f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4331b9064309486a92bceb9f1e2ebddb.setIcon(icon_bb68fe0bd9c043ac959de9629736a04f);
+        
+    
+        var popup_189df7bf843744fea99a7312a93c843a = L.popup({"maxWidth": 300});
+
+        
+            var html_e5bcb11772c342a5b05cbf5c62ed8220 = $(`<div id="html_e5bcb11772c342a5b05cbf5c62ed8220" style="width: 100.0%; height: 100.0%;">Hospital: Woodhull Medical and Mental Health Center</div>`)[0];
+            popup_189df7bf843744fea99a7312a93c843a.setContent(html_e5bcb11772c342a5b05cbf5c62ed8220);
+        
+
+        marker_4331b9064309486a92bceb9f1e2ebddb.bindPopup(popup_189df7bf843744fea99a7312a93c843a)
+        ;
+
+        
+    
+    
+            var marker_bbaab41c345f4d6f88b1cf885ee93a92 = L.marker(
+                [40.69392371549, -73.935456875218],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_9c5b1a30f5344b79a996315ce3a7ac66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bbaab41c345f4d6f88b1cf885ee93a92.setIcon(icon_9c5b1a30f5344b79a996315ce3a7ac66);
+        
+    
+        var popup_29de3a7e6c184d4395f41161a792472a = L.popup({"maxWidth": 300});
+
+        
+            var html_8710dc11e459406b93a0aedf1d3c0da1 = $(`<div id="html_8710dc11e459406b93a0aedf1d3c0da1" style="width: 100.0%; height: 100.0%;">Hospital: Eleanor Roosevelt Houses Child Health Clinic</div>`)[0];
+            popup_29de3a7e6c184d4395f41161a792472a.setContent(html_8710dc11e459406b93a0aedf1d3c0da1);
+        
+
+        marker_bbaab41c345f4d6f88b1cf885ee93a92.bindPopup(popup_29de3a7e6c184d4395f41161a792472a)
+        ;
+
+        
+    
+    
+            var marker_585af2e263e847cd82447a4bc0ce5298 = L.marker(
+                [40.857397104611, -73.846571204087],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6c0133d017724117929c00f0d6d04f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_585af2e263e847cd82447a4bc0ce5298.setIcon(icon_6c0133d017724117929c00f0d6d04f8a);
+        
+    
+        var popup_2f0981ef6c1b497386a09dcc80c37486 = L.popup({"maxWidth": 300});
+
+        
+            var html_4d34075201fb4d03bbefd644106d3313 = $(`<div id="html_4d34075201fb4d03bbefd644106d3313" style="width: 100.0%; height: 100.0%;">Hospital: Jacobi Medical Center</div>`)[0];
+            popup_2f0981ef6c1b497386a09dcc80c37486.setContent(html_4d34075201fb4d03bbefd644106d3313);
+        
+
+        marker_585af2e263e847cd82447a4bc0ce5298.bindPopup(popup_2f0981ef6c1b497386a09dcc80c37486)
+        ;
+
+        
+    
+    
+            var marker_f0c1ca678e9345af988d0b577f50a4a7 = L.marker(
+                [40.784557024105, -73.943795653643],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_cf1fb4758eb54b10ada74d2e79d27a30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f0c1ca678e9345af988d0b577f50a4a7.setIcon(icon_cf1fb4758eb54b10ada74d2e79d27a30);
+        
+    
+        var popup_1d6e48b314e94c69bd8a7669774e639b = L.popup({"maxWidth": 300});
+
+        
+            var html_148ba9b3182f48b1aacd4649c9cd559c = $(`<div id="html_148ba9b3182f48b1aacd4649c9cd559c" style="width: 100.0%; height: 100.0%;">Hospital: Metropolitan Hospital Center</div>`)[0];
+            popup_1d6e48b314e94c69bd8a7669774e639b.setContent(html_148ba9b3182f48b1aacd4649c9cd559c);
+        
+
+        marker_f0c1ca678e9345af988d0b577f50a4a7.bindPopup(popup_1d6e48b314e94c69bd8a7669774e639b)
+        ;
+
+        
+    
+    
+            var marker_764a15b1d901455d9b5de79685aa7f51 = L.marker(
+                [40.694738427187, -73.919223916666],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_dd7eabb2930c48008b4588b4112dcd3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_764a15b1d901455d9b5de79685aa7f51.setIcon(icon_dd7eabb2930c48008b4588b4112dcd3d);
+        
+    
+        var popup_b5e8c97934f34ce087c566163f5bbddc = L.popup({"maxWidth": 300});
+
+        
+            var html_fcbd098c492743859a4d12ef04cfa569 = $(`<div id="html_fcbd098c492743859a4d12ef04cfa569" style="width: 100.0%; height: 100.0%;">Hospital: Bushwick Communicare</div>`)[0];
+            popup_b5e8c97934f34ce087c566163f5bbddc.setContent(html_fcbd098c492743859a4d12ef04cfa569);
+        
+
+        marker_764a15b1d901455d9b5de79685aa7f51.bindPopup(popup_b5e8c97934f34ce087c566163f5bbddc)
+        ;
+
+        
+    
+    
+            var marker_d45b127197934b16a49104111b327646 = L.marker(
+                [40.690366628996, -73.959782659483],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_93d2c68ca924422399bab962fdf4b0ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d45b127197934b16a49104111b327646.setIcon(icon_93d2c68ca924422399bab962fdf4b0ff);
+        
+    
+        var popup_8bf20e5f1fd54e38ad11a0a036aab252 = L.popup({"maxWidth": 300});
+
+        
+            var html_c3ca3619889e4708a6ff94caa12d1866 = $(`<div id="html_c3ca3619889e4708a6ff94caa12d1866" style="width: 100.0%; height: 100.0%;">Hospital: Lafayette Houses Child Health Clinic</div>`)[0];
+            popup_8bf20e5f1fd54e38ad11a0a036aab252.setContent(html_c3ca3619889e4708a6ff94caa12d1866);
+        
+
+        marker_d45b127197934b16a49104111b327646.bindPopup(popup_8bf20e5f1fd54e38ad11a0a036aab252)
+        ;
+
+        
+    
+    
+            var marker_7ae01aa6598246289a876100ac896a8e = L.marker(
+                [40.671962495107, -73.89520529393],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_875e3eaee8c24a38aa600bdc9d9d5007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7ae01aa6598246289a876100ac896a8e.setIcon(icon_875e3eaee8c24a38aa600bdc9d9d5007);
+        
+    
+        var popup_3a3cc4df886d4f04abce30811a72bab8 = L.popup({"maxWidth": 300});
+
+        
+            var html_0c4dd185e29f46c19e6ecb37a8b4bd27 = $(`<div id="html_0c4dd185e29f46c19e6ecb37a8b4bd27" style="width: 100.0%; height: 100.0%;">Hospital: East New York Diagnostic & Treatment Center</div>`)[0];
+            popup_3a3cc4df886d4f04abce30811a72bab8.setContent(html_0c4dd185e29f46c19e6ecb37a8b4bd27);
+        
+
+        marker_7ae01aa6598246289a876100ac896a8e.bindPopup(popup_3a3cc4df886d4f04abce30811a72bab8)
+        ;
+
+        
+    
+    
+            var marker_f3b7e82269304d0ea9db23a585418176 = L.marker(
+                [40.712103238036, -73.943994071543],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_f4f182d3a32c4f0b819d441a49675129 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f3b7e82269304d0ea9db23a585418176.setIcon(icon_f4f182d3a32c4f0b819d441a49675129);
+        
+    
+        var popup_0c781a6b81dc44338a9c44e8c267e3c9 = L.popup({"maxWidth": 300});
+
+        
+            var html_cd96993365dc4e43a09c1416ff9bdcb7 = $(`<div id="html_cd96993365dc4e43a09c1416ff9bdcb7" style="width: 100.0%; height: 100.0%;">Hospital: Williamsburg Child Health Clinic</div>`)[0];
+            popup_0c781a6b81dc44338a9c44e8c267e3c9.setContent(html_cd96993365dc4e43a09c1416ff9bdcb7);
+        
+
+        marker_f3b7e82269304d0ea9db23a585418176.bindPopup(popup_0c781a6b81dc44338a9c44e8c267e3c9)
+        ;
+
+        
+    
+    
+            var marker_8d14efad290f429dae60b6b22ea8a25f = L.marker(
+                [40.880463372456, -73.881592877502],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a01368a5ac064f328304677a8f171616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8d14efad290f429dae60b6b22ea8a25f.setIcon(icon_a01368a5ac064f328304677a8f171616);
+        
+    
+        var popup_761dc1dde8764329bcc0230f2a12de31 = L.popup({"maxWidth": 300});
+
+        
+            var html_bb8d16a152844e978719314a47b22f76 = $(`<div id="html_bb8d16a152844e978719314a47b22f76" style="width: 100.0%; height: 100.0%;">Hospital: North Central Bronx Hospital</div>`)[0];
+            popup_761dc1dde8764329bcc0230f2a12de31.setContent(html_bb8d16a152844e978719314a47b22f76);
+        
+
+        marker_8d14efad290f429dae60b6b22ea8a25f.bindPopup(popup_761dc1dde8764329bcc0230f2a12de31)
+        ;
+
+        
+    
+    
+            var marker_a4feab0a0002477ba41cea24c49ed50a = L.marker(
+                [40.814275217502, -73.940602831291],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_17957fdb77494b96a4ce42c698e31a5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a4feab0a0002477ba41cea24c49ed50a.setIcon(icon_17957fdb77494b96a4ce42c698e31a5f);
+        
+    
+        var popup_b99885e61a70489ea94f6fef8bf25188 = L.popup({"maxWidth": 300});
+
+        
+            var html_45bf3679369443d6a30f560bf371a5e8 = $(`<div id="html_45bf3679369443d6a30f560bf371a5e8" style="width: 100.0%; height: 100.0%;">Hospital: Harlem Hospital Center</div>`)[0];
+            popup_b99885e61a70489ea94f6fef8bf25188.setContent(html_45bf3679369443d6a30f560bf371a5e8);
+        
+
+        marker_a4feab0a0002477ba41cea24c49ed50a.bindPopup(popup_b99885e61a70489ea94f6fef8bf25188)
+        ;
+
+        
+    
+    
+            var marker_f95705a3dbda473e9b4b8cb2bf9eba77 = L.marker(
+                [40.809338651192, -73.949197484073],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_4f3865815f1f49d0b2314a51b2da7e23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f95705a3dbda473e9b4b8cb2bf9eba77.setIcon(icon_4f3865815f1f49d0b2314a51b2da7e23);
+        
+    
+        var popup_863fbd4a55b046b4ab9084d1e37123ee = L.popup({"maxWidth": 300});
+
+        
+            var html_65e49515465944359e1ce8861f6688f1 = $(`<div id="html_65e49515465944359e1ce8861f6688f1" style="width: 100.0%; height: 100.0%;">Hospital: Sydenham Health Center</div>`)[0];
+            popup_863fbd4a55b046b4ab9084d1e37123ee.setContent(html_65e49515465944359e1ce8861f6688f1);
+        
+
+        marker_f95705a3dbda473e9b4b8cb2bf9eba77.bindPopup(popup_863fbd4a55b046b4ab9084d1e37123ee)
+        ;
+
+        
+    
+    
+            var marker_62bad2c1067f4af89dd409d1ee900109 = L.marker(
+                [40.66005451681, -73.939761495742],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_9c4b722bfd7f434d8b85cc879781743b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_62bad2c1067f4af89dd409d1ee900109.setIcon(icon_9c4b722bfd7f434d8b85cc879781743b);
+        
+    
+        var popup_3c9a4c3b30f8421fb9ec54d8cfe890e0 = L.popup({"maxWidth": 300});
+
+        
+            var html_9d81cf93191a4d43adcc8f65b881f5ed = $(`<div id="html_9d81cf93191a4d43adcc8f65b881f5ed" style="width: 100.0%; height: 100.0%;">Hospital: Dr. Susan Smith McKinney Nursing and Rehabilitation Center</div>`)[0];
+            popup_3c9a4c3b30f8421fb9ec54d8cfe890e0.setContent(html_9d81cf93191a4d43adcc8f65b881f5ed);
+        
+
+        marker_62bad2c1067f4af89dd409d1ee900109.bindPopup(popup_3c9a4c3b30f8421fb9ec54d8cfe890e0)
+        ;
+
+        
+    
+    
+            var marker_1a5a3620e1d6458d94fb5ce895ac38b6 = L.marker(
+                [40.817688484049, -73.924200271483],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3f866842fca44e03942ec68f15e7cb93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1a5a3620e1d6458d94fb5ce895ac38b6.setIcon(icon_3f866842fca44e03942ec68f15e7cb93);
+        
+    
+        var popup_03a432ae7aba467886238447e8c7d3a5 = L.popup({"maxWidth": 300});
+
+        
+            var html_614a4fb1e31b478d8b382b0d21506a20 = $(`<div id="html_614a4fb1e31b478d8b382b0d21506a20" style="width: 100.0%; height: 100.0%;">Hospital: Lincoln  Medical &  Mental Health Center</div>`)[0];
+            popup_03a432ae7aba467886238447e8c7d3a5.setContent(html_614a4fb1e31b478d8b382b0d21506a20);
+        
+
+        marker_1a5a3620e1d6458d94fb5ce895ac38b6.bindPopup(popup_03a432ae7aba467886238447e8c7d3a5)
+        ;
+
+        
+    
+    
+            var marker_f1dc0daf1fe94945944ecffe2744173a = L.marker(
+                [40.749678220374, -73.853040688577],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6e21ab5526c34962b1349dcc1ccf1ea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f1dc0daf1fe94945944ecffe2744173a.setIcon(icon_6e21ab5526c34962b1349dcc1ccf1ea4);
+        
+    
+        var popup_67b5497f411f4bf5a4b6e56fccc4f19a = L.popup({"maxWidth": 300});
+
+        
+            var html_0a8d721dd0cc421c9b66c73af5d98cb7 = $(`<div id="html_0a8d721dd0cc421c9b66c73af5d98cb7" style="width: 100.0%; height: 100.0%;">Hospital: Corona Child Health Clinic</div>`)[0];
+            popup_67b5497f411f4bf5a4b6e56fccc4f19a.setContent(html_0a8d721dd0cc421c9b66c73af5d98cb7);
+        
+
+        marker_f1dc0daf1fe94945944ecffe2744173a.bindPopup(popup_67b5497f411f4bf5a4b6e56fccc4f19a)
+        ;
+
+        
+    
+    
+            var marker_7eb42f0172b842248cd24d0413448222 = L.marker(
+                [40.597953866387, -74.131766325901],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_aeb05b42c0fd4437861338f836b410cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7eb42f0172b842248cd24d0413448222.setIcon(icon_aeb05b42c0fd4437861338f836b410cb);
+        
+    
+        var popup_4dac918578614cdba343fbe5e62afef4 = L.popup({"maxWidth": 300});
+
+        
+            var html_6fc31a5b95594a3280a7c2876f394839 = $(`<div id="html_6fc31a5b95594a3280a7c2876f394839" style="width: 100.0%; height: 100.0%;">Hospital: Sea View Hospital Rehabilitation Center & Home</div>`)[0];
+            popup_4dac918578614cdba343fbe5e62afef4.setContent(html_6fc31a5b95594a3280a7c2876f394839);
+        
+
+        marker_7eb42f0172b842248cd24d0413448222.bindPopup(popup_4dac918578614cdba343fbe5e62afef4)
+        ;
+
+        
+    
+    
+            var marker_86b307cd565f446ba19690fbc5d99e64 = L.marker(
+                [40.669711181226, -73.750873933285],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6d0de29b076e4390b99caf4315fabcc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_86b307cd565f446ba19690fbc5d99e64.setIcon(icon_6d0de29b076e4390b99caf4315fabcc9);
+        
+    
+        var popup_f0667e0e0d07481ea194510df9bfbaac = L.popup({"maxWidth": 300});
+
+        
+            var html_64aae731c5904bab9e968e058d92e5eb = $(`<div id="html_64aae731c5904bab9e968e058d92e5eb" style="width: 100.0%; height: 100.0%;">Hospital: Springfield Gardens Medical Center</div>`)[0];
+            popup_f0667e0e0d07481ea194510df9bfbaac.setContent(html_64aae731c5904bab9e968e058d92e5eb);
+        
+
+        marker_86b307cd565f446ba19690fbc5d99e64.bindPopup(popup_f0667e0e0d07481ea194510df9bfbaac)
+        ;
+
+        
+    
+    
+            var marker_9c79320d8db24263979b97718e3f91c7 = L.marker(
+                [40.810901316477, -73.919313161708],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_fa70199b345c4d23bb7d1f9c915e9f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9c79320d8db24263979b97718e3f91c7.setIcon(icon_fa70199b345c4d23bb7d1f9c915e9f91);
+        
+    
+        var popup_3e2004e206164345bd3da54a97fa0567 = L.popup({"maxWidth": 300});
+
+        
+            var html_2cd9da6c1f0844e8bbd510c7757d1399 = $(`<div id="html_2cd9da6c1f0844e8bbd510c7757d1399" style="width: 100.0%; height: 100.0%;">Hospital: Segundo Ruiz Belvis Diagnostic & Treatment Center</div>`)[0];
+            popup_3e2004e206164345bd3da54a97fa0567.setContent(html_2cd9da6c1f0844e8bbd510c7757d1399);
+        
+
+        marker_9c79320d8db24263979b97718e3f91c7.bindPopup(popup_3e2004e206164345bd3da54a97fa0567)
+        ;
+
+        
+    
+    
+            var marker_8a37fcdaa0734e5ea84d13c6908a5157 = L.marker(
+                [40.835906387949, -73.920034037019],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2302a932070b484fb7be19f2cbe24f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8a37fcdaa0734e5ea84d13c6908a5157.setIcon(icon_2302a932070b484fb7be19f2cbe24f9f);
+        
+    
+        var popup_a5d39fa275864e3d8c738226def8371b = L.popup({"maxWidth": 300});
+
+        
+            var html_2f17a0f7cf464e78b5afd68a9cde83cc = $(`<div id="html_2f17a0f7cf464e78b5afd68a9cde83cc" style="width: 100.0%; height: 100.0%;">Hospital: Morrisania Diagnostic & Treatment Center</div>`)[0];
+            popup_a5d39fa275864e3d8c738226def8371b.setContent(html_2f17a0f7cf464e78b5afd68a9cde83cc);
+        
+
+        marker_8a37fcdaa0734e5ea84d13c6908a5157.bindPopup(popup_a5d39fa275864e3d8c738226def8371b)
+        ;
+
+        
+    
+    
+            var marker_cf3ab69b251e434fbaef6a0e47030e5b = L.marker(
+                [40.809338651192, -73.949197484073],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_f9e2d00e9a934c0fa0360d609cb8a1ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cf3ab69b251e434fbaef6a0e47030e5b.setIcon(icon_f9e2d00e9a934c0fa0360d609cb8a1ab);
+        
+    
+        var popup_eb9d3529c67041afabc0dae4967b47e5 = L.popup({"maxWidth": 300});
+
+        
+            var html_cc41562a8d13448a8d63ddebdbed3b09 = $(`<div id="html_cc41562a8d13448a8d63ddebdbed3b09" style="width: 100.0%; height: 100.0%;">Hospital: Renaissance Health Care Network Diagnostic & Treatment Center</div>`)[0];
+            popup_eb9d3529c67041afabc0dae4967b47e5.setContent(html_cc41562a8d13448a8d63ddebdbed3b09);
+        
+
+        marker_cf3ab69b251e434fbaef6a0e47030e5b.bindPopup(popup_eb9d3529c67041afabc0dae4967b47e5)
+        ;
+
+        
+    
+    
+            var marker_486726d40ff44a15b2d6495f5e5075d6 = L.marker(
+                [40.841127875341, -73.939961696627],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_08cdf0e7f9294b699ef5a5dd8ceab72d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_486726d40ff44a15b2d6495f5e5075d6.setIcon(icon_08cdf0e7f9294b699ef5a5dd8ceab72d);
+        
+    
+        var popup_4c129eb392864be9877332c8080be872 = L.popup({"maxWidth": 300});
+
+        
+            var html_7cae09d135a948cd9c4dce8b26cfe590 = $(`<div id="html_7cae09d135a948cd9c4dce8b26cfe590" style="width: 100.0%; height: 100.0%;">Hospital: Washington Heights Child Health Care Center</div>`)[0];
+            popup_4c129eb392864be9877332c8080be872.setContent(html_7cae09d135a948cd9c4dce8b26cfe590);
+        
+
+        marker_486726d40ff44a15b2d6495f5e5075d6.bindPopup(popup_4c129eb392864be9877332c8080be872)
+        ;
+
+        
+    
+    
+            var marker_7da632440fc94fa5a6541706164cb5f3 = L.marker(
+                [40.857397104611, -73.846571204087],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_4ad7657cd8534442981f371171019940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7da632440fc94fa5a6541706164cb5f3.setIcon(icon_4ad7657cd8534442981f371171019940);
+        
+    
+        var popup_6699303acc3e4d139d12ab4a80003fae = L.popup({"maxWidth": 300});
+
+        
+            var html_242ad253b24f4adf8fdabd1f47a00a6a = $(`<div id="html_242ad253b24f4adf8fdabd1f47a00a6a" style="width: 100.0%; height: 100.0%;">Hospital: Jacobi Medical Center</div>`)[0];
+            popup_6699303acc3e4d139d12ab4a80003fae.setContent(html_242ad253b24f4adf8fdabd1f47a00a6a);
+        
+
+        marker_7da632440fc94fa5a6541706164cb5f3.bindPopup(popup_6699303acc3e4d139d12ab4a80003fae)
+        ;
+
+        
+    
+    
+            var marker_cb3e08c9a67a451cbd550312f9ca5455 = L.marker(
+                [40.695143584665, -73.976235572166],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_46a437b8933148749a8b1e7cdc14c51b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cb3e08c9a67a451cbd550312f9ca5455.setIcon(icon_46a437b8933148749a8b1e7cdc14c51b);
+        
+    
+        var popup_b26cefcab0af43d995383b414d411ea0 = L.popup({"maxWidth": 300});
+
+        
+            var html_3211d8374d4641958b0e033f8d992237 = $(`<div id="html_3211d8374d4641958b0e033f8d992237" style="width: 100.0%; height: 100.0%;">Hospital: Cumberland Diagnostic & Treatment Center</div>`)[0];
+            popup_b26cefcab0af43d995383b414d411ea0.setContent(html_3211d8374d4641958b0e033f8d992237);
+        
+
+        marker_cb3e08c9a67a451cbd550312f9ca5455.bindPopup(popup_b26cefcab0af43d995383b414d411ea0)
+        ;
+
+        
+    
+    
+            var marker_252a387060bc4ae694f6d59882de248a = L.marker(
+                [40.809338651192, -73.949197484073],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_1e78e0d425de4fd698850a18b2068956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_252a387060bc4ae694f6d59882de248a.setIcon(icon_1e78e0d425de4fd698850a18b2068956);
+        
+    
+        var popup_6630f34fed764b46864de588e0130239 = L.popup({"maxWidth": 300});
+
+        
+            var html_5067d29a9ac54655aaa52ce2f6ca47b6 = $(`<div id="html_5067d29a9ac54655aaa52ce2f6ca47b6" style="width: 100.0%; height: 100.0%;">Hospital: Renaissance Health Care Network Diagnostic & Treatment Center</div>`)[0];
+            popup_6630f34fed764b46864de588e0130239.setContent(html_5067d29a9ac54655aaa52ce2f6ca47b6);
+        
+
+        marker_252a387060bc4ae694f6d59882de248a.bindPopup(popup_6630f34fed764b46864de588e0130239)
+        ;
+
+        
+    
+    
+            var marker_2a2d93fdbc5f48a8b63867781883f508 = L.marker(
+                [40.655761808605, -73.944662615537],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_dcd0e4939b914deda13597e532905795 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2a2d93fdbc5f48a8b63867781883f508.setIcon(icon_dcd0e4939b914deda13597e532905795);
+        
+    
+        var popup_60a47b09544b4f55a8e37f4442cea3ab = L.popup({"maxWidth": 300});
+
+        
+            var html_985948196cfa4cdd92b3fdd5de46ad05 = $(`<div id="html_985948196cfa4cdd92b3fdd5de46ad05" style="width: 100.0%; height: 100.0%;">Hospital: Kings County Hospital Center</div>`)[0];
+            popup_60a47b09544b4f55a8e37f4442cea3ab.setContent(html_985948196cfa4cdd92b3fdd5de46ad05);
+        
+
+        marker_2a2d93fdbc5f48a8b63867781883f508.bindPopup(popup_60a47b09544b4f55a8e37f4442cea3ab)
+        ;
+
+        
+    
+    
+            var marker_bad7ad950df847948651bd0ed0a75157 = L.marker(
+                [40.761976486226, -73.949999674945],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_074ba77d8dff4165b77c8902a8e943e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bad7ad950df847948651bd0ed0a75157.setIcon(icon_074ba77d8dff4165b77c8902a8e943e5);
+        
+    
+        var popup_9a9dfcb046c74dd8a95f039fd9aee992 = L.popup({"maxWidth": 300});
+
+        
+            var html_01d90c4d69e64bc698734b7042bba061 = $(`<div id="html_01d90c4d69e64bc698734b7042bba061" style="width: 100.0%; height: 100.0%;">Hospital: Coler-Goldwater Specialty Hospital and Nursing Facility/Coler Campus</div>`)[0];
+            popup_9a9dfcb046c74dd8a95f039fd9aee992.setContent(html_01d90c4d69e64bc698734b7042bba061);
+        
+
+        marker_bad7ad950df847948651bd0ed0a75157.bindPopup(popup_9a9dfcb046c74dd8a95f039fd9aee992)
+        ;
+
+        
+    
+    
+            var marker_ba51ba6df502484fa631a44b6d778e05 = L.marker(
+                [40.655761808605, -73.944662615537],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_eec91b05959e45278408689ec3eab399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ba51ba6df502484fa631a44b6d778e05.setIcon(icon_eec91b05959e45278408689ec3eab399);
+        
+    
+        var popup_aaf5e13861ab496daf8ae7489453bb1b = L.popup({"maxWidth": 300});
+
+        
+            var html_e47a056f5c0645238580fa264812f7d7 = $(`<div id="html_e47a056f5c0645238580fa264812f7d7" style="width: 100.0%; height: 100.0%;">Hospital: Kings County Hospital Center</div>`)[0];
+            popup_aaf5e13861ab496daf8ae7489453bb1b.setContent(html_e47a056f5c0645238580fa264812f7d7);
+        
+
+        marker_ba51ba6df502484fa631a44b6d778e05.bindPopup(popup_aaf5e13861ab496daf8ae7489453bb1b)
+        ;
+
+        
+    
+    
+            var marker_0bffebb7d81e47f0a2b388d6a0b241ef = L.marker(
+                [40.73962320748, -73.976572846645],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_b0d1dc204a2440709244a3411d1892d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0bffebb7d81e47f0a2b388d6a0b241ef.setIcon(icon_b0d1dc204a2440709244a3411d1892d1);
+        
+    
+        var popup_e06784943e69479eb1af07b93168cebd = L.popup({"maxWidth": 300});
+
+        
+            var html_293519a3883c48e6b88b31eb0c3fc962 = $(`<div id="html_293519a3883c48e6b88b31eb0c3fc962" style="width: 100.0%; height: 100.0%;">Hospital: Bellevue Hospital Center</div>`)[0];
+            popup_e06784943e69479eb1af07b93168cebd.setContent(html_293519a3883c48e6b88b31eb0c3fc962);
+        
+
+        marker_0bffebb7d81e47f0a2b388d6a0b241ef.bindPopup(popup_e06784943e69479eb1af07b93168cebd)
+        ;
+
+        
+    
+    
+            var marker_0cb107ebe00d41c48e75af3699816aaf = L.marker(
+                [40.72930119329, -73.979916628238],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_712eaa9377624a2fa7fd271f441ed554 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0cb107ebe00d41c48e75af3699816aaf.setIcon(icon_712eaa9377624a2fa7fd271f441ed554);
+        
+    
+        var popup_f499fbb7f4c7494f9b93a6651b1da5a9 = L.popup({"maxWidth": 300});
+
+        
+            var html_8a22ae7047e448cb9b2ed496c86a296f = $(`<div id="html_8a22ae7047e448cb9b2ed496c86a296f" style="width: 100.0%; height: 100.0%;">Hospital: Roberto Clemente Health Center</div>`)[0];
+            popup_f499fbb7f4c7494f9b93a6651b1da5a9.setContent(html_8a22ae7047e448cb9b2ed496c86a296f);
+        
+
+        marker_0cb107ebe00d41c48e75af3699816aaf.bindPopup(popup_f499fbb7f4c7494f9b93a6651b1da5a9)
+        ;
+
+        
+    
+    
+            var marker_3dcb4d5598144872831fc3d1fd79ae54 = L.marker(
+                [40.715367609829, -73.956165823569],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_39d6cac896b74f83b756d61d7f3992a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3dcb4d5598144872831fc3d1fd79ae54.setIcon(icon_39d6cac896b74f83b756d61d7f3992a6);
+        
+    
+        var popup_c43c3fcbc59a437086879c68ee89d390 = L.popup({"maxWidth": 300});
+
+        
+            var html_755e15a3c593434c8279db696e639782 = $(`<div id="html_755e15a3c593434c8279db696e639782" style="width: 100.0%; height: 100.0%;">Hospital: Jonathan Williams Houses Child Health Clinic</div>`)[0];
+            popup_c43c3fcbc59a437086879c68ee89d390.setContent(html_755e15a3c593434c8279db696e639782);
+        
+
+        marker_3dcb4d5598144872831fc3d1fd79ae54.bindPopup(popup_c43c3fcbc59a437086879c68ee89d390)
+        ;
+
+        
+    
+    
+            var marker_d028c9eb76e24b639be1e541aa6190f0 = L.marker(
+                [40.815255660488, -73.958430492697],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_10a5be81dd3b467ab04a3b258ff81543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d028c9eb76e24b639be1e541aa6190f0.setIcon(icon_10a5be81dd3b467ab04a3b258ff81543);
+        
+    
+        var popup_9c6f432739bf4beda64a3db16b18423d = L.popup({"maxWidth": 300});
+
+        
+            var html_166eeec4c5c043ca93974b8fe9e51831 = $(`<div id="html_166eeec4c5c043ca93974b8fe9e51831" style="width: 100.0%; height: 100.0%;">Hospital: Grant Houses Clinic</div>`)[0];
+            popup_9c6f432739bf4beda64a3db16b18423d.setContent(html_166eeec4c5c043ca93974b8fe9e51831);
+        
+
+        marker_d028c9eb76e24b639be1e541aa6190f0.bindPopup(popup_9c6f432739bf4beda64a3db16b18423d)
+        ;
+
+        
+    
+    
+            var marker_0138aaf22a1e422eb36137d3c08bc890 = L.marker(
+                [40.861957938597, -73.92380763599],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_db6356bd5d3a4dfe961739e6a440cdf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0138aaf22a1e422eb36137d3c08bc890.setIcon(icon_db6356bd5d3a4dfe961739e6a440cdf5);
+        
+    
+        var popup_cd9b5f1fd6294fdd81ceb9a3c423577d = L.popup({"maxWidth": 300});
+
+        
+            var html_6723720e08cf4e5f867b60e0f5bb5f84 = $(`<div id="html_6723720e08cf4e5f867b60e0f5bb5f84" style="width: 100.0%; height: 100.0%;">Hospital: Dyckman Clinica De Las Americas</div>`)[0];
+            popup_cd9b5f1fd6294fdd81ceb9a3c423577d.setContent(html_6723720e08cf4e5f867b60e0f5bb5f84);
+        
+
+        marker_0138aaf22a1e422eb36137d3c08bc890.bindPopup(popup_cd9b5f1fd6294fdd81ceb9a3c423577d)
+        ;
+
+        
+    
+    
+            var marker_7bda17ac011a4331a1b8516425eff79b = L.marker(
+                [40.671962495107, -73.89520529393],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e8000992405e4360a935749eca2f4080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7bda17ac011a4331a1b8516425eff79b.setIcon(icon_e8000992405e4360a935749eca2f4080);
+        
+    
+        var popup_bbc41326e93248a08ab4211cc19244b4 = L.popup({"maxWidth": 300});
+
+        
+            var html_b02ae2c9542940c1b72e0a578ca5f3e4 = $(`<div id="html_b02ae2c9542940c1b72e0a578ca5f3e4" style="width: 100.0%; height: 100.0%;">Hospital: East New York Diagnostic & Treatment Center</div>`)[0];
+            popup_bbc41326e93248a08ab4211cc19244b4.setContent(html_b02ae2c9542940c1b72e0a578ca5f3e4);
+        
+
+        marker_7bda17ac011a4331a1b8516425eff79b.bindPopup(popup_bbc41326e93248a08ab4211cc19244b4)
+        ;
+
+        
+    
+    
+            var marker_666372878025498ea3ab3e11567421e8 = L.marker(
+                [40.664911170498, -73.911410916321],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3aa6d24470c7470fa936506870d290b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_666372878025498ea3ab3e11567421e8.setIcon(icon_3aa6d24470c7470fa936506870d290b9);
+        
+    
+        var popup_dc64aa20625440d5bb93b0c2ad5c5edf = L.popup({"maxWidth": 300});
+
+        
+            var html_893a106997564fe394a24648678560b4 = $(`<div id="html_893a106997564fe394a24648678560b4" style="width: 100.0%; height: 100.0%;">Hospital: Brownsville Child Health Clinic</div>`)[0];
+            popup_dc64aa20625440d5bb93b0c2ad5c5edf.setContent(html_893a106997564fe394a24648678560b4);
+        
+
+        marker_666372878025498ea3ab3e11567421e8.bindPopup(popup_dc64aa20625440d5bb93b0c2ad5c5edf)
+        ;
+
+        
+    
+    
+            var marker_b9f883a246464f48b8aa781c5c7f6561 = L.marker(
+                [40.586645433957, -73.965830115778],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_1253eb55271a41dda15222ce17f2acf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b9f883a246464f48b8aa781c5c7f6561.setIcon(icon_1253eb55271a41dda15222ce17f2acf5);
+        
+    
+        var popup_93ed156bff374c2dbde1c6223b218d70 = L.popup({"maxWidth": 300});
+
+        
+            var html_51868e83925242e2ba6f2d165fb875bf = $(`<div id="html_51868e83925242e2ba6f2d165fb875bf" style="width: 100.0%; height: 100.0%;">Hospital: Coney Island Hospital</div>`)[0];
+            popup_93ed156bff374c2dbde1c6223b218d70.setContent(html_51868e83925242e2ba6f2d165fb875bf);
+        
+
+        marker_b9f883a246464f48b8aa781c5c7f6561.bindPopup(popup_93ed156bff374c2dbde1c6223b218d70)
+        ;
+
+        
+    
+    
+            var marker_b77e8c5314264336bc8be7b4a3b03219 = L.marker(
+                [40.712103238036, -73.943994071543],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_fce68a9b36dd4af6bc56221612d55b92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b77e8c5314264336bc8be7b4a3b03219.setIcon(icon_fce68a9b36dd4af6bc56221612d55b92);
+        
+    
+        var popup_9ffc45452586434c93491ac97d14b364 = L.popup({"maxWidth": 300});
+
+        
+            var html_9f9e6022a1414a18be860e6a50e85402 = $(`<div id="html_9f9e6022a1414a18be860e6a50e85402" style="width: 100.0%; height: 100.0%;">Hospital: Williamsburg Health Center</div>`)[0];
+            popup_9ffc45452586434c93491ac97d14b364.setContent(html_9f9e6022a1414a18be860e6a50e85402);
+        
+
+        marker_b77e8c5314264336bc8be7b4a3b03219.bindPopup(popup_9ffc45452586434c93491ac97d14b364)
+        ;
+
+        
+    
+    
+            var marker_c30f690e3bf44062baeae70933de578f = L.marker(
+                [40.626576449488, -74.076994470087],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6cf78c98721b4c8fa14065af2e47e350 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c30f690e3bf44062baeae70933de578f.setIcon(icon_6cf78c98721b4c8fa14065af2e47e350);
+        
+    
+        var popup_90bed21914a04142a5a07b880328e1c0 = L.popup({"maxWidth": 300});
+
+        
+            var html_dcd57f16a837449aafaf8de9d0f8f61a = $(`<div id="html_dcd57f16a837449aafaf8de9d0f8f61a" style="width: 100.0%; height: 100.0%;">Hospital: Stapleton Child Health Clinic</div>`)[0];
+            popup_90bed21914a04142a5a07b880328e1c0.setContent(html_dcd57f16a837449aafaf8de9d0f8f61a);
+        
+
+        marker_c30f690e3bf44062baeae70933de578f.bindPopup(popup_90bed21914a04142a5a07b880328e1c0)
+        ;
+
+        
+    
+    
+            var marker_9623890bb43147c392014480a36fcbff = L.marker(
+                [40.738710402563, -73.878351155182],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_72c6cc250cd24add8f9f8632fc30d4ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9623890bb43147c392014480a36fcbff.setIcon(icon_72c6cc250cd24add8f9f8632fc30d4ef);
+        
+    
+        var popup_758f2340d8f144da87e49eb9dcabf842 = L.popup({"maxWidth": 300});
+
+        
+            var html_9cffd4810b3b44cb86015ba2a8dd644a = $(`<div id="html_9cffd4810b3b44cb86015ba2a8dd644a" style="width: 100.0%; height: 100.0%;">Hospital: Elmhurst Hospital Center</div>`)[0];
+            popup_758f2340d8f144da87e49eb9dcabf842.setContent(html_9cffd4810b3b44cb86015ba2a8dd644a);
+        
+
+        marker_9623890bb43147c392014480a36fcbff.bindPopup(popup_758f2340d8f144da87e49eb9dcabf842)
+        ;
+
+        
+    
+    
+            var marker_63f99a2bb88f4902b49e2bc7d1abfeae = L.marker(
+                [40.601233507321, -73.944368541175],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6c3dec23e7b44bcaab35b145ffba3dea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_63f99a2bb88f4902b49e2bc7d1abfeae.setIcon(icon_6c3dec23e7b44bcaab35b145ffba3dea);
+        
+    
+        var popup_f66d1e0ca49547088313c8bd0d2db3d0 = L.popup({"maxWidth": 300});
+
+        
+            var html_46ce32f7be30453bb40ead0db4aa74c5 = $(`<div id="html_46ce32f7be30453bb40ead0db4aa74c5" style="width: 100.0%; height: 100.0%;">Hospital: Homecrest Child Health Clinic</div>`)[0];
+            popup_f66d1e0ca49547088313c8bd0d2db3d0.setContent(html_46ce32f7be30453bb40ead0db4aa74c5);
+        
+
+        marker_63f99a2bb88f4902b49e2bc7d1abfeae.bindPopup(popup_f66d1e0ca49547088313c8bd0d2db3d0)
+        ;
+
+        
+    
+    
+            var marker_86b444aaf6f54c1b885c8b9b5153f5d0 = L.marker(
+                [40.62609762251, -74.157474896698],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_41927d68f03b4df18a48a8fe7af3c914 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_86b444aaf6f54c1b885c8b9b5153f5d0.setIcon(icon_41927d68f03b4df18a48a8fe7af3c914);
+        
+    
+        var popup_9983e2e6cd7d4330afa1a9ed0608e284 = L.popup({"maxWidth": 300});
+
+        
+            var html_fa5bd473cc864a13a9a937269d390132 = $(`<div id="html_fa5bd473cc864a13a9a937269d390132" style="width: 100.0%; height: 100.0%;">Hospital: Mariner's Harbor Houses Child Health Clinic</div>`)[0];
+            popup_9983e2e6cd7d4330afa1a9ed0608e284.setContent(html_fa5bd473cc864a13a9a937269d390132);
+        
+
+        marker_86b444aaf6f54c1b885c8b9b5153f5d0.bindPopup(popup_9983e2e6cd7d4330afa1a9ed0608e284)
+        ;
+
+        
+    
+    
+            var marker_31ecca9f31b843b19fc131e61cbc6ffb = L.marker(
+                [40.721735692317, -73.995719412648],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_f4768520d01c4b52b0dcda4137382db8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_31ecca9f31b843b19fc131e61cbc6ffb.setIcon(icon_f4768520d01c4b52b0dcda4137382db8);
+        
+    
+        var popup_8c6e7847709d445e8a1afec35d582074 = L.popup({"maxWidth": 300});
+
+        
+            var html_dc55a6c7427b4229a8c5122cd5a802af = $(`<div id="html_dc55a6c7427b4229a8c5122cd5a802af" style="width: 100.0%; height: 100.0%;">Hospital: Judson Health Center</div>`)[0];
+            popup_8c6e7847709d445e8a1afec35d582074.setContent(html_dc55a6c7427b4229a8c5122cd5a802af);
+        
+
+        marker_31ecca9f31b843b19fc131e61cbc6ffb.bindPopup(popup_8c6e7847709d445e8a1afec35d582074)
+        ;
+
+        
+    
+    
+            var marker_bb666508594c4145b294b9696b4c1343 = L.marker(
+                [40.784557024105, -73.943795653643],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_ddc8f2c0232045308ab08d540686453b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bb666508594c4145b294b9696b4c1343.setIcon(icon_ddc8f2c0232045308ab08d540686453b);
+        
+    
+        var popup_1f6989e9df83456295f77e87bdeff68a = L.popup({"maxWidth": 300});
+
+        
+            var html_a01c01d0d2f849f887273ab054440468 = $(`<div id="html_a01c01d0d2f849f887273ab054440468" style="width: 100.0%; height: 100.0%;">Hospital: Metropolitan Hospital Center</div>`)[0];
+            popup_1f6989e9df83456295f77e87bdeff68a.setContent(html_a01c01d0d2f849f887273ab054440468);
+        
+
+        marker_bb666508594c4145b294b9696b4c1343.bindPopup(popup_1f6989e9df83456295f77e87bdeff68a)
+        ;
+
+        
+    
+    
+            var marker_245ac3b4a7b946eda6811d5aa160720c = L.marker(
+                [40.874626006887, -73.857887416826],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_27d53b8aa3f347e5ad024c2979d23248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_245ac3b4a7b946eda6811d5aa160720c.setIcon(icon_27d53b8aa3f347e5ad024c2979d23248);
+        
+    
+        var popup_6765e406b5484e7eb50f142e42878a5a = L.popup({"maxWidth": 300});
+
+        
+            var html_6331b917b2be470596fac1bb6eacfe9d = $(`<div id="html_6331b917b2be470596fac1bb6eacfe9d" style="width: 100.0%; height: 100.0%;">Hospital: Gunhill Health Center</div>`)[0];
+            popup_6765e406b5484e7eb50f142e42878a5a.setContent(html_6331b917b2be470596fac1bb6eacfe9d);
+        
+
+        marker_245ac3b4a7b946eda6811d5aa160720c.bindPopup(popup_6765e406b5484e7eb50f142e42878a5a)
+        ;
+
+        
+    
+    
+            var marker_48c99eba38814ea79859d91785f35c62 = L.marker(
+                [40.729665609686, -73.954045460054],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_107b6dcc41fc4dc39f430c42525da1f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_48c99eba38814ea79859d91785f35c62.setIcon(icon_107b6dcc41fc4dc39f430c42525da1f1);
+        
+    
+        var popup_d7ee881716a54e599384dc1d3668b95b = L.popup({"maxWidth": 300});
+
+        
+            var html_41531209491042068bdaefefde30ee0c = $(`<div id="html_41531209491042068bdaefefde30ee0c" style="width: 100.0%; height: 100.0%;">Hospital: Greenpoint Community Health Center</div>`)[0];
+            popup_d7ee881716a54e599384dc1d3668b95b.setContent(html_41531209491042068bdaefefde30ee0c);
+        
+
+        marker_48c99eba38814ea79859d91785f35c62.bindPopup(popup_d7ee881716a54e599384dc1d3668b95b)
+        ;
+
+        
+    
+    
+            var marker_d475da5d937b4ab6acf2d6443e67dceb = L.marker(
+                [40.71311535449, -73.792820999789],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a09d50bcb322458aa3c42917f9ce082b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d475da5d937b4ab6acf2d6443e67dceb.setIcon(icon_a09d50bcb322458aa3c42917f9ce082b);
+        
+    
+        var popup_2f1a711c18344fb4b2189443594a0dd8 = L.popup({"maxWidth": 300});
+
+        
+            var html_e5d1ebfab74f4a89bc69b2c94149b9ee = $(`<div id="html_e5d1ebfab74f4a89bc69b2c94149b9ee" style="width: 100.0%; height: 100.0%;">Hospital: Queens Hospital Center</div>`)[0];
+            popup_2f1a711c18344fb4b2189443594a0dd8.setContent(html_e5d1ebfab74f4a89bc69b2c94149b9ee);
+        
+
+        marker_d475da5d937b4ab6acf2d6443e67dceb.bindPopup(popup_2f1a711c18344fb4b2189443594a0dd8)
+        ;
+
+        
+    
+    
+            var marker_55c6119d4a99496f8dd7366bd653af9e = L.marker(
+                [40.712841397448, -73.987598534724],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_245f837af0934b2094499ca39493012d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_55c6119d4a99496f8dd7366bd653af9e.setIcon(icon_245f837af0934b2094499ca39493012d);
+        
+    
+        var popup_db08f3a4678c4d22967f14359b7c37c4 = L.popup({"maxWidth": 300});
+
+        
+            var html_244869a5f74e49dbb8cf3873ba205c75 = $(`<div id="html_244869a5f74e49dbb8cf3873ba205c75" style="width: 100.0%; height: 100.0%;">Hospital: Gouverneur Healthcare Services</div>`)[0];
+            popup_db08f3a4678c4d22967f14359b7c37c4.setContent(html_244869a5f74e49dbb8cf3873ba205c75);
+        
+
+        marker_55c6119d4a99496f8dd7366bd653af9e.bindPopup(popup_db08f3a4678c4d22967f14359b7c37c4)
+        ;
+
+        
+    
+    
+            var marker_269571eef88142b784a7344ca84d61e6 = L.marker(
+                [40.712841397448, -73.987598534724],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_fe19bd911c534b91b3d95db69e197554 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_269571eef88142b784a7344ca84d61e6.setIcon(icon_fe19bd911c534b91b3d95db69e197554);
+        
+    
+        var popup_012cbb9c17d94afcbca192b455a3b1a8 = L.popup({"maxWidth": 300});
+
+        
+            var html_1523a4184edf497b90941657fd80391f = $(`<div id="html_1523a4184edf497b90941657fd80391f" style="width: 100.0%; height: 100.0%;">Hospital: Gouverneur Diagnostic & Treatment Center</div>`)[0];
+            popup_012cbb9c17d94afcbca192b455a3b1a8.setContent(html_1523a4184edf497b90941657fd80391f);
+        
+
+        marker_269571eef88142b784a7344ca84d61e6.bindPopup(popup_012cbb9c17d94afcbca192b455a3b1a8)
+        ;
+
+        
+    
+    
+            var marker_c2af3f765e38496888cc0a202673240a = L.marker(
+                [40.712841397448, -73.987598534724],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_316e82a1db6d49d1badbe08da4646689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c2af3f765e38496888cc0a202673240a.setIcon(icon_316e82a1db6d49d1badbe08da4646689);
+        
+    
+        var popup_ebada0d7d3b740ee8c9f4ebb2fdadf2c = L.popup({"maxWidth": 300});
+
+        
+            var html_b3c033adf428444b823e4a0799f4f763 = $(`<div id="html_b3c033adf428444b823e4a0799f4f763" style="width: 100.0%; height: 100.0%;">Hospital: Gouverneur Healthcare Services</div>`)[0];
+            popup_ebada0d7d3b740ee8c9f4ebb2fdadf2c.setContent(html_b3c033adf428444b823e4a0799f4f763);
+        
+
+        marker_c2af3f765e38496888cc0a202673240a.bindPopup(popup_ebada0d7d3b740ee8c9f4ebb2fdadf2c)
+        ;
+
+        
+    
+    
+            var marker_11c95c653e6a4eee8ed3a4859b93c4ba = L.marker(
+                [40.692053402323, -73.982413019989],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_5fc51dfc1bdc4d8c85f18fa08da9755b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_11c95c653e6a4eee8ed3a4859b93c4ba.setIcon(icon_5fc51dfc1bdc4d8c85f18fa08da9755b);
+        
+    
+        var popup_ab905a62de204a1d90e3319ef0d4633d = L.popup({"maxWidth": 300});
+
+        
+            var html_f554defa606d4f99bea56058cfcb501f = $(`<div id="html_f554defa606d4f99bea56058cfcb501f" style="width: 100.0%; height: 100.0%;">Hospital: Fort Greene Child Health Clinic</div>`)[0];
+            popup_ab905a62de204a1d90e3319ef0d4633d.setContent(html_f554defa606d4f99bea56058cfcb501f);
+        
+
+        marker_11c95c653e6a4eee8ed3a4859b93c4ba.bindPopup(popup_ab905a62de204a1d90e3319ef0d4633d)
+        ;
+
+        
+    
+    
+            var marker_d7b295a045fd4aada6e091651ce05c9d = L.marker(
+                [40.761976486226, -73.949999674945],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e700606be33e4d58be18819aaf802120 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d7b295a045fd4aada6e091651ce05c9d.setIcon(icon_e700606be33e4d58be18819aaf802120);
+        
+    
+        var popup_f4d6286156b94fb589f2d13062d16dd8 = L.popup({"maxWidth": 300});
+
+        
+            var html_794a9a1d25b34149b18cc98b0f63ad00 = $(`<div id="html_794a9a1d25b34149b18cc98b0f63ad00" style="width: 100.0%; height: 100.0%;">Hospital: Coler-Goldwater Specialty Hospital and Nursing Facility/Goldwater Campus</div>`)[0];
+            popup_f4d6286156b94fb589f2d13062d16dd8.setContent(html_794a9a1d25b34149b18cc98b0f63ad00);
+        
+
+        marker_d7b295a045fd4aada6e091651ce05c9d.bindPopup(popup_f4d6286156b94fb589f2d13062d16dd8)
+        ;
+
+        
+    
+    
+            var marker_4923cba4ae1b43a49c70d1dcd8b78d48 = L.marker(
+                [40.67189903622, -73.878318817943],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_382860987a794d3da3fda85ea97081b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4923cba4ae1b43a49c70d1dcd8b78d48.setIcon(icon_382860987a794d3da3fda85ea97081b6);
+        
+    
+        var popup_076add1bf8764279933a9d02a10bf090 = L.popup({"maxWidth": 300});
+
+        
+            var html_bc4e99925bce4228b26c82edfa85f579 = $(`<div id="html_bc4e99925bce4228b26c82edfa85f579" style="width: 100.0%; height: 100.0%;">Hospital: Sutter Avenue Child Health Clinic</div>`)[0];
+            popup_076add1bf8764279933a9d02a10bf090.setContent(html_bc4e99925bce4228b26c82edfa85f579);
+        
+
+        marker_4923cba4ae1b43a49c70d1dcd8b78d48.bindPopup(popup_076add1bf8764279933a9d02a10bf090)
+        ;
+
+        
+    
+    
+            var marker_bbfb8ba9fbf8471484ad0cdd18ec0a54 = L.marker(
+                [40.822139979421, -73.942389748859],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_fe06abba9f15421085347c459a272017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bbfb8ba9fbf8471484ad0cdd18ec0a54.setIcon(icon_fe06abba9f15421085347c459a272017);
+        
+    
+        var popup_ac6997a682294ea8a97fb58e8c79241f = L.popup({"maxWidth": 300});
+
+        
+            var html_dbe0cd84f5284a63b4688a8734d00d17 = $(`<div id="html_dbe0cd84f5284a63b4688a8734d00d17" style="width: 100.0%; height: 100.0%;">Hospital: Drew Hamilton Houses Health Center</div>`)[0];
+            popup_ac6997a682294ea8a97fb58e8c79241f.setContent(html_dbe0cd84f5284a63b4688a8734d00d17);
+        
+
+        marker_bbfb8ba9fbf8471484ad0cdd18ec0a54.bindPopup(popup_ac6997a682294ea8a97fb58e8c79241f)
+        ;
+
+        
+    
+    
+            var marker_e5ba403cc527452baf962c8d25847008 = L.marker(
+                [40.745193764481, -73.90484714408],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_c9d1f0ee50ab4c15b2293bf773882ca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e5ba403cc527452baf962c8d25847008.setIcon(icon_c9d1f0ee50ab4c15b2293bf773882ca5);
+        
+    
+        var popup_35e72119dc964bd0a2cfd482c4f99db7 = L.popup({"maxWidth": 300});
+
+        
+            var html_ead68e49966f4663bdb6734dbc344ddd = $(`<div id="html_ead68e49966f4663bdb6734dbc344ddd" style="width: 100.0%; height: 100.0%;">Hospital: Woodside Houses Child Health Clinic</div>`)[0];
+            popup_35e72119dc964bd0a2cfd482c4f99db7.setContent(html_ead68e49966f4663bdb6734dbc344ddd);
+        
+
+        marker_e5ba403cc527452baf962c8d25847008.bindPopup(popup_35e72119dc964bd0a2cfd482c4f99db7)
+        ;
+
+        
+    
+    
+            var marker_9728452c2b0c452eb1c9c0cc0f2a28a3 = L.marker(
+                [40.817688484049, -73.924200271483],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e4fee0a00ef74399af6f0a0d2657f44f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9728452c2b0c452eb1c9c0cc0f2a28a3.setIcon(icon_e4fee0a00ef74399af6f0a0d2657f44f);
+        
+    
+        var popup_e863f23999f741aa9cffb25e58375109 = L.popup({"maxWidth": 300});
+
+        
+            var html_56bf715006bb4c58be324a7ba412ac2e = $(`<div id="html_56bf715006bb4c58be324a7ba412ac2e" style="width: 100.0%; height: 100.0%;">Hospital: Lincoln Medical and Mental Health Center</div>`)[0];
+            popup_e863f23999f741aa9cffb25e58375109.setContent(html_56bf715006bb4c58be324a7ba412ac2e);
+        
+
+        marker_9728452c2b0c452eb1c9c0cc0f2a28a3.bindPopup(popup_e863f23999f741aa9cffb25e58375109)
+        ;
+
+        
+    
+    
+            var marker_8587fe7d8fc641ed834d13a48ec3a6bc = L.marker(
+                [40.814275217502, -73.940602831291],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_0611d776aa3b479a981183cf63d3b6e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8587fe7d8fc641ed834d13a48ec3a6bc.setIcon(icon_0611d776aa3b479a981183cf63d3b6e8);
+        
+    
+        var popup_1e72fae6ea5446f4a7ba246d9d61fccc = L.popup({"maxWidth": 300});
+
+        
+            var html_6875019b387f4a12b76515d07ab88264 = $(`<div id="html_6875019b387f4a12b76515d07ab88264" style="width: 100.0%; height: 100.0%;">Hospital: Harlem Hospital Center</div>`)[0];
+            popup_1e72fae6ea5446f4a7ba246d9d61fccc.setContent(html_6875019b387f4a12b76515d07ab88264);
+        
+
+        marker_8587fe7d8fc641ed834d13a48ec3a6bc.bindPopup(popup_1e72fae6ea5446f4a7ba246d9d61fccc)
+        ;
+
+        
+    
+    
+            var marker_03b135d18b9342cdaae76b1031f18d70 = L.marker(
+                [40.586645433957, -73.965830115778],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_133ca67bb5f64af4ad2a5b459357dada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_03b135d18b9342cdaae76b1031f18d70.setIcon(icon_133ca67bb5f64af4ad2a5b459357dada);
+        
+    
+        var popup_28d418bab2434f2b9ac1af834c4b2f4b = L.popup({"maxWidth": 300});
+
+        
+            var html_a9dcc1b150dc4c62bfcfaf24379d9aee = $(`<div id="html_a9dcc1b150dc4c62bfcfaf24379d9aee" style="width: 100.0%; height: 100.0%;">Hospital: Coney Island Hospital</div>`)[0];
+            popup_28d418bab2434f2b9ac1af834c4b2f4b.setContent(html_a9dcc1b150dc4c62bfcfaf24379d9aee);
+        
+
+        marker_03b135d18b9342cdaae76b1031f18d70.bindPopup(popup_28d418bab2434f2b9ac1af834c4b2f4b)
+        ;
+
+        
+    
+    
+            var marker_143a5860437c4055bc63e7209d9abe2b = L.marker(
+                [40.844000208275, -73.894548724404],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_1480bc874e554f16adf8f128c35e7e40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_143a5860437c4055bc63e7209d9abe2b.setIcon(icon_1480bc874e554f16adf8f128c35e7e40);
+        
+    
+        var popup_c89c44bdbbd3441da93c749998030288 = L.popup({"maxWidth": 300});
+
+        
+            var html_3efb09ee7ce4417c84e4f592917387f9 = $(`<div id="html_3efb09ee7ce4417c84e4f592917387f9" style="width: 100.0%; height: 100.0%;">Hospital: Health Center at Tremont</div>`)[0];
+            popup_c89c44bdbbd3441da93c749998030288.setContent(html_3efb09ee7ce4417c84e4f592917387f9);
+        
+
+        marker_143a5860437c4055bc63e7209d9abe2b.bindPopup(popup_c89c44bdbbd3441da93c749998030288)
+        ;
+
+        
+    
+    
+            var marker_a4c4d43039784323a6ac74df1115cd15 = L.marker(
+                [40.880463372456, -73.881592877502],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_0f5c176d2f384f668421829834315248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a4c4d43039784323a6ac74df1115cd15.setIcon(icon_0f5c176d2f384f668421829834315248);
+        
+    
+        var popup_85e752b15e0c4344a13abbc7154bebb8 = L.popup({"maxWidth": 300});
+
+        
+            var html_4aebfe22f4724c7dbf2c4825642ce578 = $(`<div id="html_4aebfe22f4724c7dbf2c4825642ce578" style="width: 100.0%; height: 100.0%;">Hospital: North Central Bronx Hospital</div>`)[0];
+            popup_85e752b15e0c4344a13abbc7154bebb8.setContent(html_4aebfe22f4724c7dbf2c4825642ce578);
+        
+
+        marker_a4c4d43039784323a6ac74df1115cd15.bindPopup(popup_85e752b15e0c4344a13abbc7154bebb8)
+        ;
+
+        
+    
+    
+            var marker_f5a2dba486a7464296596c515ced0dde = L.marker(
+                [40.673492222873, -73.935701697386],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_1163d8cb44004eacb00fc0eef5a51998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f5a2dba486a7464296596c515ced0dde.setIcon(icon_1163d8cb44004eacb00fc0eef5a51998);
+        
+    
+        var popup_8ef1a266b62b455ea07dc1484567cd49 = L.popup({"maxWidth": 300});
+
+        
+            var html_ddfc1c5a7b3645ca9eb62bcf1e3dcf07 = $(`<div id="html_ddfc1c5a7b3645ca9eb62bcf1e3dcf07" style="width: 100.0%; height: 100.0%;">Hospital: Crown Heights Child Health Clinic</div>`)[0];
+            popup_8ef1a266b62b455ea07dc1484567cd49.setContent(html_ddfc1c5a7b3645ca9eb62bcf1e3dcf07);
+        
+
+        marker_f5a2dba486a7464296596c515ced0dde.bindPopup(popup_8ef1a266b62b455ea07dc1484567cd49)
+        ;
+
+        
+    
+    
+            var marker_504b465d6fb04bde809db28ccc1335a7 = L.marker(
+                [40.716367017869, -73.980135660503],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2b2bfc7b209b491faf79ecffb126e9d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_504b465d6fb04bde809db28ccc1335a7.setIcon(icon_2b2bfc7b209b491faf79ecffb126e9d2);
+        
+    
+        var popup_98067a8ccff144b5a0009289afcb8ef5 = L.popup({"maxWidth": 300});
+
+        
+            var html_4cfc2c5cef244f65b9394f1be3186716 = $(`<div id="html_4cfc2c5cef244f65b9394f1be3186716" style="width: 100.0%; height: 100.0%;">Hospital: Baruch Houses Family Health Center</div>`)[0];
+            popup_98067a8ccff144b5a0009289afcb8ef5.setContent(html_4cfc2c5cef244f65b9394f1be3186716);
+        
+
+        marker_504b465d6fb04bde809db28ccc1335a7.bindPopup(popup_98067a8ccff144b5a0009289afcb8ef5)
+        ;
+
+        
+    
+    
+            var marker_03aac9c63eab491f83fed10ee1d470d6 = L.marker(
+                [40.811276995393, -73.949657755163],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2ce0de4ef97e48dfbe1f2bd1d36ef25c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_03aac9c63eab491f83fed10ee1d470d6.setIcon(icon_2ce0de4ef97e48dfbe1f2bd1d36ef25c);
+        
+    
+        var popup_af035b719de841cf8591a40d497252a5 = L.popup({"maxWidth": 300});
+
+        
+            var html_f2f8fc249ad949e396a4bb63ebb2ecdf = $(`<div id="html_f2f8fc249ad949e396a4bb63ebb2ecdf" style="width: 100.0%; height: 100.0%;">Hospital: Manhattanville/St. Nicholas Houses Child Health Care Center</div>`)[0];
+            popup_af035b719de841cf8591a40d497252a5.setContent(html_f2f8fc249ad949e396a4bb63ebb2ecdf);
+        
+
+        marker_03aac9c63eab491f83fed10ee1d470d6.bindPopup(popup_af035b719de841cf8591a40d497252a5)
+        ;
+
+        
+    
+    
+            var marker_da6dd7213c0847fbae573b30a8aadc8f = L.marker(
+                [40.697855287659, -73.941006610822],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_528e2e898d75433084b851e5f03c124e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_da6dd7213c0847fbae573b30a8aadc8f.setIcon(icon_528e2e898d75433084b851e5f03c124e);
+        
+    
+        var popup_8c7a439557ae4412ab42371f180a27bc = L.popup({"maxWidth": 300});
+
+        
+            var html_54005330e6ba4cdfb32ca006e1cd4f32 = $(`<div id="html_54005330e6ba4cdfb32ca006e1cd4f32" style="width: 100.0%; height: 100.0%;">Hospital: Sumner Avenue Houses Child Health Clinic</div>`)[0];
+            popup_8c7a439557ae4412ab42371f180a27bc.setContent(html_54005330e6ba4cdfb32ca006e1cd4f32);
+        
+
+        marker_da6dd7213c0847fbae573b30a8aadc8f.bindPopup(popup_8c7a439557ae4412ab42371f180a27bc)
+        ;
+
+        
+    
+    
+            var marker_f7761a519c364ceba74b37eb114237f2 = L.marker(
+                [40.70052661478, -73.941643858765],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_c66f148787aa44c6979ede92683107c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f7761a519c364ceba74b37eb114237f2.setIcon(icon_c66f148787aa44c6979ede92683107c1);
+        
+    
+        var popup_3fa6a5dceab64f5c80b010cad581a6de = L.popup({"maxWidth": 300});
+
+        
+            var html_0cef60037a3546799b417a553ca7c86d = $(`<div id="html_0cef60037a3546799b417a553ca7c86d" style="width: 100.0%; height: 100.0%;">Hospital: Woodhull Medical and Mental Health Center</div>`)[0];
+            popup_3fa6a5dceab64f5c80b010cad581a6de.setContent(html_0cef60037a3546799b417a553ca7c86d);
+        
+
+        marker_f7761a519c364ceba74b37eb114237f2.bindPopup(popup_3fa6a5dceab64f5c80b010cad581a6de)
+        ;
+
+        
+    
+    
+            var marker_476b5a3457104f22b9034718608b83f0 = L.marker(
+                [40.684303566262, -73.909082385178],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d4d76b34ef2c4f7289422f177097bb23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_476b5a3457104f22b9034718608b83f0.setIcon(icon_d4d76b34ef2c4f7289422f177097bb23);
+        
+    
+        var popup_dae712c519fa4c4ba0038b259c94a194 = L.popup({"maxWidth": 300});
+
+        
+            var html_1b7763d49bef4f6bab159d88bbc6f391 = $(`<div id="html_1b7763d49bef4f6bab159d88bbc6f391" style="width: 100.0%; height: 100.0%;">Hospital: Bushwick Community Health Center</div>`)[0];
+            popup_dae712c519fa4c4ba0038b259c94a194.setContent(html_1b7763d49bef4f6bab159d88bbc6f391);
+        
+
+        marker_476b5a3457104f22b9034718608b83f0.bindPopup(popup_dae712c519fa4c4ba0038b259c94a194)
+        ;
+
+        
+    
+    
+            var marker_33e30ac476e34fa184a6cf4b8a119f54 = L.marker(
+                [40.73962320748, -73.976572846645],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_18dd528643884be78b57a9ead459101a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_33e30ac476e34fa184a6cf4b8a119f54.setIcon(icon_18dd528643884be78b57a9ead459101a);
+        
+    
+        var popup_065e0392e2ec4f8fb3b8bd342f2e3468 = L.popup({"maxWidth": 300});
+
+        
+            var html_a04080b6a85f40e28cf3c415aeaa7057 = $(`<div id="html_a04080b6a85f40e28cf3c415aeaa7057" style="width: 100.0%; height: 100.0%;">Hospital: Bellevue Hospital Center</div>`)[0];
+            popup_065e0392e2ec4f8fb3b8bd342f2e3468.setContent(html_a04080b6a85f40e28cf3c415aeaa7057);
+        
+
+        marker_33e30ac476e34fa184a6cf4b8a119f54.bindPopup(popup_065e0392e2ec4f8fb3b8bd342f2e3468)
+        ;
+
+        
+    
+    
+            var marker_b94e9b46ced049969862979a4593c695 = L.marker(
+                [40.702949636008, -73.90543308997],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_83c9b533cf844fb784c3bf03d051e9ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b94e9b46ced049969862979a4593c695.setIcon(icon_83c9b533cf844fb784c3bf03d051e9ec);
+        
+    
+        var popup_f6792baa5be145dc84a517e885b2cdb7 = L.popup({"maxWidth": 300});
+
+        
+            var html_ded77a7250c9427792d62e2490f10c87 = $(`<div id="html_ded77a7250c9427792d62e2490f10c87" style="width: 100.0%; height: 100.0%;">Hospital: Ridgewood Communicare Clinic</div>`)[0];
+            popup_f6792baa5be145dc84a517e885b2cdb7.setContent(html_ded77a7250c9427792d62e2490f10c87);
+        
+
+        marker_b94e9b46ced049969862979a4593c695.bindPopup(popup_f6792baa5be145dc84a517e885b2cdb7)
+        ;
+
+        
+    
+    
+            var marker_0d1f0d3568704b8fbb02ca7efc344ba3 = L.marker(
+                [40.711969729879, -73.997542215578],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_381d2d2b39ed4ed19df96e5c67355dc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0d1f0d3568704b8fbb02ca7efc344ba3.setIcon(icon_381d2d2b39ed4ed19df96e5c67355dc8);
+        
+    
+        var popup_1a3008155a4043bbb774fb656fc0da5a = L.popup({"maxWidth": 300});
+
+        
+            var html_a44a0de0cef949fc92d3e1ff6451270b = $(`<div id="html_a44a0de0cef949fc92d3e1ff6451270b" style="width: 100.0%; height: 100.0%;">Hospital: Smith Communicare Health Center</div>`)[0];
+            popup_1a3008155a4043bbb774fb656fc0da5a.setContent(html_a44a0de0cef949fc92d3e1ff6451270b);
+        
+
+        marker_0d1f0d3568704b8fbb02ca7efc344ba3.bindPopup(popup_1a3008155a4043bbb774fb656fc0da5a)
+        ;
+
+        
+    
+    
+            var marker_0f297857cca045dcb1532bb9e4659045 = L.marker(
+                [40.835906387949, -73.920034037019],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2a6c5e98aa0f40fab84fdc7e67d17a75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0f297857cca045dcb1532bb9e4659045.setIcon(icon_2a6c5e98aa0f40fab84fdc7e67d17a75);
+        
+    
+        var popup_53c79aae2fd94df5aa0c630966d52f2c = L.popup({"maxWidth": 300});
+
+        
+            var html_3f1ab02dea004cb1ad5d4f8fbfdc7ef1 = $(`<div id="html_3f1ab02dea004cb1ad5d4f8fbfdc7ef1" style="width: 100.0%; height: 100.0%;">Hospital: Morrisania Diagnostic & Treatment Center</div>`)[0];
+            popup_53c79aae2fd94df5aa0c630966d52f2c.setContent(html_3f1ab02dea004cb1ad5d4f8fbfdc7ef1);
+        
+
+        marker_0f297857cca045dcb1532bb9e4659045.bindPopup(popup_53c79aae2fd94df5aa0c630966d52f2c)
+        ;
+
+        
+    
+    
+            var marker_946832c571744f57abb0d1d562eea26b = L.marker(
+                [40.7205994, -74.0083416],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_201162190c4d418e93b32b277aa5406e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_946832c571744f57abb0d1d562eea26b.setIcon(icon_201162190c4d418e93b32b277aa5406e);
+        
+    
+        var popup_3c84a30e135249a6b10886f94d5066bd = L.popup({"maxWidth": 300});
+
+        
+            var html_422edac75c0e4cefaa84b367fd8a881e = $(`<div id="html_422edac75c0e4cefaa84b367fd8a881e" style="width: 100.0%; height: 100.0%;">Precinct: 1st Precinct, Phone number: 212-334-0611</div>`)[0];
+            popup_3c84a30e135249a6b10886f94d5066bd.setContent(html_422edac75c0e4cefaa84b367fd8a881e);
+        
+
+        marker_946832c571744f57abb0d1d562eea26b.bindPopup(popup_3c84a30e135249a6b10886f94d5066bd)
+        ;
+
+        
+    
+    
+            var marker_a1e2683db7d94b25a3cdba6f7573ec0c = L.marker(
+                [40.7161816, -73.9974633],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e094e91f68cf4d448f31ef5d43021de7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a1e2683db7d94b25a3cdba6f7573ec0c.setIcon(icon_e094e91f68cf4d448f31ef5d43021de7);
+        
+    
+        var popup_19126b59a3cc4a2380a22c6850de3129 = L.popup({"maxWidth": 300});
+
+        
+            var html_7d1155cf7ae14e14b641be8682e32882 = $(`<div id="html_7d1155cf7ae14e14b641be8682e32882" style="width: 100.0%; height: 100.0%;">Precinct: 5th Precinct, Phone number: 212-334-0711</div>`)[0];
+            popup_19126b59a3cc4a2380a22c6850de3129.setContent(html_7d1155cf7ae14e14b641be8682e32882);
+        
+
+        marker_a1e2683db7d94b25a3cdba6f7573ec0c.bindPopup(popup_19126b59a3cc4a2380a22c6850de3129)
+        ;
+
+        
+    
+    
+            var marker_f9228b8251e24b45baacd25d78dd8782 = L.marker(
+                [40.73657625, -73.98854288222026],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3ec2849dd8f0431ea60c8c699d8c5ffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f9228b8251e24b45baacd25d78dd8782.setIcon(icon_3ec2849dd8f0431ea60c8c699d8c5ffa);
+        
+    
+        var popup_2eb6f9494a46422ab640c15f8bf95e3c = L.popup({"maxWidth": 300});
+
+        
+            var html_dd8e333b84aa4367bb7b42ca9e757d3f = $(`<div id="html_dd8e333b84aa4367bb7b42ca9e757d3f" style="width: 100.0%; height: 100.0%;">Precinct: 6th Precinct, Phone number: 212-741-4811</div>`)[0];
+            popup_2eb6f9494a46422ab640c15f8bf95e3c.setContent(html_dd8e333b84aa4367bb7b42ca9e757d3f);
+        
+
+        marker_f9228b8251e24b45baacd25d78dd8782.bindPopup(popup_2eb6f9494a46422ab640c15f8bf95e3c)
+        ;
+
+        
+    
+    
+            var marker_99a4ead654a24233ba1c9b81fd41a9c4 = L.marker(
+                [40.7162871, -73.9837703],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_79e24e2395924e589493ee9846bc2b21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_99a4ead654a24233ba1c9b81fd41a9c4.setIcon(icon_79e24e2395924e589493ee9846bc2b21);
+        
+    
+        var popup_a4b33f31630747b79bbe395ea33e4ce1 = L.popup({"maxWidth": 300});
+
+        
+            var html_7ab3361ad66b467c826f3eeb9fa7f2dd = $(`<div id="html_7ab3361ad66b467c826f3eeb9fa7f2dd" style="width: 100.0%; height: 100.0%;">Precinct: 7th Precinct, Phone number: 212-477-7311</div>`)[0];
+            popup_a4b33f31630747b79bbe395ea33e4ce1.setContent(html_7ab3361ad66b467c826f3eeb9fa7f2dd);
+        
+
+        marker_99a4ead654a24233ba1c9b81fd41a9c4.bindPopup(popup_a4b33f31630747b79bbe395ea33e4ce1)
+        ;
+
+        
+    
+    
+            var marker_c39bc5f41a224ff5b2280e8df35dff59 = L.marker(
+                [40.7210513, -73.9747141],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_af0ce8bff135440e8d545db200fa900d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c39bc5f41a224ff5b2280e8df35dff59.setIcon(icon_af0ce8bff135440e8d545db200fa900d);
+        
+    
+        var popup_8d473e868a1a4c30986d227e75b534cb = L.popup({"maxWidth": 300});
+
+        
+            var html_c0d763c2326f461d8461d6d73a80df13 = $(`<div id="html_c0d763c2326f461d8461d6d73a80df13" style="width: 100.0%; height: 100.0%;">Precinct: 9th Precinct, Phone number: 212-477-7811</div>`)[0];
+            popup_8d473e868a1a4c30986d227e75b534cb.setContent(html_c0d763c2326f461d8461d6d73a80df13);
+        
+
+        marker_c39bc5f41a224ff5b2280e8df35dff59.bindPopup(popup_8d473e868a1a4c30986d227e75b534cb)
+        ;
+
+        
+    
+    
+            var marker_4ac9f68476fd4e4f951a6c02fc53a642 = L.marker(
+                [40.7426975, -73.99864944546474],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_7a7512f110b84fe29c583f1747f11fc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4ac9f68476fd4e4f951a6c02fc53a642.setIcon(icon_7a7512f110b84fe29c583f1747f11fc7);
+        
+    
+        var popup_c9c0fecc4b3b4fc0954e7a573fb03a7f = L.popup({"maxWidth": 300});
+
+        
+            var html_ea81d40fc1234c0aa96ee922156eee8d = $(`<div id="html_ea81d40fc1234c0aa96ee922156eee8d" style="width: 100.0%; height: 100.0%;">Precinct: 10th Precinct, Phone number: 212-741-8211</div>`)[0];
+            popup_c9c0fecc4b3b4fc0954e7a573fb03a7f.setContent(html_ea81d40fc1234c0aa96ee922156eee8d);
+        
+
+        marker_4ac9f68476fd4e4f951a6c02fc53a642.bindPopup(popup_c9c0fecc4b3b4fc0954e7a573fb03a7f)
+        ;
+
+        
+    
+    
+            var marker_decf7857c0dd40b7b19232f13ea83de8 = L.marker(
+                [40.6487106, -73.9598669],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_ceca6f47aaf946b08a9a92768f4e0863 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_decf7857c0dd40b7b19232f13ea83de8.setIcon(icon_ceca6f47aaf946b08a9a92768f4e0863);
+        
+    
+        var popup_9fa8404f96254d22a7b83322896f3415 = L.popup({"maxWidth": 300});
+
+        
+            var html_bc34387077fa442abd02d7dea9fe7c05 = $(`<div id="html_bc34387077fa442abd02d7dea9fe7c05" style="width: 100.0%; height: 100.0%;">Precinct: 13th Precinct, Phone number: 212-477-7411</div>`)[0];
+            popup_9fa8404f96254d22a7b83322896f3415.setContent(html_bc34387077fa442abd02d7dea9fe7c05);
+        
+
+        marker_decf7857c0dd40b7b19232f13ea83de8.bindPopup(popup_9fa8404f96254d22a7b83322896f3415)
+        ;
+
+        
+    
+    
+            var marker_935c81b0b8a34326846a6512dbb1eeb3 = L.marker(
+                [40.7538182, -73.9949851],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_8e712646ddd44704a5db373ab246030c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_935c81b0b8a34326846a6512dbb1eeb3.setIcon(icon_8e712646ddd44704a5db373ab246030c);
+        
+    
+        var popup_8f1634f113b64bfa87d41b20a4490b06 = L.popup({"maxWidth": 300});
+
+        
+            var html_7440b79939b24738b832b2198614dbaa = $(`<div id="html_7440b79939b24738b832b2198614dbaa" style="width: 100.0%; height: 100.0%;">Precinct: th Precinct, Phone number: 212-239-9811</div>`)[0];
+            popup_8f1634f113b64bfa87d41b20a4490b06.setContent(html_7440b79939b24738b832b2198614dbaa);
+        
+
+        marker_935c81b0b8a34326846a6512dbb1eeb3.bindPopup(popup_8f1634f113b64bfa87d41b20a4490b06)
+        ;
+
+        
+    
+    
+            var marker_80cfd439e0864967b5e28b703e133892 = L.marker(
+                [40.7567621, -73.9707859],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6e6f23af704241cbafd672b578595e58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_80cfd439e0864967b5e28b703e133892.setIcon(icon_6e6f23af704241cbafd672b578595e58);
+        
+    
+        var popup_080f4a20029e481cacfda058cc08d582 = L.popup({"maxWidth": 300});
+
+        
+            var html_9b47b9a1b7004c96bd1d4b618d8c43db = $(`<div id="html_9b47b9a1b7004c96bd1d4b618d8c43db" style="width: 100.0%; height: 100.0%;">Precinct: 17th Precinct, Phone number: 212-826-3211</div>`)[0];
+            popup_080f4a20029e481cacfda058cc08d582.setContent(html_9b47b9a1b7004c96bd1d4b618d8c43db);
+        
+
+        marker_80cfd439e0864967b5e28b703e133892.bindPopup(popup_080f4a20029e481cacfda058cc08d582)
+        ;
+
+        
+    
+    
+            var marker_673f5ec0db1c4359bcd3498c2999f19c = L.marker(
+                [40.7649371, -73.9850825],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_7c569693e31b4912ad8004aa9043daf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_673f5ec0db1c4359bcd3498c2999f19c.setIcon(icon_7c569693e31b4912ad8004aa9043daf7);
+        
+    
+        var popup_bc3dcd20d9284ddeaae5ed4eec405f3d = L.popup({"maxWidth": 300});
+
+        
+            var html_a4531006dda340cb933d1ff8ae18ffd9 = $(`<div id="html_a4531006dda340cb933d1ff8ae18ffd9" style="width: 100.0%; height: 100.0%;">Precinct: th Precinct, Phone number: 212-767-8400</div>`)[0];
+            popup_bc3dcd20d9284ddeaae5ed4eec405f3d.setContent(html_a4531006dda340cb933d1ff8ae18ffd9);
+        
+
+        marker_673f5ec0db1c4359bcd3498c2999f19c.bindPopup(popup_bc3dcd20d9284ddeaae5ed4eec405f3d)
+        ;
+
+        
+    
+    
+            var marker_83d3f59bbfb54f93baa4c6d9f764a8a7 = L.marker(
+                [40.7670729, -73.9638697],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3c281d46b7924f219f9706a9e8d307e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_83d3f59bbfb54f93baa4c6d9f764a8a7.setIcon(icon_3c281d46b7924f219f9706a9e8d307e2);
+        
+    
+        var popup_9801435092f84f6ba4964617cb5c3214 = L.popup({"maxWidth": 300});
+
+        
+            var html_30f9913fb91e4506a7333467fc5c3f83 = $(`<div id="html_30f9913fb91e4506a7333467fc5c3f83" style="width: 100.0%; height: 100.0%;">Precinct: 19th Precinct, Phone number: 212-452-0600</div>`)[0];
+            popup_9801435092f84f6ba4964617cb5c3214.setContent(html_30f9913fb91e4506a7333467fc5c3f83);
+        
+
+        marker_83d3f59bbfb54f93baa4c6d9f764a8a7.bindPopup(popup_9801435092f84f6ba4964617cb5c3214)
+        ;
+
+        
+    
+    
+            var marker_cfbb696c42204ddeb538f4ea5486607f = L.marker(
+                [40.7841202, -73.9750749],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_666ce2a245a544daadc9facf411ad3c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cfbb696c42204ddeb538f4ea5486607f.setIcon(icon_666ce2a245a544daadc9facf411ad3c7);
+        
+    
+        var popup_ca5e4c5a6e4c418db4b54ca1cd7a4c95 = L.popup({"maxWidth": 300});
+
+        
+            var html_21e62221432c46a9bc2b5557d7c4ec98 = $(`<div id="html_21e62221432c46a9bc2b5557d7c4ec98" style="width: 100.0%; height: 100.0%;">Precinct: 20th Precinct, Phone number: 212-580-6411</div>`)[0];
+            popup_ca5e4c5a6e4c418db4b54ca1cd7a4c95.setContent(html_21e62221432c46a9bc2b5557d7c4ec98);
+        
+
+        marker_cfbb696c42204ddeb538f4ea5486607f.bindPopup(popup_ca5e4c5a6e4c418db4b54ca1cd7a4c95)
+        ;
+
+        
+    
+    
+            var marker_56c20a4c7c7f4ddc8388c5be1d9f440f = L.marker(
+                [40.7849002, -73.9680694],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_ab618858ed2e4a62bbb6774743d150e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_56c20a4c7c7f4ddc8388c5be1d9f440f.setIcon(icon_ab618858ed2e4a62bbb6774743d150e6);
+        
+    
+        var popup_86f49757d3d64a96be923f6d55087855 = L.popup({"maxWidth": 300});
+
+        
+            var html_dc5be93da0cf47e9bb135f104ed08a67 = $(`<div id="html_dc5be93da0cf47e9bb135f104ed08a67" style="width: 100.0%; height: 100.0%;">Precinct: Central Park Precinct, Phone number: 212-570-4820</div>`)[0];
+            popup_86f49757d3d64a96be923f6d55087855.setContent(html_dc5be93da0cf47e9bb135f104ed08a67);
+        
+
+        marker_56c20a4c7c7f4ddc8388c5be1d9f440f.bindPopup(popup_86f49757d3d64a96be923f6d55087855)
+        ;
+
+        
+    
+    
+            var marker_94586ec8a09440a0b4a63b24f2b8acad = L.marker(
+                [40.7891815, -73.9472169],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_5053bccbf3434d3eb9a6edb24319e177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_94586ec8a09440a0b4a63b24f2b8acad.setIcon(icon_5053bccbf3434d3eb9a6edb24319e177);
+        
+    
+        var popup_27e694d909d043028a206daa85b002de = L.popup({"maxWidth": 300});
+
+        
+            var html_18eafdd722db490ea310a8b95cdc446e = $(`<div id="html_18eafdd722db490ea310a8b95cdc446e" style="width: 100.0%; height: 100.0%;">Precinct: 23rd Precinct, Phone number: 212-860-6411</div>`)[0];
+            popup_27e694d909d043028a206daa85b002de.setContent(html_18eafdd722db490ea310a8b95cdc446e);
+        
+
+        marker_94586ec8a09440a0b4a63b24f2b8acad.bindPopup(popup_27e694d909d043028a206daa85b002de)
+        ;
+
+        
+    
+    
+            var marker_ef200a7e33fe4dd68651cae2bc99651e = L.marker(
+                [40.7964779, -73.967428],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_4202e353e4f24b9e969f6dd8f117a012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ef200a7e33fe4dd68651cae2bc99651e.setIcon(icon_4202e353e4f24b9e969f6dd8f117a012);
+        
+    
+        var popup_aed66661efa34a518d5f08bec05c12ba = L.popup({"maxWidth": 300});
+
+        
+            var html_c028ca993d064da0bc7375ea7b3d47c4 = $(`<div id="html_c028ca993d064da0bc7375ea7b3d47c4" style="width: 100.0%; height: 100.0%;">Precinct: 24th Precinct, Phone number: 212-678-1811</div>`)[0];
+            popup_aed66661efa34a518d5f08bec05c12ba.setContent(html_c028ca993d064da0bc7375ea7b3d47c4);
+        
+
+        marker_ef200a7e33fe4dd68651cae2bc99651e.bindPopup(popup_aed66661efa34a518d5f08bec05c12ba)
+        ;
+
+        
+    
+    
+            var marker_d2489270eb5744ed9d7c6a69bb2c6519 = L.marker(
+                [40.80069235, -73.94111874373155],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_551c61d171584c5889270667e0266cb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d2489270eb5744ed9d7c6a69bb2c6519.setIcon(icon_551c61d171584c5889270667e0266cb5);
+        
+    
+        var popup_87a986f41d9742bc8e6e9bece815ce0c = L.popup({"maxWidth": 300});
+
+        
+            var html_225c5b5f013844d986ffd0645f35401a = $(`<div id="html_225c5b5f013844d986ffd0645f35401a" style="width: 100.0%; height: 100.0%;">Precinct: 25th Precinct, Phone number: 212-860-6511</div>`)[0];
+            popup_87a986f41d9742bc8e6e9bece815ce0c.setContent(html_225c5b5f013844d986ffd0645f35401a);
+        
+
+        marker_d2489270eb5744ed9d7c6a69bb2c6519.bindPopup(popup_87a986f41d9742bc8e6e9bece815ce0c)
+        ;
+
+        
+    
+    
+            var marker_a85c513ba0a74af0bf80e1852c1909d4 = L.marker(
+                [40.81469, -73.95653594153396],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_bdf54f588b8a4cb6952e296d5a23107b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a85c513ba0a74af0bf80e1852c1909d4.setIcon(icon_bdf54f588b8a4cb6952e296d5a23107b);
+        
+    
+        var popup_4d9e500c7ba74505aa8a8a143fac8bbd = L.popup({"maxWidth": 300});
+
+        
+            var html_f3f1db4d96e54b758e5ea15e61b36236 = $(`<div id="html_f3f1db4d96e54b758e5ea15e61b36236" style="width: 100.0%; height: 100.0%;">Precinct: 26th Precinct, Phone number: 212-678-1311</div>`)[0];
+            popup_4d9e500c7ba74505aa8a8a143fac8bbd.setContent(html_f3f1db4d96e54b758e5ea15e61b36236);
+        
+
+        marker_a85c513ba0a74af0bf80e1852c1909d4.bindPopup(popup_4d9e500c7ba74505aa8a8a143fac8bbd)
+        ;
+
+        
+    
+    
+            var marker_86db91a2940544f08644c07963b15ce5 = L.marker(
+                [40.8009975, -73.9578818],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_08018549dee64987924cabcbaa3da174 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_86db91a2940544f08644c07963b15ce5.setIcon(icon_08018549dee64987924cabcbaa3da174);
+        
+    
+        var popup_396e700293e24489878cdcda5588fe34 = L.popup({"maxWidth": 300});
+
+        
+            var html_911be0537bfd4d36901773f240d6a499 = $(`<div id="html_911be0537bfd4d36901773f240d6a499" style="width: 100.0%; height: 100.0%;">Precinct: 28th Precinct, Phone number: 212-678-1611</div>`)[0];
+            popup_396e700293e24489878cdcda5588fe34.setContent(html_911be0537bfd4d36901773f240d6a499);
+        
+
+        marker_86db91a2940544f08644c07963b15ce5.bindPopup(popup_396e700293e24489878cdcda5588fe34)
+        ;
+
+        
+    
+    
+            var marker_2403c5e9b920477a91a38e1c20f3538b = L.marker(
+                [40.8288745, -73.94377772909826],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_97ef3ef071534d0d9e77c9694c63b679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2403c5e9b920477a91a38e1c20f3538b.setIcon(icon_97ef3ef071534d0d9e77c9694c63b679);
+        
+    
+        var popup_ac526b53594b44f780e6f2436f26468b = L.popup({"maxWidth": 300});
+
+        
+            var html_43d28d8907d148048e9de13fbccabca5 = $(`<div id="html_43d28d8907d148048e9de13fbccabca5" style="width: 100.0%; height: 100.0%;">Precinct: 30th Precinct, Phone number: 212-690-8811</div>`)[0];
+            popup_ac526b53594b44f780e6f2436f26468b.setContent(html_43d28d8907d148048e9de13fbccabca5);
+        
+
+        marker_2403c5e9b920477a91a38e1c20f3538b.bindPopup(popup_ac526b53594b44f780e6f2436f26468b)
+        ;
+
+        
+    
+    
+            var marker_cb4c8a7ce4a449ff9c11359dfc889dfd = L.marker(
+                [40.8157476, -73.9453969],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_5374652970834d36a2f26dd7a5b8a80e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cb4c8a7ce4a449ff9c11359dfc889dfd.setIcon(icon_5374652970834d36a2f26dd7a5b8a80e);
+        
+    
+        var popup_a58ebc30bf6a4926bef5adaea6369c33 = L.popup({"maxWidth": 300});
+
+        
+            var html_bc0c03e08b594d8c9c704f5c02cad01d = $(`<div id="html_bc0c03e08b594d8c9c704f5c02cad01d" style="width: 100.0%; height: 100.0%;">Precinct: 32nd Precinct, Phone number: 212-690-6311</div>`)[0];
+            popup_a58ebc30bf6a4926bef5adaea6369c33.setContent(html_bc0c03e08b594d8c9c704f5c02cad01d);
+        
+
+        marker_cb4c8a7ce4a449ff9c11359dfc889dfd.bindPopup(popup_a58ebc30bf6a4926bef5adaea6369c33)
+        ;
+
+        
+    
+    
+            var marker_2f468bb0ae574709a1c934b351a78eb2 = L.marker(
+                [40.8405867, -73.93573663316083],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d0f5883895a54d75a1f18e757dd3c3b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2f468bb0ae574709a1c934b351a78eb2.setIcon(icon_d0f5883895a54d75a1f18e757dd3c3b7);
+        
+    
+        var popup_ae2ce4e6b63a46baac01fe079b1185c5 = L.popup({"maxWidth": 300});
+
+        
+            var html_02e0eba1540e4d24abb18419e1c8eae8 = $(`<div id="html_02e0eba1540e4d24abb18419e1c8eae8" style="width: 100.0%; height: 100.0%;">Precinct: 33rd Precinct, Phone number: 212-927-3200</div>`)[0];
+            popup_ae2ce4e6b63a46baac01fe079b1185c5.setContent(html_02e0eba1540e4d24abb18419e1c8eae8);
+        
+
+        marker_2f468bb0ae574709a1c934b351a78eb2.bindPopup(popup_ae2ce4e6b63a46baac01fe079b1185c5)
+        ;
+
+        
+    
+    
+            var marker_b39be7a639b844a08009acb098ea641c = L.marker(
+                [40.851467, -73.9353245],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_07d4eb34fcad40b180e35c99deee1441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b39be7a639b844a08009acb098ea641c.setIcon(icon_07d4eb34fcad40b180e35c99deee1441);
+        
+    
+        var popup_922ef4ba85d8424bbc1fddbebbdbbc07 = L.popup({"maxWidth": 300});
+
+        
+            var html_c79cc79966fa441d87bfc76dce01185f = $(`<div id="html_c79cc79966fa441d87bfc76dce01185f" style="width: 100.0%; height: 100.0%;">Precinct: 34th Precinct, Phone number: 212-927-9711</div>`)[0];
+            popup_922ef4ba85d8424bbc1fddbebbdbbc07.setContent(html_c79cc79966fa441d87bfc76dce01185f);
+        
+
+        marker_b39be7a639b844a08009acb098ea641c.bindPopup(popup_922ef4ba85d8424bbc1fddbebbdbbc07)
+        ;
+
+        
+    
+    
+            var marker_695c0c8589e245e58cb46907dae5cfcc = L.marker(
+                [40.8103299, -73.925216],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_7a9736f59a354370825ba177062effca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_695c0c8589e245e58cb46907dae5cfcc.setIcon(icon_7a9736f59a354370825ba177062effca);
+        
+    
+        var popup_e76ea0af76ff4220af2344316b06abd6 = L.popup({"maxWidth": 300});
+
+        
+            var html_f2cc60bbac6741df97498f0d443be7d7 = $(`<div id="html_f2cc60bbac6741df97498f0d443be7d7" style="width: 100.0%; height: 100.0%;">Precinct: 40th Precinct, Phone number: 718-402-2270</div>`)[0];
+            popup_e76ea0af76ff4220af2344316b06abd6.setContent(html_f2cc60bbac6741df97498f0d443be7d7);
+        
+
+        marker_695c0c8589e245e58cb46907dae5cfcc.bindPopup(popup_e76ea0af76ff4220af2344316b06abd6)
+        ;
+
+        
+    
+    
+            var marker_542883b2fa1a441f9e8480e01b425fe7 = L.marker(
+                [40.8161856, -73.895512],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2166f543358b40f0b72b5ae5f04efb79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_542883b2fa1a441f9e8480e01b425fe7.setIcon(icon_2166f543358b40f0b72b5ae5f04efb79);
+        
+    
+        var popup_19c26bd06b644db091a821f35f8254c2 = L.popup({"maxWidth": 300});
+
+        
+            var html_fe5605a3fbcc486bb9c01cb4d8be167d = $(`<div id="html_fe5605a3fbcc486bb9c01cb4d8be167d" style="width: 100.0%; height: 100.0%;">Precinct: 41st Precinct, Phone number: 718-542-4771</div>`)[0];
+            popup_19c26bd06b644db091a821f35f8254c2.setContent(html_fe5605a3fbcc486bb9c01cb4d8be167d);
+        
+
+        marker_542883b2fa1a441f9e8480e01b425fe7.bindPopup(popup_19c26bd06b644db091a821f35f8254c2)
+        ;
+
+        
+    
+    
+            var marker_83a27a4ee1a7482dbc1acdd30fe6eeef = L.marker(
+                [40.8224393, -73.9113094],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_eb659368815b4d43ae1ab93238968b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_83a27a4ee1a7482dbc1acdd30fe6eeef.setIcon(icon_eb659368815b4d43ae1ab93238968b3c);
+        
+    
+        var popup_4cdb2d56b39a44119548219a02400b85 = L.popup({"maxWidth": 300});
+
+        
+            var html_b5b7c74d62e54898ae8bf100d449b523 = $(`<div id="html_b5b7c74d62e54898ae8bf100d449b523" style="width: 100.0%; height: 100.0%;">Precinct: 42nd Precinct, Phone number: 718-402-3887</div>`)[0];
+            popup_4cdb2d56b39a44119548219a02400b85.setContent(html_b5b7c74d62e54898ae8bf100d449b523);
+        
+
+        marker_83a27a4ee1a7482dbc1acdd30fe6eeef.bindPopup(popup_4cdb2d56b39a44119548219a02400b85)
+        ;
+
+        
+    
+    
+            var marker_664982e59dec41da85b7090709006150 = L.marker(
+                [40.822877, -73.8698072],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_72ea7d7fcfdd4321acd6fd8436fd4500 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_664982e59dec41da85b7090709006150.setIcon(icon_72ea7d7fcfdd4321acd6fd8436fd4500);
+        
+    
+        var popup_5e48416c33944ad9aad7a565e10fece0 = L.popup({"maxWidth": 300});
+
+        
+            var html_062d455548904358a1a4fdf8b4c79143 = $(`<div id="html_062d455548904358a1a4fdf8b4c79143" style="width: 100.0%; height: 100.0%;">Precinct: 43rd Precinct, Phone number: 718-542-0888</div>`)[0];
+            popup_5e48416c33944ad9aad7a565e10fece0.setContent(html_062d455548904358a1a4fdf8b4c79143);
+        
+
+        marker_664982e59dec41da85b7090709006150.bindPopup(popup_5e48416c33944ad9aad7a565e10fece0)
+        ;
+
+        
+    
+    
+            var marker_2ab0875331d64d4e8c13f9b5437f0e3c = L.marker(
+                [40.8376206, -73.9195052],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_1a39b3baedfd4ee1955d3404ad550d37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2ab0875331d64d4e8c13f9b5437f0e3c.setIcon(icon_1a39b3baedfd4ee1955d3404ad550d37);
+        
+    
+        var popup_4db2262e7f104ce7bb4a7786987d9c8f = L.popup({"maxWidth": 300});
+
+        
+            var html_6332773bd8cc4e618246aaedbee4d14d = $(`<div id="html_6332773bd8cc4e618246aaedbee4d14d" style="width: 100.0%; height: 100.0%;">Precinct: 44th Precinct, Phone number: 718-590-5511</div>`)[0];
+            popup_4db2262e7f104ce7bb4a7786987d9c8f.setContent(html_6332773bd8cc4e618246aaedbee4d14d);
+        
+
+        marker_2ab0875331d64d4e8c13f9b5437f0e3c.bindPopup(popup_4db2262e7f104ce7bb4a7786987d9c8f)
+        ;
+
+        
+    
+    
+            var marker_d1794200b7c9436992a4393142ab0936 = L.marker(
+                [40.830843099999996, -73.82732281338933],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_aabe2165cac14c1cbca2e32428ea76fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d1794200b7c9436992a4393142ab0936.setIcon(icon_aabe2165cac14c1cbca2e32428ea76fd);
+        
+    
+        var popup_7451f59447a5461c97e2e8afb5068167 = L.popup({"maxWidth": 300});
+
+        
+            var html_1c49fcd5813044b7961ca55e85a516c9 = $(`<div id="html_1c49fcd5813044b7961ca55e85a516c9" style="width: 100.0%; height: 100.0%;">Precinct: 45th Precinct, Phone number: 718-822-5411</div>`)[0];
+            popup_7451f59447a5461c97e2e8afb5068167.setContent(html_1c49fcd5813044b7961ca55e85a516c9);
+        
+
+        marker_d1794200b7c9436992a4393142ab0936.bindPopup(popup_7451f59447a5461c97e2e8afb5068167)
+        ;
+
+        
+    
+    
+            var marker_093a34ca39ec477ca6e0d26d10ff65fb = L.marker(
+                [40.8540411, -73.9001068],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_06c92511d73c4c5c800aacd23c9f36e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_093a34ca39ec477ca6e0d26d10ff65fb.setIcon(icon_06c92511d73c4c5c800aacd23c9f36e6);
+        
+    
+        var popup_7884708924a84ff6afdb2781896a8082 = L.popup({"maxWidth": 300});
+
+        
+            var html_4bfc513ed01a4c3c88f98b73e43d044c = $(`<div id="html_4bfc513ed01a4c3c88f98b73e43d044c" style="width: 100.0%; height: 100.0%;">Precinct: 46th Precinct, Phone number: 718-220-5211</div>`)[0];
+            popup_7884708924a84ff6afdb2781896a8082.setContent(html_4bfc513ed01a4c3c88f98b73e43d044c);
+        
+
+        marker_093a34ca39ec477ca6e0d26d10ff65fb.bindPopup(popup_7884708924a84ff6afdb2781896a8082)
+        ;
+
+        
+    
+    
+            var marker_54b785d231b44e62b08db4f2f7108b24 = L.marker(
+                [40.8875, -73.8475],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3051200cf2c34b9a90dbd9bc97d204b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_54b785d231b44e62b08db4f2f7108b24.setIcon(icon_3051200cf2c34b9a90dbd9bc97d204b1);
+        
+    
+        var popup_20bd62949c20490d992d4f0860056c0e = L.popup({"maxWidth": 300});
+
+        
+            var html_f2975005d06442a3bfff1a96a2a8241b = $(`<div id="html_f2975005d06442a3bfff1a96a2a8241b" style="width: 100.0%; height: 100.0%;">Precinct: 47th Precinct, Phone number: 718-920-1211</div>`)[0];
+            popup_20bd62949c20490d992d4f0860056c0e.setContent(html_f2975005d06442a3bfff1a96a2a8241b);
+        
+
+        marker_54b785d231b44e62b08db4f2f7108b24.bindPopup(popup_20bd62949c20490d992d4f0860056c0e)
+        ;
+
+        
+    
+    
+            var marker_5ce919bd61c04634a4aa094863c65407 = L.marker(
+                [40.8201306, -73.8139573],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_0d3e0485ae424429afd8aa9a57089957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5ce919bd61c04634a4aa094863c65407.setIcon(icon_0d3e0485ae424429afd8aa9a57089957);
+        
+    
+        var popup_53767ab1174a4fe4811dda88694b9439 = L.popup({"maxWidth": 300});
+
+        
+            var html_8b1e4ae32e8f4b4f9553b5eb39263f37 = $(`<div id="html_8b1e4ae32e8f4b4f9553b5eb39263f37" style="width: 100.0%; height: 100.0%;">Precinct: 48th Precinct, Phone number: 718-299-3900</div>`)[0];
+            popup_53767ab1174a4fe4811dda88694b9439.setContent(html_8b1e4ae32e8f4b4f9553b5eb39263f37);
+        
+
+        marker_5ce919bd61c04634a4aa094863c65407.bindPopup(popup_53767ab1174a4fe4811dda88694b9439)
+        ;
+
+        
+    
+    
+            var marker_15789fe0fdcd4b33ab7c5cfa9d88ff10 = L.marker(
+                [40.8561111, -73.8444444],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3a78e77deb9145af9792f9c09c7d8030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_15789fe0fdcd4b33ab7c5cfa9d88ff10.setIcon(icon_3a78e77deb9145af9792f9c09c7d8030);
+        
+    
+        var popup_01a2d4da894447158d3ac2e557cf39df = L.popup({"maxWidth": 300});
+
+        
+            var html_3dea220627674820937b35121640f1af = $(`<div id="html_3dea220627674820937b35121640f1af" style="width: 100.0%; height: 100.0%;">Precinct: 49th Precinct, Phone number: 718-918-2000</div>`)[0];
+            popup_01a2d4da894447158d3ac2e557cf39df.setContent(html_3dea220627674820937b35121640f1af);
+        
+
+        marker_15789fe0fdcd4b33ab7c5cfa9d88ff10.bindPopup(popup_01a2d4da894447158d3ac2e557cf39df)
+        ;
+
+        
+    
+    
+            var marker_ea74701262304a0c8c7d2127c8dd318c = L.marker(
+                [40.8834823, -73.90241725711081],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_05cc3e616d364b23932466c1fb80d6eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ea74701262304a0c8c7d2127c8dd318c.setIcon(icon_05cc3e616d364b23932466c1fb80d6eb);
+        
+    
+        var popup_1819fe37a91f4224bf7ba0294333f09e = L.popup({"maxWidth": 300});
+
+        
+            var html_2a44ac55ae26485988f86bf127484cce = $(`<div id="html_2a44ac55ae26485988f86bf127484cce" style="width: 100.0%; height: 100.0%;">Precinct: 50th Precinct, Phone number: 718-543-5700</div>`)[0];
+            popup_1819fe37a91f4224bf7ba0294333f09e.setContent(html_2a44ac55ae26485988f86bf127484cce);
+        
+
+        marker_ea74701262304a0c8c7d2127c8dd318c.bindPopup(popup_1819fe37a91f4224bf7ba0294333f09e)
+        ;
+
+        
+    
+    
+            var marker_8fe0f8b2187b4c47b6b7c104a06f7a69 = L.marker(
+                [40.8690538, -73.87965546376213],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a6a400e8cb554a1e9a4455bb45e86952 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8fe0f8b2187b4c47b6b7c104a06f7a69.setIcon(icon_a6a400e8cb554a1e9a4455bb45e86952);
+        
+    
+        var popup_80c70c90cb184fa38706084c24a1f981 = L.popup({"maxWidth": 300});
+
+        
+            var html_2ffe8085d22844a09d99df9f6a64808c = $(`<div id="html_2ffe8085d22844a09d99df9f6a64808c" style="width: 100.0%; height: 100.0%;">Precinct: 52nd Precinct, Phone number: 718-220-5811</div>`)[0];
+            popup_80c70c90cb184fa38706084c24a1f981.setContent(html_2ffe8085d22844a09d99df9f6a64808c);
+        
+
+        marker_8fe0f8b2187b4c47b6b7c104a06f7a69.bindPopup(popup_80c70c90cb184fa38706084c24a1f981)
+        ;
+
+        
+    
+    
+            var marker_eaa0a7c6be894dc4a3b3ea1d484d2f9c = L.marker(
+                [40.57651505, -73.97609753793938],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_711533ea266d453c8d37772e97bda6be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eaa0a7c6be894dc4a3b3ea1d484d2f9c.setIcon(icon_711533ea266d453c8d37772e97bda6be);
+        
+    
+        var popup_f3c07aa66fa8425e97d000809b1965fa = L.popup({"maxWidth": 300});
+
+        
+            var html_62fa43532ef44f928973f230940251ec = $(`<div id="html_62fa43532ef44f928973f230940251ec" style="width: 100.0%; height: 100.0%;">Precinct: 60th Precinct, Phone number: 718-946-3311</div>`)[0];
+            popup_f3c07aa66fa8425e97d000809b1965fa.setContent(html_62fa43532ef44f928973f230940251ec);
+        
+
+        marker_eaa0a7c6be894dc4a3b3ea1d484d2f9c.bindPopup(popup_f3c07aa66fa8425e97d000809b1965fa)
+        ;
+
+        
+    
+    
+            var marker_7e909780129a4506b8ab541e2bc50a64 = L.marker(
+                [40.594171349999996, -73.96048726556828],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e88dec342b364900b1da130d3f22d458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7e909780129a4506b8ab541e2bc50a64.setIcon(icon_e88dec342b364900b1da130d3f22d458);
+        
+    
+        var popup_87c4f99a3e6e4ee5a162d9873c5b9e4e = L.popup({"maxWidth": 300});
+
+        
+            var html_3815efd7eb664fc2af5f7228cd515b7e = $(`<div id="html_3815efd7eb664fc2af5f7228cd515b7e" style="width: 100.0%; height: 100.0%;">Precinct: 61st Precinct, Phone number: 718-627-6611</div>`)[0];
+            popup_87c4f99a3e6e4ee5a162d9873c5b9e4e.setContent(html_3815efd7eb664fc2af5f7228cd515b7e);
+        
+
+        marker_7e909780129a4506b8ab541e2bc50a64.bindPopup(popup_87c4f99a3e6e4ee5a162d9873c5b9e4e)
+        ;
+
+        
+    
+    
+            var marker_c0c7f22b9d1a4b3f8ca79dc762e56a3e = L.marker(
+                [40.6025772, -74.00299988095668],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a513829c29b840aaabc9f7bc5f92fc5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c0c7f22b9d1a4b3f8ca79dc762e56a3e.setIcon(icon_a513829c29b840aaabc9f7bc5f92fc5a);
+        
+    
+        var popup_4a0c66f9d4f8404ea105c23073f27c3d = L.popup({"maxWidth": 300});
+
+        
+            var html_c3936209d9e24814b46b63ed13d5da5c = $(`<div id="html_c3936209d9e24814b46b63ed13d5da5c" style="width: 100.0%; height: 100.0%;">Precinct: 62nd Precinct, Phone number: 718-236-2611</div>`)[0];
+            popup_4a0c66f9d4f8404ea105c23073f27c3d.setContent(html_c3936209d9e24814b46b63ed13d5da5c);
+        
+
+        marker_c0c7f22b9d1a4b3f8ca79dc762e56a3e.bindPopup(popup_4a0c66f9d4f8404ea105c23073f27c3d)
+        ;
+
+        
+    
+    
+            var marker_50c1e5c208c24a5187cc51b861774799 = L.marker(
+                [40.6279617, -73.94160667402886],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d6e45f2704d740f1800a16527bc142e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_50c1e5c208c24a5187cc51b861774799.setIcon(icon_d6e45f2704d740f1800a16527bc142e6);
+        
+    
+        var popup_5e67862900d84384aa47f2e514af92b0 = L.popup({"maxWidth": 300});
+
+        
+            var html_1464df901d19469bac0c2f03bbd18a4c = $(`<div id="html_1464df901d19469bac0c2f03bbd18a4c" style="width: 100.0%; height: 100.0%;">Precinct: 63rd Precinct, Phone number: 718-258-4411</div>`)[0];
+            popup_5e67862900d84384aa47f2e514af92b0.setContent(html_1464df901d19469bac0c2f03bbd18a4c);
+        
+
+        marker_50c1e5c208c24a5187cc51b861774799.bindPopup(popup_5e67862900d84384aa47f2e514af92b0)
+        ;
+
+        
+    
+    
+            var marker_7e3322e57ece41428de7e1568673c103 = L.marker(
+                [40.6257785, -73.99135492860181],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_c709e85c6789458088bdf6c8fd3a8aaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7e3322e57ece41428de7e1568673c103.setIcon(icon_c709e85c6789458088bdf6c8fd3a8aaf);
+        
+    
+        var popup_e6e26fefaf4a4ffab9d45d98b950d9a8 = L.popup({"maxWidth": 300});
+
+        
+            var html_168f8eb7cbd64e9485c4384d5e03acdb = $(`<div id="html_168f8eb7cbd64e9485c4384d5e03acdb" style="width: 100.0%; height: 100.0%;">Precinct: 66th Precinct, Phone number: 718-851-5611</div>`)[0];
+            popup_e6e26fefaf4a4ffab9d45d98b950d9a8.setContent(html_168f8eb7cbd64e9485c4384d5e03acdb);
+        
+
+        marker_7e3322e57ece41428de7e1568673c103.bindPopup(popup_e6e26fefaf4a4ffab9d45d98b950d9a8)
+        ;
+
+        
+    
+    
+            var marker_eff7bd54008c44188311c0e0212cd9d8 = L.marker(
+                [40.6487689, -73.95019],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_bd000ef7207d4b11b17f86896781a3dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eff7bd54008c44188311c0e0212cd9d8.setIcon(icon_bd000ef7207d4b11b17f86896781a3dc);
+        
+    
+        var popup_dadac60024e343aea72fe50b20e1230a = L.popup({"maxWidth": 300});
+
+        
+            var html_c7c5e6b574f94599b1367b98e60b12e2 = $(`<div id="html_c7c5e6b574f94599b1367b98e60b12e2" style="width: 100.0%; height: 100.0%;">Precinct: 67th Precinct, Phone number: 718-287-3211</div>`)[0];
+            popup_dadac60024e343aea72fe50b20e1230a.setContent(html_c7c5e6b574f94599b1367b98e60b12e2);
+        
+
+        marker_eff7bd54008c44188311c0e0212cd9d8.bindPopup(popup_dadac60024e343aea72fe50b20e1230a)
+        ;
+
+        
+    
+    
+            var marker_e5585be22e324c849af2a430fdd49648 = L.marker(
+                [40.638963849999996, -74.02263559644052],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_8ac1ccf0845b44fb9cce5997aa8ddf8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e5585be22e324c849af2a430fdd49648.setIcon(icon_8ac1ccf0845b44fb9cce5997aa8ddf8b);
+        
+    
+        var popup_180178fcb9e34139a4963fb89ebf0d57 = L.popup({"maxWidth": 300});
+
+        
+            var html_4bf4dceaae144fa8be72883359614094 = $(`<div id="html_4bf4dceaae144fa8be72883359614094" style="width: 100.0%; height: 100.0%;">Precinct: 68th Precinct, Phone number: 718-439-4211</div>`)[0];
+            popup_180178fcb9e34139a4963fb89ebf0d57.setContent(html_4bf4dceaae144fa8be72883359614094);
+        
+
+        marker_e5585be22e324c849af2a430fdd49648.bindPopup(popup_180178fcb9e34139a4963fb89ebf0d57)
+        ;
+
+        
+    
+    
+            var marker_8afcb26b6dc845018dc20fbd91253cdb = L.marker(
+                [40.648490499999994, -73.90496134444203],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_96c7a86b0a664f12b39b9cea9fc4bc9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8afcb26b6dc845018dc20fbd91253cdb.setIcon(icon_96c7a86b0a664f12b39b9cea9fc4bc9a);
+        
+    
+        var popup_94441774567a4871b37095cf28900e51 = L.popup({"maxWidth": 300});
+
+        
+            var html_a4fcc6107fc3497088cdadfe0f5d3e26 = $(`<div id="html_a4fcc6107fc3497088cdadfe0f5d3e26" style="width: 100.0%; height: 100.0%;">Precinct: 69th Precinct, Phone number: 718-257-6211</div>`)[0];
+            popup_94441774567a4871b37095cf28900e51.setContent(html_a4fcc6107fc3497088cdadfe0f5d3e26);
+        
+
+        marker_8afcb26b6dc845018dc20fbd91253cdb.bindPopup(popup_94441774567a4871b37095cf28900e51)
+        ;
+
+        
+    
+    
+            var marker_bd44a37d7b394867b129b2eee452b886 = L.marker(
+                [40.63035295, -73.97372085139176],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_11fa3299f13d4129a9eb6ae15f87557d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd44a37d7b394867b129b2eee452b886.setIcon(icon_11fa3299f13d4129a9eb6ae15f87557d);
+        
+    
+        var popup_a66c633ea28149c5b4cb1abc39f67bbc = L.popup({"maxWidth": 300});
+
+        
+            var html_3a993fb8a3644c50a3571f05dd6e91ce = $(`<div id="html_3a993fb8a3644c50a3571f05dd6e91ce" style="width: 100.0%; height: 100.0%;">Precinct: 70th Precinct, Phone number: 718-851-5511</div>`)[0];
+            popup_a66c633ea28149c5b4cb1abc39f67bbc.setContent(html_3a993fb8a3644c50a3571f05dd6e91ce);
+        
+
+        marker_bd44a37d7b394867b129b2eee452b886.bindPopup(popup_a66c633ea28149c5b4cb1abc39f67bbc)
+        ;
+
+        
+    
+    
+            var marker_1c6e9283678e49a899d114ad4d12a04d = L.marker(
+                [40.6645423, -73.94788400186542],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_bf2709f006c7408694142f2b07263fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1c6e9283678e49a899d114ad4d12a04d.setIcon(icon_bf2709f006c7408694142f2b07263fe6);
+        
+    
+        var popup_b0abce4c34d9497cb88fec06e9554ce0 = L.popup({"maxWidth": 300});
+
+        
+            var html_cf52dae162274a4dbcfd70c357ce5b42 = $(`<div id="html_cf52dae162274a4dbcfd70c357ce5b42" style="width: 100.0%; height: 100.0%;">Precinct: 71st Precinct, Phone number: 718-735-0511</div>`)[0];
+            popup_b0abce4c34d9497cb88fec06e9554ce0.setContent(html_cf52dae162274a4dbcfd70c357ce5b42);
+        
+
+        marker_1c6e9283678e49a899d114ad4d12a04d.bindPopup(popup_b0abce4c34d9497cb88fec06e9554ce0)
+        ;
+
+        
+    
+    
+            var marker_5bccfb517fb84c56a8dcf9d499d630b8 = L.marker(
+                [40.65818805, -74.0010755573444],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_5dc72582f1b64be7b9673c6f8302a901 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5bccfb517fb84c56a8dcf9d499d630b8.setIcon(icon_5dc72582f1b64be7b9673c6f8302a901);
+        
+    
+        var popup_99c33e77c6c847c38e04d7015221489c = L.popup({"maxWidth": 300});
+
+        
+            var html_768b94f731734609a4541217aa439b69 = $(`<div id="html_768b94f731734609a4541217aa439b69" style="width: 100.0%; height: 100.0%;">Precinct: 72nd Precinct, Phone number: 718-965-6311</div>`)[0];
+            popup_99c33e77c6c847c38e04d7015221489c.setContent(html_768b94f731734609a4541217aa439b69);
+        
+
+        marker_5bccfb517fb84c56a8dcf9d499d630b8.bindPopup(popup_99c33e77c6c847c38e04d7015221489c)
+        ;
+
+        
+    
+    
+            var marker_577ef90a87204059bd4d357e7d81e310 = L.marker(
+                [40.67078385, -73.91354331061422],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_6f9164f1ac7145649bf7f6fffbc40923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_577ef90a87204059bd4d357e7d81e310.setIcon(icon_6f9164f1ac7145649bf7f6fffbc40923);
+        
+    
+        var popup_be6519be81f7484f88525ca80de04a8c = L.popup({"maxWidth": 300});
+
+        
+            var html_d3415949245e4126986186fa154a0385 = $(`<div id="html_d3415949245e4126986186fa154a0385" style="width: 100.0%; height: 100.0%;">Precinct: 73rd Precinct, Phone number: 718-495-5411</div>`)[0];
+            popup_be6519be81f7484f88525ca80de04a8c.setContent(html_d3415949245e4126986186fa154a0385);
+        
+
+        marker_577ef90a87204059bd4d357e7d81e310.bindPopup(popup_be6519be81f7484f88525ca80de04a8c)
+        ;
+
+        
+    
+    
+            var marker_633caaab748c4bbb8c309b1c5bd603eb = L.marker(
+                [40.67117035, -73.88145873279599],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e327813751414f58bd04e434f98e73f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_633caaab748c4bbb8c309b1c5bd603eb.setIcon(icon_e327813751414f58bd04e434f98e73f2);
+        
+    
+        var popup_fa2b389f4f764528a2d1366e1c6c102f = L.popup({"maxWidth": 300});
+
+        
+            var html_501eabb1ddfc4025af55d2550fc81d84 = $(`<div id="html_501eabb1ddfc4025af55d2550fc81d84" style="width: 100.0%; height: 100.0%;">Precinct: 75th Precinct, Phone number: 718-827-3511</div>`)[0];
+            popup_fa2b389f4f764528a2d1366e1c6c102f.setContent(html_501eabb1ddfc4025af55d2550fc81d84);
+        
+
+        marker_633caaab748c4bbb8c309b1c5bd603eb.bindPopup(popup_fa2b389f4f764528a2d1366e1c6c102f)
+        ;
+
+        
+    
+    
+            var marker_67c62cf950c047f6aac672eb9fd73b83 = L.marker(
+                [40.683839649999996, -74.00019310230408],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d20441da854c4106bb91d005a2eb36ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_67c62cf950c047f6aac672eb9fd73b83.setIcon(icon_d20441da854c4106bb91d005a2eb36ec);
+        
+    
+        var popup_90172c9df91943c9b0a546074e087129 = L.popup({"maxWidth": 300});
+
+        
+            var html_e290b78649c04a708b5cbf7186b78f9b = $(`<div id="html_e290b78649c04a708b5cbf7186b78f9b" style="width: 100.0%; height: 100.0%;">Precinct: 76th Precinct, Phone number: 718-834-3211</div>`)[0];
+            popup_90172c9df91943c9b0a546074e087129.setContent(html_e290b78649c04a708b5cbf7186b78f9b);
+        
+
+        marker_67c62cf950c047f6aac672eb9fd73b83.bindPopup(popup_90172c9df91943c9b0a546074e087129)
+        ;
+
+        
+    
+    
+            var marker_8431434df7614a0087ad403f34bc5cf7 = L.marker(
+                [40.67477385, -73.93024528334647],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_80f5a53f2d1947418da63d6040bc19fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8431434df7614a0087ad403f34bc5cf7.setIcon(icon_80f5a53f2d1947418da63d6040bc19fb);
+        
+    
+        var popup_fce7be17f4d84157806722477f218013 = L.popup({"maxWidth": 300});
+
+        
+            var html_bbec3e3eec44443c919a5cdbd956e900 = $(`<div id="html_bbec3e3eec44443c919a5cdbd956e900" style="width: 100.0%; height: 100.0%;">Precinct: 77th Precinct, Phone number: 718-735-0611</div>`)[0];
+            popup_fce7be17f4d84157806722477f218013.setContent(html_bbec3e3eec44443c919a5cdbd956e900);
+        
+
+        marker_8431434df7614a0087ad403f34bc5cf7.bindPopup(popup_fce7be17f4d84157806722477f218013)
+        ;
+
+        
+    
+    
+            var marker_ae19a2801fac432b83283438654607a4 = L.marker(
+                [40.68090725, -73.9741761660501],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_f9dea04ae8a04a58a4f0c2224c27c778 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae19a2801fac432b83283438654607a4.setIcon(icon_f9dea04ae8a04a58a4f0c2224c27c778);
+        
+    
+        var popup_b157250cd2314e04bb8ce039b0302f2e = L.popup({"maxWidth": 300});
+
+        
+            var html_66ab016e7eb24262bf00ece0a27c93c7 = $(`<div id="html_66ab016e7eb24262bf00ece0a27c93c7" style="width: 100.0%; height: 100.0%;">Precinct: 78th Precinct, Phone number: 718-636-6411</div>`)[0];
+            popup_b157250cd2314e04bb8ce039b0302f2e.setContent(html_66ab016e7eb24262bf00ece0a27c93c7);
+        
+
+        marker_ae19a2801fac432b83283438654607a4.bindPopup(popup_b157250cd2314e04bb8ce039b0302f2e)
+        ;
+
+        
+    
+    
+            var marker_be9d6172cb3640b08b9cf2a1cef1b42d = L.marker(
+                [40.6888386, -73.94470605912969],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_c9533c4bba9a4426aaec5ad09fd11a9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_be9d6172cb3640b08b9cf2a1cef1b42d.setIcon(icon_c9533c4bba9a4426aaec5ad09fd11a9e);
+        
+    
+        var popup_c4b4f7c407074297838c6624f892aa22 = L.popup({"maxWidth": 300});
+
+        
+            var html_d1db6e845b2e4b17a36727d9e2781520 = $(`<div id="html_d1db6e845b2e4b17a36727d9e2781520" style="width: 100.0%; height: 100.0%;">Precinct: 79th Precinct, Phone number: 718-636-6611</div>`)[0];
+            popup_c4b4f7c407074297838c6624f892aa22.setContent(html_d1db6e845b2e4b17a36727d9e2781520);
+        
+
+        marker_be9d6172cb3640b08b9cf2a1cef1b42d.bindPopup(popup_c4b4f7c407074297838c6624f892aa22)
+        ;
+
+        
+    
+    
+            var marker_d62bbec627a845d8b452480d01e5d61f = L.marker(
+                [40.6897012, -73.9242145],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_397989127f2243599e8070d1c5d96ad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d62bbec627a845d8b452480d01e5d61f.setIcon(icon_397989127f2243599e8070d1c5d96ad1);
+        
+    
+        var popup_e6f7d3f4270e4374b96b7ad54286f71e = L.popup({"maxWidth": 300});
+
+        
+            var html_0737cdb0dace40b2a1f7688cd1c8533a = $(`<div id="html_0737cdb0dace40b2a1f7688cd1c8533a" style="width: 100.0%; height: 100.0%;">Precinct: 81st Precinct, Phone number: 718-574-0411</div>`)[0];
+            popup_e6f7d3f4270e4374b96b7ad54286f71e.setContent(html_0737cdb0dace40b2a1f7688cd1c8533a);
+        
+
+        marker_d62bbec627a845d8b452480d01e5d61f.bindPopup(popup_e6f7d3f4270e4374b96b7ad54286f71e)
+        ;
+
+        
+    
+    
+            var marker_e200c86b50aa4fdeb346f2bb5dc86037 = L.marker(
+                [40.6981536, -73.91787129404761],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_fc9fbb6f44ba45d09e5b3a261be6ab65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e200c86b50aa4fdeb346f2bb5dc86037.setIcon(icon_fc9fbb6f44ba45d09e5b3a261be6ab65);
+        
+    
+        var popup_c20e3f22b2a2498cbae611e26ff4c906 = L.popup({"maxWidth": 300});
+
+        
+            var html_cb5bf3747276461895310a99568969b0 = $(`<div id="html_cb5bf3747276461895310a99568969b0" style="width: 100.0%; height: 100.0%;">Precinct: 83rd Precinct, Phone number: 718-574-1605</div>`)[0];
+            popup_c20e3f22b2a2498cbae611e26ff4c906.setContent(html_cb5bf3747276461895310a99568969b0);
+        
+
+        marker_e200c86b50aa4fdeb346f2bb5dc86037.bindPopup(popup_c20e3f22b2a2498cbae611e26ff4c906)
+        ;
+
+        
+    
+    
+            var marker_cd154431dcc3456aaa4487123ae3997c = L.marker(
+                [40.6953224, -73.9830904],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_3435c5371b514d5ca93187e35140b34f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cd154431dcc3456aaa4487123ae3997c.setIcon(icon_3435c5371b514d5ca93187e35140b34f);
+        
+    
+        var popup_5edc899e53ac4aa59aa81ef92677a7a4 = L.popup({"maxWidth": 300});
+
+        
+            var html_eaef7b72266b447bb12a66a435ef8cda = $(`<div id="html_eaef7b72266b447bb12a66a435ef8cda" style="width: 100.0%; height: 100.0%;">Precinct: 84th Precinct, Phone number: 718-875-6811</div>`)[0];
+            popup_5edc899e53ac4aa59aa81ef92677a7a4.setContent(html_eaef7b72266b447bb12a66a435ef8cda);
+        
+
+        marker_cd154431dcc3456aaa4487123ae3997c.bindPopup(popup_5edc899e53ac4aa59aa81ef92677a7a4)
+        ;
+
+        
+    
+    
+            var marker_7d2bd0641e924cb3a7e5f54032a2f869 = L.marker(
+                [40.69008425, -73.96048450772389],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_286e7a12143e426b8dda34ff3d18c861 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7d2bd0641e924cb3a7e5f54032a2f869.setIcon(icon_286e7a12143e426b8dda34ff3d18c861);
+        
+    
+        var popup_66ddfdaa4d3442209a495687b8124762 = L.popup({"maxWidth": 300});
+
+        
+            var html_7e80228955c2495a8ce017bd4bbd6d59 = $(`<div id="html_7e80228955c2495a8ce017bd4bbd6d59" style="width: 100.0%; height: 100.0%;">Precinct: 88th Precinct, Phone number: 718-636-6511</div>`)[0];
+            popup_66ddfdaa4d3442209a495687b8124762.setContent(html_7e80228955c2495a8ce017bd4bbd6d59);
+        
+
+        marker_7d2bd0641e924cb3a7e5f54032a2f869.bindPopup(popup_66ddfdaa4d3442209a495687b8124762)
+        ;
+
+        
+    
+    
+            var marker_d17f1a2c31384061aab5b2e81f0e52d1 = L.marker(
+                [40.7064072, -73.9505747],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_57672b7989c144fda626cc9a57095cdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d17f1a2c31384061aab5b2e81f0e52d1.setIcon(icon_57672b7989c144fda626cc9a57095cdd);
+        
+    
+        var popup_a3b187d83dbb4201a42832ca0f5a1473 = L.popup({"maxWidth": 300});
+
+        
+            var html_22d532801ca04b2d85d78c9e3757b16c = $(`<div id="html_22d532801ca04b2d85d78c9e3757b16c" style="width: 100.0%; height: 100.0%;">Precinct: 90th Precinct, Phone number: 718-963-5311</div>`)[0];
+            popup_a3b187d83dbb4201a42832ca0f5a1473.setContent(html_22d532801ca04b2d85d78c9e3757b16c);
+        
+
+        marker_d17f1a2c31384061aab5b2e81f0e52d1.bindPopup(popup_a3b187d83dbb4201a42832ca0f5a1473)
+        ;
+
+        
+    
+    
+            var marker_55925f7ad4ec4d849b82547c8aa7f76c = L.marker(
+                [40.726806, -73.953204],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a62159e477c94e98949c317516344977 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_55925f7ad4ec4d849b82547c8aa7f76c.setIcon(icon_a62159e477c94e98949c317516344977);
+        
+    
+        var popup_fb625fbf9f4f45cb9373874f8b437930 = L.popup({"maxWidth": 300});
+
+        
+            var html_f2d14421fcb94b7a833269ef7c3056b2 = $(`<div id="html_f2d14421fcb94b7a833269ef7c3056b2" style="width: 100.0%; height: 100.0%;">Precinct: 94th Precinct, Phone number: 718-383-3879</div>`)[0];
+            popup_fb625fbf9f4f45cb9373874f8b437930.setContent(html_f2d14421fcb94b7a833269ef7c3056b2);
+        
+
+        marker_55925f7ad4ec4d849b82547c8aa7f76c.bindPopup(popup_fb625fbf9f4f45cb9373874f8b437930)
+        ;
+
+        
+    
+    
+            var marker_08e5a986989448f08279add54671e059 = L.marker(
+                [40.5862476, -73.8164846],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_7510a14e389d4a8a9efd555d3c725721 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_08e5a986989448f08279add54671e059.setIcon(icon_7510a14e389d4a8a9efd555d3c725721);
+        
+    
+        var popup_d43b56e14cfe42ac9b5eee49e63560dd = L.popup({"maxWidth": 300});
+
+        
+            var html_cb89e49aa94e43d7a408735ddd01ad9e = $(`<div id="html_cb89e49aa94e43d7a408735ddd01ad9e" style="width: 100.0%; height: 100.0%;">Precinct: 100th Precinct, Phone number: 718-318-4200</div>`)[0];
+            popup_d43b56e14cfe42ac9b5eee49e63560dd.setContent(html_cb89e49aa94e43d7a408735ddd01ad9e);
+        
+
+        marker_08e5a986989448f08279add54671e059.bindPopup(popup_d43b56e14cfe42ac9b5eee49e63560dd)
+        ;
+
+        
+    
+    
+            var marker_15f6ceaed18b405593ba499c01289e7e = L.marker(
+                [40.6029503, -73.7499972],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_0d4f4e452b6e4d5191617cfa1602368a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_15f6ceaed18b405593ba499c01289e7e.setIcon(icon_0d4f4e452b6e4d5191617cfa1602368a);
+        
+    
+        var popup_c486651c4cc14d0493e7f0d92cce3eca = L.popup({"maxWidth": 300});
+
+        
+            var html_b50764dc5e6d4143853764d9513ba728 = $(`<div id="html_b50764dc5e6d4143853764d9513ba728" style="width: 100.0%; height: 100.0%;">Precinct: 101st Precinct, Phone number: 718-868-3400</div>`)[0];
+            popup_c486651c4cc14d0493e7f0d92cce3eca.setContent(html_b50764dc5e6d4143853764d9513ba728);
+        
+
+        marker_15f6ceaed18b405593ba499c01289e7e.bindPopup(popup_c486651c4cc14d0493e7f0d92cce3eca)
+        ;
+
+        
+    
+    
+            var marker_365b9ac31b944a9589a36d44b2d98c52 = L.marker(
+                [40.6877843, -73.82591],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_5ac43966517f427d9a244aef78ec453c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_365b9ac31b944a9589a36d44b2d98c52.setIcon(icon_5ac43966517f427d9a244aef78ec453c);
+        
+    
+        var popup_d5a15c1997f5474186a714f68b144c9d = L.popup({"maxWidth": 300});
+
+        
+            var html_89ae888d579e4ef68796ba45a07ddd58 = $(`<div id="html_89ae888d579e4ef68796ba45a07ddd58" style="width: 100.0%; height: 100.0%;">Precinct: 102nd Precinct, Phone number: 718-805-3200</div>`)[0];
+            popup_d5a15c1997f5474186a714f68b144c9d.setContent(html_89ae888d579e4ef68796ba45a07ddd58);
+        
+
+        marker_365b9ac31b944a9589a36d44b2d98c52.bindPopup(popup_d5a15c1997f5474186a714f68b144c9d)
+        ;
+
+        
+    
+    
+            var marker_1de682c16ce94f34b3936c2053d549fb = L.marker(
+                [40.7071477, -73.7926904],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_8074b84773e24308b8148f08d1fc0fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1de682c16ce94f34b3936c2053d549fb.setIcon(icon_8074b84773e24308b8148f08d1fc0fbc);
+        
+    
+        var popup_47a443158484436aacf6779039986847 = L.popup({"maxWidth": 300});
+
+        
+            var html_5b40fe80a456451691cc2f996f39f4c1 = $(`<div id="html_5b40fe80a456451691cc2f996f39f4c1" style="width: 100.0%; height: 100.0%;">Precinct: 103rd Precinct, Phone number: 718-657-8181</div>`)[0];
+            popup_47a443158484436aacf6779039986847.setContent(html_5b40fe80a456451691cc2f996f39f4c1);
+        
+
+        marker_1de682c16ce94f34b3936c2053d549fb.bindPopup(popup_47a443158484436aacf6779039986847)
+        ;
+
+        
+    
+    
+            var marker_bd221d26229b4f80b870c38a8041e4d7 = L.marker(
+                [40.704421, -73.8938358],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_067536827bb24abd803be56c2b35f383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd221d26229b4f80b870c38a8041e4d7.setIcon(icon_067536827bb24abd803be56c2b35f383);
+        
+    
+        var popup_de9aca53e99e4dcbb03c19b77b1c8de8 = L.popup({"maxWidth": 300});
+
+        
+            var html_6d99f3d69fd241f0898095058257a5da = $(`<div id="html_6d99f3d69fd241f0898095058257a5da" style="width: 100.0%; height: 100.0%;">Precinct: 104th Precinct, Phone number: 718-386-3004</div>`)[0];
+            popup_de9aca53e99e4dcbb03c19b77b1c8de8.setContent(html_6d99f3d69fd241f0898095058257a5da);
+        
+
+        marker_bd221d26229b4f80b870c38a8041e4d7.bindPopup(popup_de9aca53e99e4dcbb03c19b77b1c8de8)
+        ;
+
+        
+    
+    
+            var marker_2d9004a3d80049ce85d0325dee86ddf8 = L.marker(
+                [40.7262893, -73.7351006],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_03df5f52491442f79cf74bf4dbbc5e0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2d9004a3d80049ce85d0325dee86ddf8.setIcon(icon_03df5f52491442f79cf74bf4dbbc5e0e);
+        
+    
+        var popup_332e8366d62e48f4ad5b5bd20e8abcd4 = L.popup({"maxWidth": 300});
+
+        
+            var html_d43fd1e03cd8496b9b36394d4d8ea772 = $(`<div id="html_d43fd1e03cd8496b9b36394d4d8ea772" style="width: 100.0%; height: 100.0%;">Precinct: 105th Precinct, Phone number: 718-776-9090</div>`)[0];
+            popup_332e8366d62e48f4ad5b5bd20e8abcd4.setContent(html_d43fd1e03cd8496b9b36394d4d8ea772);
+        
+
+        marker_2d9004a3d80049ce85d0325dee86ddf8.bindPopup(popup_332e8366d62e48f4ad5b5bd20e8abcd4)
+        ;
+
+        
+    
+    
+            var marker_d5bcbd5c58a44f4c86bad029d1c0b774 = L.marker(
+                [40.68219860000001, -73.83974945],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_e27eea15068b47778a8d4cc2ff45a697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d5bcbd5c58a44f4c86bad029d1c0b774.setIcon(icon_e27eea15068b47778a8d4cc2ff45a697);
+        
+    
+        var popup_f2e5a14bd95e45d696bbb1fe5ec6455e = L.popup({"maxWidth": 300});
+
+        
+            var html_f0a508a9032144f2abcb17733e2c0d02 = $(`<div id="html_f0a508a9032144f2abcb17733e2c0d02" style="width: 100.0%; height: 100.0%;">Precinct: 106th Precinct, Phone number: 718-845-2211</div>`)[0];
+            popup_f2e5a14bd95e45d696bbb1fe5ec6455e.setContent(html_f0a508a9032144f2abcb17733e2c0d02);
+        
+
+        marker_d5bcbd5c58a44f4c86bad029d1c0b774.bindPopup(popup_f2e5a14bd95e45d696bbb1fe5ec6455e)
+        ;
+
+        
+    
+    
+            var marker_ae61b3e2a6e54ccfaf0b9b4d3f541dda = L.marker(
+                [40.7299492, -73.81062673923094],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_d8521cd8c5144b3e9ded8a28eb3854d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae61b3e2a6e54ccfaf0b9b4d3f541dda.setIcon(icon_d8521cd8c5144b3e9ded8a28eb3854d2);
+        
+    
+        var popup_55d2e9a8285f477e9c11bf28916e004c = L.popup({"maxWidth": 300});
+
+        
+            var html_6f069ebf729f477bb115ecea4ea6c66b = $(`<div id="html_6f069ebf729f477bb115ecea4ea6c66b" style="width: 100.0%; height: 100.0%;">Precinct: 107th Precinct, Phone number: 718-969-5100</div>`)[0];
+            popup_55d2e9a8285f477e9c11bf28916e004c.setContent(html_6f069ebf729f477bb115ecea4ea6c66b);
+        
+
+        marker_ae61b3e2a6e54ccfaf0b9b4d3f541dda.bindPopup(popup_55d2e9a8285f477e9c11bf28916e004c)
+        ;
+
+        
+    
+    
+            var marker_9bce0061ba8b4bddbbfc715ccf75f8bf = L.marker(
+                [40.74303995, -73.95474394328949],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a95e382131234980a457706c4028ef57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9bce0061ba8b4bddbbfc715ccf75f8bf.setIcon(icon_a95e382131234980a457706c4028ef57);
+        
+    
+        var popup_15f8456f46534c688184eead704eb999 = L.popup({"maxWidth": 300});
+
+        
+            var html_e1c4007af0dd448b966f16175226e517 = $(`<div id="html_e1c4007af0dd448b966f16175226e517" style="width: 100.0%; height: 100.0%;">Precinct: 108th Precinct, Phone number: 718-784-5411</div>`)[0];
+            popup_15f8456f46534c688184eead704eb999.setContent(html_e1c4007af0dd448b966f16175226e517);
+        
+
+        marker_9bce0061ba8b4bddbbfc715ccf75f8bf.bindPopup(popup_15f8456f46534c688184eead704eb999)
+        ;
+
+        
+    
+    
+            var marker_eccc3b7b032840faad2df5c3835e791e = L.marker(
+                [40.7623558, -73.8269924],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_aa7289ff297141f99de6273be3eef450 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eccc3b7b032840faad2df5c3835e791e.setIcon(icon_aa7289ff297141f99de6273be3eef450);
+        
+    
+        var popup_70c0f64a185e42beb905aaeb8db68da0 = L.popup({"maxWidth": 300});
+
+        
+            var html_1c0068edad5e4b1093f2aed28894e2b8 = $(`<div id="html_1c0068edad5e4b1093f2aed28894e2b8" style="width: 100.0%; height: 100.0%;">Precinct: 109th Precinct, Phone number: 718-321-2250</div>`)[0];
+            popup_70c0f64a185e42beb905aaeb8db68da0.setContent(html_1c0068edad5e4b1093f2aed28894e2b8);
+        
+
+        marker_eccc3b7b032840faad2df5c3835e791e.bindPopup(popup_70c0f64a185e42beb905aaeb8db68da0)
+        ;
+
+        
+    
+    
+            var marker_79b014fb587b45e4af2de02e2575c47a = L.marker(
+                [40.745239, -73.869946],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_323b1f1f8ca84afcbe38a1fe2814f3db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_79b014fb587b45e4af2de02e2575c47a.setIcon(icon_323b1f1f8ca84afcbe38a1fe2814f3db);
+        
+    
+        var popup_012f7a3ae21f4135bebf089287cbb83e = L.popup({"maxWidth": 300});
+
+        
+            var html_b33aba4962774c7682f2404494f25900 = $(`<div id="html_b33aba4962774c7682f2404494f25900" style="width: 100.0%; height: 100.0%;">Precinct: 110th Precinct, Phone number: 718-476-9311</div>`)[0];
+            popup_012f7a3ae21f4135bebf089287cbb83e.setContent(html_b33aba4962774c7682f2404494f25900);
+        
+
+        marker_79b014fb587b45e4af2de02e2575c47a.bindPopup(popup_012f7a3ae21f4135bebf089287cbb83e)
+        ;
+
+        
+    
+    
+            var marker_d3f216a4f3464870bb9940cf4abc196d = L.marker(
+                [40.7602789, -73.7676997],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_cd0a2b536c564ee49eddca45bb3b2c8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d3f216a4f3464870bb9940cf4abc196d.setIcon(icon_cd0a2b536c564ee49eddca45bb3b2c8e);
+        
+    
+        var popup_39ae00812e8747aa859c52b5c3907df9 = L.popup({"maxWidth": 300});
+
+        
+            var html_f7f92971cc9f439c8932f4dd8a647be1 = $(`<div id="html_f7f92971cc9f439c8932f4dd8a647be1" style="width: 100.0%; height: 100.0%;">Precinct: 111th Precinct, Phone number: 718-279-5200</div>`)[0];
+            popup_39ae00812e8747aa859c52b5c3907df9.setContent(html_f7f92971cc9f439c8932f4dd8a647be1);
+        
+
+        marker_d3f216a4f3464870bb9940cf4abc196d.bindPopup(popup_39ae00812e8747aa859c52b5c3907df9)
+        ;
+
+        
+    
+    
+            var marker_9e149a72a1cf4d76884a3bd0063a3016 = L.marker(
+                [40.722245900000004, -73.85111500966215],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_89a079edda654b3daa30554a2e703e7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9e149a72a1cf4d76884a3bd0063a3016.setIcon(icon_89a079edda654b3daa30554a2e703e7f);
+        
+    
+        var popup_ea4e51bdd1a7443ebcb139272a6f26a7 = L.popup({"maxWidth": 300});
+
+        
+            var html_1a7a2a06c4f04a32b13637b579e43958 = $(`<div id="html_1a7a2a06c4f04a32b13637b579e43958" style="width: 100.0%; height: 100.0%;">Precinct: 112th Precinct, Phone number: 718-520-9311</div>`)[0];
+            popup_ea4e51bdd1a7443ebcb139272a6f26a7.setContent(html_1a7a2a06c4f04a32b13637b579e43958);
+        
+
+        marker_9e149a72a1cf4d76884a3bd0063a3016.bindPopup(popup_ea4e51bdd1a7443ebcb139272a6f26a7)
+        ;
+
+        
+    
+    
+            var marker_0a700c9c59304fd1b1dc56f1ac24c7f0 = L.marker(
+                [40.6799224, -73.7758415],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2d18c97b9a8544908e1c5c1a3740396d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0a700c9c59304fd1b1dc56f1ac24c7f0.setIcon(icon_2d18c97b9a8544908e1c5c1a3740396d);
+        
+    
+        var popup_2d201027404640aaa872c6f06ce7ef12 = L.popup({"maxWidth": 300});
+
+        
+            var html_08faebde3b494b248eee160091d93f94 = $(`<div id="html_08faebde3b494b248eee160091d93f94" style="width: 100.0%; height: 100.0%;">Precinct: 113th Precinct, Phone number: 718-712-7733</div>`)[0];
+            popup_2d201027404640aaa872c6f06ce7ef12.setContent(html_08faebde3b494b248eee160091d93f94);
+        
+
+        marker_0a700c9c59304fd1b1dc56f1ac24c7f0.bindPopup(popup_2d201027404640aaa872c6f06ce7ef12)
+        ;
+
+        
+    
+    
+            var marker_a8c0c09368994e359c29ac3bc3470bbf = L.marker(
+                [40.7722823, -73.9261951],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_85b2f7bcef1b4f02b826eda9b6474618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a8c0c09368994e359c29ac3bc3470bbf.setIcon(icon_85b2f7bcef1b4f02b826eda9b6474618);
+        
+    
+        var popup_0765361219b645b48e4d4959e53e2e34 = L.popup({"maxWidth": 300});
+
+        
+            var html_f986160eac5a4fb785254b4ff6011532 = $(`<div id="html_f986160eac5a4fb785254b4ff6011532" style="width: 100.0%; height: 100.0%;">Precinct: 114th Precinct, Phone number: 718-626-9311</div>`)[0];
+            popup_0765361219b645b48e4d4959e53e2e34.setContent(html_f986160eac5a4fb785254b4ff6011532);
+        
+
+        marker_a8c0c09368994e359c29ac3bc3470bbf.bindPopup(popup_0765361219b645b48e4d4959e53e2e34)
+        ;
+
+        
+    
+    
+            var marker_60686e879656468681ecc03390209034 = L.marker(
+                [40.756843599999996, -73.8755332327489],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_4c1e1382938443e296e94ede82fdb286 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_60686e879656468681ecc03390209034.setIcon(icon_4c1e1382938443e296e94ede82fdb286);
+        
+    
+        var popup_c53050fb6d624c478b0069396fc279e4 = L.popup({"maxWidth": 300});
+
+        
+            var html_5d240d6f01924a4faae5626f93662e4e = $(`<div id="html_5d240d6f01924a4faae5626f93662e4e" style="width: 100.0%; height: 100.0%;">Precinct: 115th Precinct, Phone number: 718-533-2002</div>`)[0];
+            popup_c53050fb6d624c478b0069396fc279e4.setContent(html_5d240d6f01924a4faae5626f93662e4e);
+        
+
+        marker_60686e879656468681ecc03390209034.bindPopup(popup_c53050fb6d624c478b0069396fc279e4)
+        ;
+
+        
+    
+    
+            var marker_313836d324c9493baf06ff879b58a2c1 = L.marker(
+                [40.64464375, -74.07741756960358],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_b39f30a20a9a4e31a6ab6b0c20ff2531 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_313836d324c9493baf06ff879b58a2c1.setIcon(icon_b39f30a20a9a4e31a6ab6b0c20ff2531);
+        
+    
+        var popup_051acb59a87d4b88b3bac0fc013e8196 = L.popup({"maxWidth": 300});
+
+        
+            var html_4a99662d598f48e28f5d07a431b2265d = $(`<div id="html_4a99662d598f48e28f5d07a431b2265d" style="width: 100.0%; height: 100.0%;">Precinct: 120th Precinct, Phone number: 718-876-8500</div>`)[0];
+            popup_051acb59a87d4b88b3bac0fc013e8196.setContent(html_4a99662d598f48e28f5d07a431b2265d);
+        
+
+        marker_313836d324c9493baf06ff879b58a2c1.bindPopup(popup_051acb59a87d4b88b3bac0fc013e8196)
+        ;
+
+        
+    
+    
+            var marker_4c813ac460b545bfa53ad45fb9c1f2e6 = L.marker(
+                [40.5863879, -74.1683241],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_2c8151c888a44f6296a95bbaff0d74ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4c813ac460b545bfa53ad45fb9c1f2e6.setIcon(icon_2c8151c888a44f6296a95bbaff0d74ba);
+        
+    
+        var popup_05ac995f41ae4107b73fc41983912237 = L.popup({"maxWidth": 300});
+
+        
+            var html_a59b3892db6b4c1a935782088275139e = $(`<div id="html_a59b3892db6b4c1a935782088275139e" style="width: 100.0%; height: 100.0%;">Precinct: 121st Precinct, Phone number: 718-697-8700</div>`)[0];
+            popup_05ac995f41ae4107b73fc41983912237.setContent(html_a59b3892db6b4c1a935782088275139e);
+        
+
+        marker_4c813ac460b545bfa53ad45fb9c1f2e6.bindPopup(popup_05ac995f41ae4107b73fc41983912237)
+        ;
+
+        
+    
+    
+            var marker_35d7d7ae3b974370966ad7cea2861d5e = L.marker(
+                [40.574106, -74.1055194107062],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_a0ca64d839664753b0bed14217845d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_35d7d7ae3b974370966ad7cea2861d5e.setIcon(icon_a0ca64d839664753b0bed14217845d30);
+        
+    
+        var popup_2644aafe129a45a6ab7bc15789096002 = L.popup({"maxWidth": 300});
+
+        
+            var html_abd7caeffa24461492414819ca6766f8 = $(`<div id="html_abd7caeffa24461492414819ca6766f8" style="width: 100.0%; height: 100.0%;">Precinct: 122nd Precinct, Phone number: 718-667-2211</div>`)[0];
+            popup_2644aafe129a45a6ab7bc15789096002.setContent(html_abd7caeffa24461492414819ca6766f8);
+        
+
+        marker_35d7d7ae3b974370966ad7cea2861d5e.bindPopup(popup_2644aafe129a45a6ab7bc15789096002)
+        ;
+
+        
+    
+    
+            var marker_aadd725309944600a94cbf489e694319 = L.marker(
+                [40.51184395, -74.24997827590624],
+                {}
+            ).addTo(map_9abbee8f0f26432ea9de058fad9a1dfd);
+        
+    
+            var icon_800c8672c6b54be4b7c9c7df32459824 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aadd725309944600a94cbf489e694319.setIcon(icon_800c8672c6b54be4b7c9c7df32459824);
+        
+    
+        var popup_436f2536ef3447ae99fc7d7ce507f137 = L.popup({"maxWidth": 300});
+
+        
+            var html_523eca4ffdc240fd81be5f8cf098d934 = $(`<div id="html_523eca4ffdc240fd81be5f8cf098d934" style="width: 100.0%; height: 100.0%;">Precinct: 123rd Precinct, Phone number: 718-948-9311</div>`)[0];
+            popup_436f2536ef3447ae99fc7d7ce507f137.setContent(html_523eca4ffdc240fd81be5f8cf098d934);
+        
+
+        marker_aadd725309944600a94cbf489e694319.bindPopup(popup_436f2536ef3447ae99fc7d7ce507f137)
+        ;
+
+        
+    
+</script>

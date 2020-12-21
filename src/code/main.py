@@ -19,7 +19,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 
-def run_process():
+def run_processes():
     download_data()
     export_csv_to_sqlite()
     run_etl_crashes()
@@ -30,7 +30,7 @@ def run_process():
 if __name__ == "__main__":
 
     logging.info("I am working...")
-    schedule.every().day.at("21:58").do(run_process)
+    schedule.every().day.at("23:30").do(run_processes)
 
     while True:
         schedule.run_pending()

@@ -26,7 +26,7 @@ def make_visualization() -> None:
 
     logging.info("Visualization is being created.")
 
-    yesterday = datetime.today() - timedelta(days=7)  # shift for 5 days
+    yesterday = datetime.today() - timedelta(days=5)  # shift for 5 days
     yesterday = yesterday.strftime(DAY_FORMAT)
     dataframes = []
 

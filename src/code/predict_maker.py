@@ -23,11 +23,11 @@ def build_predictions() -> List[str]:
     """
 
     with open(os.path.join(UTILS_PATH, STREETS_FOR_PREDICTIONS_FILE)) as f:
-        streets_for_predictions = f.read().split('\n')
+        streets_for_predictions = f.read().split('\n')[:-1]
 
     street_to_id = {street: ind for ind, street in enumerate(streets_for_predictions)}
 
-    yesterday = datetime.today() - timedelta(days=7) # shift for 5 days
+    yesterday = datetime.today() - timedelta(days=7) # shift for 7 days
     last_month = set([(yesterday - timedelta(days=x)).strftime(DAY_FORMAT) for x in range(30)])
 
     with open(os.path.join(UTILS_PATH, CURRENT_FILENAMES_FILE), "r") as f:
@@ -65,11 +65,10 @@ def build_predictions() -> List[str]:
     model.load_model(os.path.join(UTILS_PATH, PREDICTOR_FILE))
 
     y_pred = model.predict(X)
-    top_10_strets_inds = np.argsort(y_pred)[::-1][:10]
-    top_10_streets = [streets_for_predictions[ind] for ind in top_10_strets_inds]
+    top_10_streets_inds = np.argsort(y_pred)[::-1][:10]
+    top_10_streets = [streets_for_predictions[ind] for ind in top_10_streets_inds]
 
     logging.info("Predictions successfully made.")
 
     return top_10_streets
-
 
