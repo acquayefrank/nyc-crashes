@@ -27,8 +27,6 @@ def export_csv_to_sqlite(file_name):
     df = pd.read_csv(f'../data/{file_name}')
     df.to_sql(file_name, conn, if_exists='append', index=False)
 
-    
-
 
 def job():
     print("I'm working...")

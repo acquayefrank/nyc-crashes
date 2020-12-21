@@ -26,7 +26,7 @@ def make_visualization() -> None:
 
     logging.info("Visualization is being created.")
 
-    yesterday = datetime.today() - timedelta(days=7)  # shift for 5 days
+    yesterday = datetime.today() - timedelta(days=5)  # shift for 5 days
     yesterday = yesterday.strftime(DAY_FORMAT)
     dataframes = []
 
@@ -90,6 +90,9 @@ def make_visualization() -> None:
             icon=folium.Icon(color='blue', icon='user', prefix='fa')
         ).add_to(ny_map)
 
-    ny_map.save(os.path.join(RESULT_FOLDER, CRASH_MAP_FILE))
+    today = datetime.today().strftime(DAY_FORMAT)
+    report_for_citizens = f"{CRASH_MAP_FILE}-{today}.html"
 
+    ny_map.save(os.path.join(RESULT_FOLDER, report_for_citizens))
     logging.info("Visualization successfully created.")
+    logging.info("All processes completed successfully.")
